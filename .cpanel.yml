@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/cas48415/public_html/
-    - /bin/cp -f index.html $DEPLOYPATH
-    - /bin/cp -f favicon.svg $DEPLOYPATH
+    - /bin/find $DEPLOYPATH -mindepth 1 -maxdepth 1 -exec /bin/rm -rf {} +
+    - /usr/bin/git ls-files -z | /usr/bin/xargs -0 -I {} /bin/sh -c 'mkdir -p "$DEPLOYPATH/$(dirname "$1")" && cp -f "$1" "$DEPLOYPATH/$1"' sh {}
     - /bin/cp -f hosting.htaccess $DEPLOYPATH/.htaccess

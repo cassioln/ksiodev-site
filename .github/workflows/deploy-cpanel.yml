@@ -25,26 +25,144 @@ jobs:
         run: |
           set -euo pipefail
 
-          upload() {
+          api2_fileman() {
+            curl -fsS --max-time 60 \
+              -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
+              -G "${CPANEL_HOST}/json-api/cpanel" \
+              --data-urlencode "cpanel_jsonapi_apiversion=2" \
+              --data-urlencode "cpanel_jsonapi_module=Fileman" \
+              "$@"
+          }
+
+          uapi_fileman() {
+            local function_name="$1"
+            shift
+            curl -fsS --max-time 60 \
+              -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
+              "${CPANEL_HOST}/execute/Fileman/${function_name}" \
+              "$@"
+          }
+
+          ensure_remote_dir() {
+            local dir="$1"
+            local current="public_html"
+
+            [[ -z "${dir}" || "${dir}" == "." ]] && return 0
+
+            IFS='/' read -ra parts <<< "${dir}"
+            for part in "${parts[@]}"; do
+              [[ -z "${part}" ]] && continue
+              api2_fileman \
+                --data-urlencode "cpanel_jsonapi_func=mkdir" \
+                --data-urlencode "path=${current}" \
+                --data-urlencode "name=${part}" \
+                --data-urlencode "permissions=0755" >/dev/null || true
+              current="${current}/${part}"
+            done
+          }
+
+          upload_file() {
             local source_file="$1"
             local target_file="$2"
+            local target_dir
+            local target_name
+            local response
+
+            target_dir="$(dirname "${target_file}")"
+            target_name="$(basename "${target_file}")"
+            ensure_remote_dir "${target_dir}"
+
+            if [[ "${target_dir}" == "." ]]; then
+              target_dir="/public_html"
+            else
+              target_dir="/public_html/${target_dir}"
+            fi
+
+            response="$(uapi_fileman upload_files \
+              -F "dir=${target_dir}" \
+              -F "file-1=@${source_file};filename=${target_name}")"
+
+            echo "$response" | jq -e '.status == 1 and .data.failed == 0' >/dev/null
+            echo "Uploaded ${source_file} -> ${target_file}"
+          }
+
+          list_remote() {
+            local dir="${1:-/public_html}"
             local response
 
             response="$(curl -fsS --max-time 60 \
               -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
-              -X POST \
-              --data-urlencode "dir=/public_html" \
-              --data-urlencode "file=${target_file}" \
-              --data-urlencode "content@${source_file}" \
-              "${CPANEL_HOST}/execute/Fileman/save_file_content")"
+              "${CPANEL_HOST}/execute/Fileman/list_files?dir=${dir}&show_hidden=1")"
 
-            echo "$response" | jq -e '.status == 1' >/dev/null
-            echo "Uploaded ${source_file} -> ${target_file}"
+            echo "$response" | jq -r '
+              .data[]? |
+              select(.file != "." and .file != "..") |
+              [.type, .fullpath] |
+              @tsv
+            '
+
+            while IFS=$'\t' read -r type fullpath; do
+              if [[ "${type}" == "dir" ]]; then
+                local encoded
+                local rel_dir
+                rel_dir="${fullpath#/home1/cas48415}"
+                encoded="$(python3 -c 'import urllib.parse, sys; print(urllib.parse.quote(sys.argv[1], safe=""))' "${rel_dir}")"
+                list_remote "${encoded}"
+              fi
+            done < <(echo "$response" | jq -r '
+              .data[]? |
+              select(.type == "dir") |
+              [.type, .fullpath] |
+              @tsv
+            ')
           }
 
-          upload "index.html" "index.html"
-          upload "favicon.svg" "favicon.svg"
-          upload "hosting.htaccess" ".htaccess"
+          remote_relpath() {
+            sed 's#^/home1/cas48415/public_html/##'
+          }
+
+          delete_remote() {
+            local relpath="$1"
+            api2_fileman \
+              --data-urlencode "cpanel_jsonapi_func=fileop" \
+              --data-urlencode "op=unlink" \
+              --data-urlencode "sourcefiles=public_html/${relpath}" |
+              jq -e '.cpanelresult.event.result == 1' >/dev/null
+            echo "Deleted ${relpath}"
+          }
+
+          mapfile -t tracked_files < <(git ls-files)
+          desired_file_list="$(mktemp)"
+          remote_list="$(mktemp)"
+
+          for file in "${tracked_files[@]}"; do
+            upload_file "${file}" "${file}"
+            printf '%s\n' "${file}" >> "${desired_file_list}"
+          done
+
+          upload_file "hosting.htaccess" ".htaccess"
+          printf '%s\n' ".htaccess" >> "${desired_file_list}"
+
+          sort -u "${desired_file_list}" -o "${desired_file_list}"
+
+          list_remote > "${remote_list}"
+
+          while IFS=$'\t' read -r type fullpath; do
+            relpath="$(printf '%s\n' "${fullpath}" | remote_relpath)"
+
+            if [[ "${type}" != "dir" ]] && ! grep -Fxq "${relpath}" "${desired_file_list}"; then
+              delete_remote "${relpath}"
+            fi
+          done < "${remote_list}"
+
+          while IFS=$'\t' read -r type fullpath; do
+            [[ "${type}" == "dir" ]] || continue
+
+            relpath="$(printf '%s\n' "${fullpath}" | remote_relpath)"
+            if ! awk -v prefix="${relpath}/" 'index($0, prefix) == 1 { found = 1 } END { exit !found }' "${desired_file_list}"; then
+              delete_remote "${relpath}"
+            fi
+          done < <(sort -r -k2 "${remote_list}")
 
       - name: Verify production
         run: |
