@@ -1,0 +1,52 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: cpanel-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload static site to cPanel
+        env:
+          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+          CPANEL_USER: ${{ secrets.CPANEL_USER }}
+          CPANEL_TOKEN: ${{ secrets.CPANEL_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          upload() {
+            local source_file="$1"
+            local target_file="$2"
+            local response
+
+            response="$(curl -fsS --max-time 60 \
+              -H "Authorization: cpanel ${CPANEL_USER}:${CPANEL_TOKEN}" \
+              -X POST \
+              --data-urlencode "dir=/public_html" \
+              --data-urlencode "file=${target_file}" \
+              --data-urlencode "content@${source_file}" \
+              "${CPANEL_HOST}/execute/Fileman/save_file_content")"
+
+            echo "$response" | jq -e '.status == 1' >/dev/null
+            echo "Uploaded ${source_file} -> ${target_file}"
+          }
+
+          upload "index.html" "index.html"
+          upload "favicon.svg" "favicon.svg"
+          upload "hosting.htaccess" ".htaccess"
+
+      - name: Verify production
+        run: |
+          set -euo pipefail
+          curl -fsSL --max-time 30 https://ksio.dev/ | grep -q "ksio.dev"
