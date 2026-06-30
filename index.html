@@ -1,0 +1,1048 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ksio.dev — Automatize. Integre. Evolua.</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --surface: #f5f5f7;
+  --surface-warm: #fbfbfd;
+  --fg: #1d1d1f;
+  --fg-2: #424245;
+  --muted: #6e6e73;
+  --meta: #8a8f99;
+  --border: #d2d2d7;
+  --border-soft: #e8e8ed;
+  /* Azul EB Bugatti — profundo, nobre, acento único */
+  --accent: #1b4a9c;
+  --accent-bright: #2e63c4;
+  --accent-on: #ffffff;
+  --accent-hover: #2e63c4;
+  --accent-active: #14366f;
+  /* prata/cromo para hairlines metálicas de prestígio */
+  --chrome: #c8cdd6;
+  --success: #16a34a;
+  --warn:    #eab308;
+  --danger:  #dc2626;
+  --font-display:
+    "Quantico", "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+  --font-body:
+    "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono:
+    "JetBrains Mono", "SF Mono", ui-monospace, Menlo, Monaco, Consolas, monospace;
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 17px;
+  --text-lg:   21px;
+  --text-xl:   28px;
+  --text-2xl:  40px;
+  --text-3xl:  56px;
+  --text-4xl:  80px;
+  --leading-body:  1.47;
+  --leading-tight: 1.05;
+  --tracking-display: -0.005em;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --section-y-desktop: 100px;
+  --section-y-tablet:  64px;
+  --section-y-phone:   40px;
+  --radius-sm:   2px;
+  --radius-md:   3px;
+  --radius-lg:   4px;
+  --radius-pill: 2px;
+  --elev-flat:   none;
+  --elev-ring:   0 0 0 1px var(--border);
+  --elev-raised: 0 12px 32px rgba(0, 0, 0, 0.08);
+  --focus-ring: 0 0 0 4px color-mix(in oklab, var(--accent), transparent 65%);
+  --motion-fast:   150ms;
+  --motion-base:   220ms;
+  --ease-standard: cubic-bezier(0.28, 0, 0.22, 1);
+  --container-max:            1024px;
+  --container-gutter-desktop: 22px;
+  --container-gutter-tablet:  18px;
+  --container-gutter-phone:   16px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(70% 70% at 78% 50%, color-mix(in oklab, var(--accent-bright), transparent 88%) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(110% 110% at 50% 40%, #000 30%, transparent 78%);
+  -webkit-mask-image: radial-gradient(110% 110% at 50% 40%, #000 30%, transparent 78%);
+  pointer-events: none;
+}
+
+#net {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: clamp(20px, 3.2vw, 36px) clamp(24px, 5vw, 72px);
+}
+
+.brandmark {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  font-size: clamp(26px, 2.1vw, 32px);
+  color: #fff;
+  text-decoration: none;
+}
+.brandmark .code { color: var(--accent-bright); font-family: var(--font-mono); font-weight: 500; font-size: 0.78em; letter-spacing: 0; margin-right: 0.12em; }
+.brandmark .dev  { color: var(--accent-bright); font-weight: 700; font-size: 1em; }
+.brandmark { border-radius: var(--radius-sm); }
+.brandmark:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+.bar .meta {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  color: var(--meta);
+  text-transform: uppercase;
+}
+
+.stage {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: clamp(96px, 12vh, 140px) clamp(24px, 7vw, 110px) clamp(96px, 14vh, 150px);
+  opacity: 0;
+  visibility: hidden;
+  /* deslocamento direcional: o sinal de --exit decide se sai p/ esquerda ou direita */
+  transform: translate3d(calc(var(--exit, 1) * 48px), 0, 0);
+  transition:
+    opacity var(--motion-base) var(--ease-standard),
+    transform 520ms var(--ease-standard),
+    visibility 0s linear var(--motion-base);
+}
+/* slide que está entrando: começa deslocado para o lado de onde a navegação veio */
+.slide.is-entering {
+  transform: translate3d(calc(var(--enter, -1) * 48px), 0, 0);
+}
+.slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+  transition:
+    opacity 480ms var(--ease-standard),
+    transform 640ms var(--ease-standard);
+}
+
+.slide-inner {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* Slide 1 — split editorial: texto à esquerda, âncora visual à direita */
+.slide-inner.split {
+  max-width: 1320px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 72px);
+}
+.split .col-text { min-width: 0; }
+.split .col-visual {
+  position: relative;
+  min-height: 1px;
+  align-self: stretch;
+}
+.metrics {
+  display: flex;
+  gap: clamp(20px, 3vw, 44px);
+  margin: clamp(26px, 4vh, 44px) 0 0;
+}
+.metric { position: relative; padding-left: 18px; }
+.metric::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 4px; bottom: 4px;
+  width: 1px;
+  background: linear-gradient(180deg, var(--chrome), rgba(200,205,214,0.15));
+}
+.metric .num {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0;
+  font-size: clamp(22px, 2.4vw, 30px);
+  color: #fff;
+  line-height: 1.1;
+}
+.metric .lbl {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--meta);
+  margin-top: 8px;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .slide-inner.split {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .split .col-visual { display: none; }
+}
+
+.slide .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  filter: blur(2px);
+}
+.slide.is-active .reveal {
+  animation: rise 720ms var(--ease-standard) forwards;
+  animation-delay: var(--d, 0ms);
+}
+@keyframes rise {
+  to { opacity: 1; transform: none; filter: blur(0); }
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--accent-bright);
+  margin: 0 0 var(--space-6);
+  padding-left: 2px;
+}
+.eyebrow .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent-bright);
+  box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent-bright), transparent 40%);
+  animation: pulse 2.4s var(--ease-standard) infinite;
+}
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent-bright), transparent 40%); }
+  70%  { box-shadow: 0 0 0 9px color-mix(in oklab, var(--accent-bright), transparent 100%); }
+  100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent-bright), transparent 100%); }
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  line-height: 0.94;
+  font-size: clamp(54px, 9vw, 150px);
+  margin: 0;
+  color: #fff;
+  white-space: nowrap;
+}
+.wordmark .code {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  color: var(--accent-bright);
+  font-size: 0.66em;
+  letter-spacing: -0.02em;
+  margin-right: 0.04em;
+}
+.wordmark .brace { color: var(--accent-bright); font-weight: 700; }
+
+.slogan {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  line-height: 1.12;
+  font-size: clamp(26px, 3.4vw, 46px);
+  margin: clamp(20px, 3vh, 34px) 0 0;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+.slogan .ul {
+  display: block;
+  height: 2px;
+  width: 0;
+  margin-top: 18px;
+  background: linear-gradient(90deg, var(--accent-bright), var(--chrome));
+  border-radius: 0;
+}
+.slide.is-active .slogan .ul {
+  animation: grow 760ms var(--ease-standard) forwards;
+  animation-delay: 620ms;
+}
+@keyframes grow { to { width: min(420px, 62%); } }
+
+.support {
+  max-width: 640px;
+  font-size: clamp(17px, 1.5vw, 21px);
+  line-height: 1.5;
+  color: var(--meta);
+  margin: clamp(22px, 3vh, 34px) 0 0;
+  text-wrap: pretty;
+}
+.support strong { color: #fff; font-weight: 600; }
+
+.slide-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  font-size: clamp(34px, 4.4vw, 60px);
+  line-height: 1.04;
+  margin: 0 0 clamp(28px, 4vh, 48px);
+  color: #fff;
+}
+
+.svc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+.svc {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  padding: clamp(16px, 2.4vh, 26px) 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  cursor: default;
+  position: relative;
+  transition: padding-left var(--motion-base) var(--ease-standard);
+}
+.svc:nth-child(odd) { border-right: 1px solid rgba(255,255,255,0.12); padding-right: 32px; }
+.svc:nth-child(even){ padding-left: 32px; }
+.svc::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -1px;
+  height: 2px; width: 0;
+  background: var(--accent-bright);
+  transition: width var(--motion-base) var(--ease-standard);
+}
+.svc:hover::after { width: 100%; }
+.svc:hover .svc-name { color: var(--accent-bright); }
+.svc-num {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--accent-bright);
+  min-width: 34px;
+  letter-spacing: 0.02em;
+}
+.svc-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-size: clamp(20px, 2vw, 30px);
+  color: #fff;
+  transition: color var(--motion-fast) var(--ease-standard);
+}
+
+.cta-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.04;
+  font-size: clamp(40px, 6vw, 92px);
+  margin: 0;
+  color: #fff;
+  max-width: 14ch;
+}
+.cta-title em { font-style: normal; font-weight: 700; color: var(--accent-bright); }
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: clamp(28px, 4vh, 44px);
+}
+.cta-email {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: clamp(22px, 3vh, 32px) 0 0;
+  font-family: var(--font-mono);
+  font-size: 15px;
+}
+.cta-email-label {
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 11px;
+  color: var(--meta);
+}
+.cta-email-label::after {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  margin-left: 14px;
+  vertical-align: middle;
+  background: linear-gradient(90deg, color-mix(in oklab, #c7ccd6, transparent 35%), transparent);
+}
+.cta-email a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid color-mix(in oklab, var(--accent-bright), transparent 55%);
+  padding-bottom: 2px;
+  transition: color var(--motion-fast) var(--ease-standard), border-color var(--motion-fast) var(--ease-standard);
+}
+.cta-email a:hover { color: var(--accent-bright); border-color: var(--accent-bright); }
+.cta-email a:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: 2px; }
+.btn-pill {
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--text-sm);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-on);
+  background: var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 16px 30px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--accent-bright), transparent 40%);
+  transition: background var(--motion-fast) var(--ease-standard), transform var(--motion-fast) var(--ease-standard), box-shadow var(--motion-fast) var(--ease-standard);
+}
+.btn-pill:hover { background: var(--accent-hover); box-shadow: inset 0 0 0 1px var(--chrome); }
+.btn-pill:active { background: var(--accent-active); transform: scale(0.98); }
+.btn-pill:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.btn-ghost {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--text-sm);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  border: 1px solid color-mix(in oklab, var(--chrome), transparent 55%);
+  border-radius: var(--radius-sm);
+  padding: 15px 28px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: border-color var(--motion-fast) var(--ease-standard), background var(--motion-fast) var(--ease-standard);
+}
+.btn-ghost:hover { border-color: var(--chrome); background: rgba(255,255,255,0.05); }
+.btn-ghost:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 30;
+  width: 54px; height: 54px;
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in oklab, var(--chrome), transparent 60%);
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: border-color var(--motion-fast) var(--ease-standard), background var(--motion-fast) var(--ease-standard), transform var(--motion-fast) var(--ease-standard);
+}
+.nav-arrow:hover { border-color: var(--accent-bright); background: rgba(46,99,196,0.12); }
+.nav-arrow:active { transform: translateY(-50%) scale(0.94); }
+.nav-arrow:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.nav-arrow svg { width: 20px; height: 20px; }
+.nav-prev { left: clamp(14px, 2.4vw, 36px); }
+.nav-next { right: clamp(14px, 2.4vw, 36px); }
+
+.footer-ctrl {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: clamp(20px, 3vh, 34px) clamp(24px, 5vw, 72px);
+  gap: 20px;
+}
+
+.dots { display: inline-flex; gap: 12px; align-items: center; }
+.dot {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  height: 2px;
+  width: 26px;
+  border-radius: 0;
+  background: rgba(200,205,214,0.28);
+  cursor: pointer;
+  transition: background var(--motion-base) var(--ease-standard), width var(--motion-base) var(--ease-standard);
+}
+.dot.is-active { background: var(--accent-bright); width: 48px; }
+.dot:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+.counter {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: 0.04em;
+  color: var(--meta);
+}
+.counter .cur { color: #fff; }
+
+.progress {
+  position: absolute;
+  top: 0; left: 0;
+  height: 2px;
+  width: 100%;
+  background: rgba(255,255,255,0.08);
+  z-index: 31;
+}
+.progress span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-bright));
+  transition: width 120ms linear;
+}
+
+@media (max-width: 720px) {
+  .svc-grid { grid-template-columns: 1fr; }
+  .svc:nth-child(odd) { border-right: 0; padding-right: 8px; }
+  .svc:nth-child(even){ padding-left: 8px; }
+  .nav-arrow { width: 46px; height: 46px; }
+  .bar .meta { display: none; }
+  .slide { align-items: flex-start; }
+  .slide-inner { margin-top: 2vh; }
+
+  /* Slide 1 — métricas empilham em vez de espremer 3 colunas nowrap */
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(14px, 4vw, 28px);
+  }
+  .metric .num { font-size: clamp(16px, 4.4vw, 22px); }
+  .metric .lbl { white-space: normal; font-size: 10.5px; letter-spacing: 0.02em; }
+
+  /* Slide 3 — esconde a cta-row vazia (evita gap fantasma) */
+  .cta-row:empty { display: none; margin: 0; }
+}
+
+@media (max-width: 480px) {
+  /* Slide 1 — métricas empilham na vertical, mais respiráveis */
+  .metrics {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: clamp(22px, 5vh, 32px);
+  }
+  .metric { padding-left: 16px; }
+  .metric .num { font-size: 18px; }
+  .metric .lbl { font-size: 11px; }
+  .wordmark { font-size: clamp(40px, 13vw, 56px); }
+  .slogan { font-size: clamp(23px, 7vw, 30px); }
+  .support { font-size: 16px; }
+
+  /* Slide 3 — e-mail empilha sob o label, sem espremer */
+  .cta-email {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .cta-email-label::after { display: none; }
+  .cta-email a {
+    font-size: clamp(16px, 5.2vw, 19px);
+    word-break: break-all;
+  }
+  .cta-title { font-size: clamp(30px, 9vw, 40px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide, .slide.is-active, .slide.is-entering,
+  .slide .reveal, .slide.is-active .reveal,
+  .eyebrow .dot, .slogan .ul {
+    animation: none !important;
+    transition: opacity 200ms linear !important;
+    transform: none !important;
+    filter: none !important;
+    width: auto;
+  }
+  .slide.is-active, .slide.is-active .reveal { opacity: 1 !important; }
+  .slogan .ul { width: min(420px, 62%); }
+  #net { display: none; }
+}
+</style>
+</head>
+<body>
+<main class="hero" id="hero">
+  <canvas id="net" aria-hidden="true"></canvas>
+
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="bar">
+    <a class="brandmark" href="#" data-goto="0" aria-label="ksio.dev — ir para o início">
+      <span class="code">_</span>ksio.<span class="dev">dev</span>
+    </a>
+    <span class="meta">Soluções · Automação &amp; IA</span>
+  </header>
+
+  <div class="stage" id="stage" aria-roledescription="carrossel" aria-label="Apresentação ksio.dev">
+
+    <section class="slide is-active" data-screen-label="01 Marca" role="group" aria-roledescription="slide" aria-label="Slide 1 de 3">
+      <div class="slide-inner split">
+        <div class="col-text">
+          <p class="eyebrow reveal" style="--d:80ms"><span class="dot"></span> Soluções tecnológicas, automação &amp; IA</p>
+          <h1 class="wordmark reveal" style="--d:180ms">
+            <span class="code">_</span>ksio.<span class="brace">dev</span>
+          </h1>
+          <p class="slogan reveal" style="--d:380ms">
+            Automatize. Integre. Evolua.
+            <span class="ul" aria-hidden="true"></span>
+          </p>
+          <p class="support reveal" style="--d:520ms">
+            <strong>Simplificando a tecnologia para potencializar a sua produtividade.</strong>
+            Desenvolvemos soluções sob medida e integramos Inteligência Artificial ao negócio digital de empresas B2B.
+          </p>
+          <div class="metrics reveal" style="--d:660ms">
+            <div class="metric"><span class="num">Desenvolvimento</span><span class="lbl">Engenharia de Software</span></div>
+            <div class="metric"><span class="num">Inteligência</span><span class="lbl">Otimização de Processos</span></div>
+            <div class="metric"><span class="num">Conectividade</span><span class="lbl">Plataformas Escalonáveis</span></div>
+          </div>
+        </div>
+        <div class="col-visual reveal" style="--d:300ms" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="slide" data-screen-label="02 Serviços" role="group" aria-roledescription="slide" aria-label="Slide 2 de 3">
+      <div class="slide-inner">
+        <p class="eyebrow reveal" style="--d:60ms"><span class="dot"></span> O que entregamos</p>
+        <h2 class="slide-title reveal" style="--d:160ms">Serviços</h2>
+        <div class="svc-grid">
+          <div class="svc reveal" style="--d:240ms"><span class="svc-num">01</span><span class="svc-name">UI/UX Design</span></div>
+          <div class="svc reveal" style="--d:300ms"><span class="svc-num">02</span><span class="svc-name">Web Development</span></div>
+          <div class="svc reveal" style="--d:360ms"><span class="svc-num">03</span><span class="svc-name">Custom Software</span></div>
+          <div class="svc reveal" style="--d:420ms"><span class="svc-num">04</span><span class="svc-name">AI Integration</span></div>
+          <div class="svc reveal" style="--d:480ms"><span class="svc-num">05</span><span class="svc-name">Workflow Automation</span></div>
+          <div class="svc reveal" style="--d:540ms"><span class="svc-num">06</span><span class="svc-name">Hosting Solutions</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide" data-screen-label="03 Contato" role="group" aria-roledescription="slide" aria-label="Slide 3 de 3">
+      <div class="slide-inner">
+        <p class="eyebrow reveal" style="--d:60ms"><span class="dot"></span> Vamos construir</p>
+        <h2 class="cta-title reveal" style="--d:160ms">Pronto para <em>evoluir</em> o seu negócio?</h2>
+        <p class="cta-email reveal" style="--d:360ms">
+          <span class="cta-email-label">Entre em contato</span>
+          <a href="mailto:contato@ksio.dev">contato@ksio.dev</a>
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <button class="nav-arrow nav-prev" id="prev" aria-label="Slide anterior">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  </button>
+  <button class="nav-arrow nav-next" id="next" aria-label="Próximo slide">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+  </button>
+
+  <div class="footer-ctrl">
+    <div class="dots" id="dots" role="group" aria-label="Navegação de slides"></div>
+    <div class="counter"><span class="cur" id="cur">01</span> / <span id="total">03</span></div>
+  </div>
+</main>
+
+<script>
+(function () {
+  var STORAGE_KEY = "ksio-hero-slide";
+  var AUTOPLAY_MS = 7000;
+
+  var stage   = document.getElementById("stage");
+  var slides  = Array.prototype.slice.call(stage.querySelectorAll(".slide"));
+  var dotsBox = document.getElementById("dots");
+  var curEl   = document.getElementById("cur");
+  var totalEl = document.getElementById("total");
+  var bar     = document.getElementById("progressBar");
+  var prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var index = 0;
+  var rafId = null;
+  var startTs = 0;
+
+  var pad = function (n) { return (n < 10 ? "0" : "") + n; };
+
+  slides.forEach(function (_, i) {
+    var b = document.createElement("button");
+    b.className = "dot" + (i === 0 ? " is-active" : "");
+    b.setAttribute("aria-label", "Ir para slide " + (i + 1));
+    if (i === 0) b.setAttribute("aria-current", "true");
+    b.addEventListener("click", function () { go(i, true); });
+    dotsBox.appendChild(b);
+  });
+  var dots = Array.prototype.slice.call(dotsBox.querySelectorAll(".dot"));
+  totalEl.textContent = pad(slides.length);
+
+  function paint(dir) {
+    // dir: +1 avançando, -1 voltando, 0 sem deslocamento (carga inicial / dots na carga)
+    slides.forEach(function (s, i) {
+      var active = i === index;
+      if (active && !prefersReduced && dir) {
+        // entra pelo lado de onde a navegação veio; o anterior sai para o lado oposto
+        s.style.setProperty("--enter", String(-dir));
+        s.classList.add("is-entering");
+        // força reflow para reiniciar a transição/os reveals escalonados
+        void s.offsetWidth;
+        s.classList.remove("is-entering");
+      }
+      s.style.setProperty("--exit", String(dir || 1));
+      s.classList.toggle("is-active", active);
+      // slides inativos saem do alcance de leitor de tela e teclado
+      s.toggleAttribute("inert", !active);
+      s.setAttribute("aria-hidden", active ? "false" : "true");
+    });
+    dots.forEach(function (d, i) {
+      var on = i === index;
+      d.classList.toggle("is-active", on);
+      if (on) d.setAttribute("aria-current", "true");
+      else d.removeAttribute("aria-current");
+    });
+    curEl.textContent = pad(index + 1);
+    try { localStorage.setItem(STORAGE_KEY, String(index)); } catch (e) {}
+  }
+
+  function go(i, fromUser) {
+    var n = slides.length;
+    var target = ((i % n) + n) % n;
+    if (target === index) return;
+    // menor caminho no anel determina a direção percebida (ex.: 0 -> 2 num anel de 3 = voltar)
+    var fwd = (target - index + n) % n;
+    var bwd = (index - target + n) % n;
+    var dir = fwd <= bwd ? 1 : -1;
+    index = target;
+    paint(dir);
+    if (fromUser) restartAutoplay();
+  }
+  function next(fromUser) { go(index + 1, fromUser); }
+  function prev(fromUser) { go(index - 1, fromUser); }
+
+  function tick(ts) {
+    if (!startTs) startTs = ts;
+    var elapsed = ts - startTs;
+    var pct = Math.min(1, elapsed / AUTOPLAY_MS);
+    bar.style.width = (pct * 100).toFixed(2) + "%";
+    if (pct >= 1) {
+      startTs = 0;
+      bar.style.width = "0%";
+      next(false);
+    }
+    rafId = requestAnimationFrame(tick);
+  }
+  function startAutoplay() {
+    if (prefersReduced) return;
+    stopAutoplay();
+    startTs = 0;
+    bar.style.width = "0%";
+    rafId = requestAnimationFrame(tick);
+  }
+  function stopAutoplay() {
+    if (rafId) cancelAnimationFrame(rafId);
+    rafId = null;
+  }
+  function restartAutoplay() { startTs = 0; bar.style.width = "0%"; }
+
+  document.getElementById("next").addEventListener("click", function () { next(true); });
+  document.getElementById("prev").addEventListener("click", function () { prev(true); });
+  document.querySelectorAll("[data-goto]").forEach(function (el) {
+    el.addEventListener("click", function (e) { e.preventDefault(); go(parseInt(el.getAttribute("data-goto"), 10), true); });
+  });
+
+  window.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowRight" || e.key === "PageDown") { e.preventDefault(); next(true); }
+    else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); prev(true); }
+    else if (e.key === "Home") { e.preventDefault(); go(0, true); }
+    else if (e.key === "End") { e.preventDefault(); go(slides.length - 1, true); }
+    else if (/^[1-9]$/.test(e.key)) { var t = parseInt(e.key, 10) - 1; if (t < slides.length) go(t, true); }
+  });
+
+  var hero = document.getElementById("hero");
+  var tx = 0, ty = 0;
+  hero.addEventListener("touchstart", function (e) { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });
+  hero.addEventListener("touchend", function (e) {
+    var dx = e.changedTouches[0].clientX - tx;
+    var dy = e.changedTouches[0].clientY - ty;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { dx < 0 ? next(true) : prev(true); }
+  }, { passive: true });
+
+  var wheelLock = false;
+  hero.addEventListener("wheel", function (e) {
+    var d = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+    if (Math.abs(d) < 28 || wheelLock) return;
+    wheelLock = true;
+    d > 0 ? next(true) : prev(true);
+    setTimeout(function () { wheelLock = false; }, 700);
+  }, { passive: true });
+
+  hero.addEventListener("mouseenter", stopAutoplay);
+  hero.addEventListener("mouseleave", startAutoplay);
+  document.addEventListener("visibilitychange", function () {
+    document.hidden ? stopAutoplay() : startAutoplay();
+  });
+
+  try {
+    var saved = parseInt(localStorage.getItem(STORAGE_KEY), 10);
+    if (!isNaN(saved) && saved >= 0 && saved < slides.length) index = saved;
+  } catch (e) {}
+  paint(0);
+  startAutoplay();
+
+  (function netCanvas() {
+    if (prefersReduced) return;
+    var c = document.getElementById("net");
+    var ctx = c.getContext("2d");
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var W = 0, H = 0, nodes = [];
+    var ACCENT = "46,99,196";
+    var cx = 0, cy = 0, coreR = 0;
+
+    // ponteiro: alvo suavizado + raio de influência
+    var pointer = { x: -9999, y: -9999, tx: -9999, ty: -9999, active: false };
+    var R_INFLUENCE = 150;            // raio de ação do cursor (px)
+    var R2 = R_INFLUENCE * R_INFLUENCE;
+    var clock = 0;                    // relógio acumulado p/ drift ambiente
+
+    function rand(a, b) { return a + Math.random() * (b - a); }
+
+    function resize() {
+      W = c.clientWidth || c.offsetWidth || window.innerWidth;
+      H = c.clientHeight || c.offsetHeight || window.innerHeight;
+      c.width = W * dpr; c.height = H * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      // núcleo da constelação ancorado no quadrante direito (como a referência);
+      // em telas estreitas centraliza um pouco mais.
+      var narrow = W < 900;
+      cx = narrow ? W * 0.5 : W * 0.78;
+      cy = narrow ? H * 0.4 : H * 0.5;
+      coreR = Math.min(W, H) * (narrow ? 0.42 : 0.32);
+
+      var count = Math.round((W * H) / 18000);
+      count = Math.max(70, Math.min(190, count));
+      nodes = [];
+      for (var i = 0; i < count; i++) {
+        // distribuição radial: mais densa no núcleo, dissolvendo para fora.
+        var t = Math.pow(Math.random(), 0.62);       // viés ao centro
+        var ang = Math.random() * Math.PI * 2;
+        var rad = t * coreR * rand(0.92, 1.45);
+        var x = cx + Math.cos(ang) * rad;
+        var y = cy + Math.sin(ang) * rad * 0.92;
+        // densidade radial controla opacidade/raio: núcleo nítido, borda esmaecida
+        var dens = 1 - Math.min(1, rad / (coreR * 1.45));
+        nodes.push({
+          x: x, y: y,
+          ox: x, oy: y,
+          vx: rand(-0.16, 0.16), vy: rand(-0.16, 0.16),
+          r: rand(0.5, 2.4) * (0.45 + dens),
+          a: (0.1 + dens * 0.8),
+          dens: dens,
+          // movimento ambiente perpétuo: fase/velocidade/amplitude próprias por nó
+          phx: rand(0, Math.PI * 2), phy: rand(0, Math.PI * 2),
+          spx: rand(0.0006, 0.0014), spy: rand(0.0006, 0.0014),
+          amp: rand(0.4, 1.1) * (0.6 + dens)
+        });
+      }
+    }
+
+    function frame() {
+      ctx.clearRect(0, 0, W, H);
+      clock += 16;
+
+      // suaviza a posição do ponteiro (lerp) -> resposta orgânica, sem tremor
+      pointer.x += (pointer.tx - pointer.x) * 0.12;
+      pointer.y += (pointer.ty - pointer.y) * 0.12;
+
+      for (var i = 0; i < nodes.length; i++) {
+        var n = nodes[i];
+        // alvo ambiente: âncora + órbita lissajous suave (movimento perpétuo)
+        var tx = n.ox + Math.cos(clock * n.spx + n.phx) * n.amp * 6;
+        var ty = n.oy + Math.sin(clock * n.spy + n.phy) * n.amp * 6;
+        n.x += n.vx; n.y += n.vy;
+        // retorno elástico ao alvo ambiente -> drift orgânico contínuo
+        n.vx += (tx - n.x) * 0.0016;
+        n.vy += (ty - n.y) * 0.0016;
+
+        // repulsão suave em torno do cursor: empurra os nós para fora do raio
+        if (pointer.active) {
+          var pdx = n.x - pointer.x, pdy = n.y - pointer.y;
+          var pd2 = pdx * pdx + pdy * pdy;
+          if (pd2 < R2 && pd2 > 0.01) {
+            var pd = Math.sqrt(pd2);
+            var force = (1 - pd / R_INFLUENCE);   // 1 no cursor -> 0 na borda
+            var push = force * force * 1.1;       // queda suave (ease)
+            n.vx += (pdx / pd) * push;
+            n.vy += (pdy / pd) * push;
+          }
+        }
+
+        n.vx *= 0.985; n.vy *= 0.985;
+      }
+
+      // conexões só dentro do núcleo denso, curtas (a "rede neural")
+      for (var a = 0; a < nodes.length; a++) {
+        var p = nodes[a];
+        if (p.dens < 0.35) continue;
+        for (var b = a + 1; b < nodes.length; b++) {
+          var q = nodes[b];
+          if (q.dens < 0.35) continue;
+          var dx = p.x - q.x, dy = p.y - q.y;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 96) {
+            var o = 0.18 * (1 - dist / 96) * Math.min(p.dens, q.dens);
+            ctx.strokeStyle = "rgba(" + ACCENT + "," + o.toFixed(3) + ")";
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+          }
+        }
+      }
+
+      // partículas: núcleo em azul de acento, dissolução em branco/azul esmaecido
+      for (var k = 0; k < nodes.length; k++) {
+        var m = nodes[k];
+        var ma = m.a;
+        // realça os nós dentro do raio do cursor
+        if (pointer.active) {
+          var mdx = m.x - pointer.x, mdy = m.y - pointer.y;
+          var md2 = mdx * mdx + mdy * mdy;
+          if (md2 < R2) {
+            ma = Math.min(1, m.a + (1 - Math.sqrt(md2) / R_INFLUENCE) * 0.55);
+          }
+        }
+        ctx.beginPath();
+        ctx.arc(m.x, m.y, m.r, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(" + ACCENT + "," + ma.toFixed(3) + ")";
+        ctx.fill();
+      }
+
+      // teias do cursor: liga o ponteiro aos nós dentro do raio
+      if (pointer.active) {
+        for (var j = 0; j < nodes.length; j++) {
+          var s = nodes[j];
+          var sdx = s.x - pointer.x, sdy = s.y - pointer.y;
+          var sd2 = sdx * sdx + sdy * sdy;
+          if (sd2 < R2) {
+            var sd = Math.sqrt(sd2);
+            var lo = 0.32 * (1 - sd / R_INFLUENCE);
+            ctx.strokeStyle = "rgba(" + ACCENT + "," + lo.toFixed(3) + ")";
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(pointer.x, pointer.y);
+            ctx.lineTo(s.x, s.y);
+            ctx.stroke();
+          }
+        }
+      }
+
+      requestAnimationFrame(frame);
+    }
+
+    function setPointer(clientX, clientY) {
+      var rect = c.getBoundingClientRect();
+      pointer.tx = clientX - rect.left;
+      pointer.ty = clientY - rect.top;
+      if (!pointer.active) { pointer.x = pointer.tx; pointer.y = pointer.ty; }
+      pointer.active = true;
+    }
+    function clearPointer() {
+      pointer.active = false;
+      pointer.tx = -9999; pointer.ty = -9999;
+      pointer.x = -9999; pointer.y = -9999;
+    }
+    window.addEventListener("mousemove", function (e) { setPointer(e.clientX, e.clientY); }, { passive: true });
+    window.addEventListener("mouseout", function (e) { if (!e.relatedTarget) clearPointer(); }, { passive: true });
+    window.addEventListener("touchmove", function (e) {
+      if (e.touches && e.touches[0]) setPointer(e.touches[0].clientX, e.touches[0].clientY);
+    }, { passive: true });
+    window.addEventListener("touchend", clearPointer, { passive: true });
+
+    resize();
+    // re-mede após o layout assentar (canvas pode ter largura 0 no 1º tick)
+    requestAnimationFrame(resize);
+    window.addEventListener("load", resize);
+    window.addEventListener("resize", resize);
+    requestAnimationFrame(frame);
+  })();
+})();
+</script>
+
+
+</body></html>
