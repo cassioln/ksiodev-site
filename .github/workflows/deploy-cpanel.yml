@@ -78,11 +78,18 @@ jobs:
               target_dir="/public_html/${target_dir}"
             fi
 
+            delete_remote "${target_file}" >/dev/null 2>&1 || true
+
             response="$(uapi_fileman upload_files \
               -F "dir=${target_dir}" \
               -F "file-1=@${source_file};filename=${target_name}")"
 
-            echo "$response" | jq -e '.status == 1 and .data.failed == 0' >/dev/null
+            if ! echo "$response" | jq -e '.status == 1 and .data.failed == 0' >/dev/null; then
+              echo "::error::Upload failed for ${source_file} -> ${target_file}"
+              echo "$response" | jq .
+              exit 1
+            fi
+
             echo "Uploaded ${source_file} -> ${target_file}"
           }
 
