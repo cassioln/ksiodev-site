@@ -174,4 +174,5 @@ jobs:
       - name: Verify production
         run: |
           set -euo pipefail
-          curl -fsSL --max-time 30 https://ksio.dev/ | grep -q "ksio.dev"
+          html="$(curl -fsSL --max-time 30 https://ksio.dev/)"
+          grep -q "ksio.dev" <<< "${html}"
