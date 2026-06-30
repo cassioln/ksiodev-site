@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/cas48415/public_html/
+    - /bin/cp -f index.html $DEPLOYPATH
+    - /bin/cp -f favicon.svg $DEPLOYPATH
+    - /bin/cp -f hosting.htaccess $DEPLOYPATH/.htaccess
