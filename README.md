@@ -8,6 +8,7 @@ Static landing page for ksio.dev.
 - `favicon.svg`: editable favicon asset.
 - `CNAME`: GitHub Pages custom-domain configuration for `ksio.dev`.
 - `.nojekyll`: keeps GitHub Pages from applying Jekyll processing to the static files.
+- `hosting.htaccess`: Apache/cPanel configuration used when deploying to the current hosting.
 
 Open Design metadata, exported artifact JSON files, and unused PNG drafts are ignored by Git.
 
