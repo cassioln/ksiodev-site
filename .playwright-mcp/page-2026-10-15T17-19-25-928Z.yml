@@ -1,0 +1,182 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "ksio.dev, início" [ref=e5] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e6]: ksio.dev
+      - navigation "Navegação principal" [ref=e7]:
+        - link "Desenvolvimento" [ref=e8] [cursor=pointer]:
+          - /url: "#solucoes"
+        - link "Projetos" [ref=e9] [cursor=pointer]:
+          - /url: "#projetos"
+        - link "Processo" [ref=e10] [cursor=pointer]:
+          - /url: "#processo"
+        - link "Contato" [ref=e11] [cursor=pointer]:
+          - /url: "#contato"
+          - text: Contato
+          - img [ref=e12]
+  - main [ref=e14]:
+    - region "Desenvolvimento. Integração. Experimentação." [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - heading "Desenvolvimento. Integração. Experimentação." [level=1] [ref=e19]:
+              - generic [ref=e20]: Desenvolvimento.
+              - generic [ref=e21]: Integração.
+              - generic [ref=e22]: Experimentação.
+            - paragraph [ref=e23]: Construo aplicações web, automatizo processos e conecto sistemas. Um espaço para transformar ideias em software e explorar o que a tecnologia pode fazer.
+            - generic [ref=e24]:
+              - link "Explorar projetos" [ref=e25] [cursor=pointer]:
+                - /url: "#projetos"
+                - text: Explorar projetos
+                - img [ref=e26]
+              - link "Conversar sobre uma ideia" [ref=e28] [cursor=pointer]:
+                - /url: mailto:contato@ksio.dev
+          - generic "Conexões entre as áreas de desenvolvimento" [ref=e29]:
+            - img [ref=e30]:
+              - generic [ref=e32]: ideia
+              - generic [ref=e39]: web
+              - generic [ref=e40]: fluxo
+              - generic [ref=e41]: API
+            - group "Explorar áreas de desenvolvimento" [ref=e42]:
+              - button "Aplicações web" [pressed] [ref=e43] [cursor=pointer]
+              - button "Automação" [ref=e44] [cursor=pointer]
+              - button "Integração" [ref=e45] [cursor=pointer]
+            - paragraph [ref=e46]:
+              - strong [ref=e47]: Interfaces que dão forma às ideias.
+              - generic [ref=e48]: Sites, portais e ferramentas pensados para quem vai usar.
+        - paragraph [ref=e49]: Software, conexões e novas possibilidades.
+    - region "O que eu construo." [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "O que eu construo." [level=2] [ref=e53]
+          - paragraph [ref=e54]: Da interface ao fluxo de dados, o desenvolvimento começa entendendo o contexto e escolhendo as peças que fazem sentido.
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - heading "Aplicações web" [level=3] [ref=e57]
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: Sites, portais e sistemas com interfaces claras e uma base técnica consistente. Experiências que funcionam no navegador e se adaptam à rotina.
+              - generic [ref=e60]: Interfaces · Portais · Sistemas
+          - listitem [ref=e61]:
+            - heading "Automação e integração" [level=3] [ref=e62]
+            - generic [ref=e63]:
+              - paragraph [ref=e64]: Conexões entre ferramentas, dados e serviços. Fluxos que reduzem etapas manuais e fazem sistemas diferentes trabalharem juntos.
+              - generic [ref=e65]: APIs · Processos · Conexões entre ferramentas
+          - listitem [ref=e66]:
+            - heading "IA aplicada e protótipos" [level=3] [ref=e67]
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: Experimentos e integrações para explorar possibilidades, validar uma ideia e entender onde a inteligência artificial pode ser útil no uso real.
+              - generic [ref=e70]: Prototipação · Experimentação · IA
+    - region "Projetos em produção." [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - heading "Projetos em produção." [level=2] [ref=e74]
+          - paragraph [ref=e75]: Interfaces, fluxos e ferramentas que construí para contextos diferentes. Cada projeto, um conjunto próprio de problemas e decisões.
+        - article "Informação técnica, organizada para a web." [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: Uônix
+            - paragraph [ref=e79]:
+              - text: Site institucional B2B
+              - text: Soluções de ancoragem e segurança
+            - link "Visitar Uônix" [ref=e80] [cursor=pointer]:
+              - /url: https://uonix.com.br/
+              - text: Visitar Uônix
+              - img [ref=e81]
+          - generic [ref=e83]:
+            - heading "Informação técnica, organizada para a web." [level=3] [ref=e84]
+            - paragraph [ref=e85]: Uma presença digital para apresentar soluções de ancoragem, organizar informação técnica e ajudar o cliente a encontrar o que precisa para o seu projeto.
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - term [ref=e88]: Catálogo de soluções
+                - definition [ref=e89]: Produtos, aplicações e serviços organizados.
+              - generic [ref=e90]:
+                - term [ref=e91]: Informação técnica
+                - definition [ref=e92]: Conteúdo para apoiar a especificação.
+              - generic [ref=e93]:
+                - term [ref=e94]: Contato comercial
+                - definition [ref=e95]: Um caminho direto para solicitar orçamento.
+        - article "Uma plataforma, quatro frentes de desenvolvimento." [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: KOB
+            - paragraph [ref=e99]:
+              - text: Kriativos Onboard
+              - text: Plataforma digital para uma jornada de viagem
+            - link "Conhecer Kriativos Onboard" [ref=e100] [cursor=pointer]:
+              - /url: https://kriativosonboard.com.br/
+              - text: Conhecer Kriativos Onboard
+              - img [ref=e101]
+          - generic [ref=e103]:
+            - heading "Uma plataforma, quatro frentes de desenvolvimento." [level=3] [ref=e104]
+            - paragraph [ref=e105]: Da descoberta do evento à organização da operação, um ecossistema com ferramentas para passageiros e equipe. Explore cada parte do projeto.
+            - list [ref=e106]:
+              - listitem [ref=e107]:
+                - link "Site do evento Apresentação da experiência e informações para reservar." [ref=e108] [cursor=pointer]:
+                  - /url: https://kriativosonboard.com.br/
+                  - strong [ref=e109]: Site do evento
+                  - img [ref=e110]
+                  - generic [ref=e112]: Apresentação da experiência e informações para reservar.
+              - listitem [ref=e113]:
+                - link "Manual de bordo Orientações e informações para os passageiros." [ref=e114] [cursor=pointer]:
+                  - /url: https://manualdebordo.kriativosonboard.com.br/
+                  - strong [ref=e115]: Manual de bordo
+                  - img [ref=e116]
+                  - generic [ref=e118]: Orientações e informações para os passageiros.
+              - listitem [ref=e119]:
+                - link "Transporte Fluxo de reserva de traslado e pagamento via Pix." [ref=e120] [cursor=pointer]:
+                  - /url: https://busao.kriativosonboard.com.br/
+                  - strong [ref=e121]: Transporte
+                  - img [ref=e122]
+                  - generic [ref=e124]: Fluxo de reserva de traslado e pagamento via Pix.
+              - listitem [ref=e125]:
+                - link "Painel operacional Gestão de reservas e passageiros com acesso restrito." [ref=e126] [cursor=pointer]:
+                  - /url: https://painel.kriativosonboard.com.br/
+                  - strong [ref=e127]: Painel operacional
+                  - img [ref=e128]
+                  - generic [ref=e130]: Gestão de reservas e passageiros com acesso restrito.
+    - region "Da ideia à implementação." [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - heading "Da ideia à implementação." [level=2] [ref=e134]
+          - paragraph [ref=e135]: Entender, desenhar, construir e evoluir. Um processo próximo, com espaço para conversar sobre as decisões técnicas ao longo do caminho.
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - generic [ref=e138]: "01"
+            - generic [ref=e139]:
+              - heading "Contexto" [level=3] [ref=e140]
+              - paragraph [ref=e141]: Entender o problema, as pessoas que vão usar a solução e os sistemas que já fazem parte da rotina.
+          - listitem [ref=e142]:
+            - generic [ref=e143]: "02"
+            - generic [ref=e144]:
+              - heading "Arquitetura" [level=3] [ref=e145]
+              - paragraph [ref=e146]: Definir o escopo, desenhar os fluxos e escolher uma base técnica coerente com o que precisa ser construído.
+          - listitem [ref=e147]:
+            - generic [ref=e148]: "03"
+            - generic [ref=e149]:
+              - heading "Desenvolvimento" [level=3] [ref=e150]
+              - paragraph [ref=e151]: Transformar as decisões em software, compartilhar o progresso e ajustar com quem conhece o contexto por dentro.
+          - listitem [ref=e152]:
+            - generic [ref=e153]: "04"
+            - generic [ref=e154]:
+              - heading "Evolução" [level=3] [ref=e155]
+              - paragraph [ref=e156]: Colocar a solução em uso, orientar quem vai operar e observar o que pode melhorar na próxima versão.
+    - region "Vamos trocar uma ideia." [ref=e157]:
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - heading "Vamos trocar uma ideia." [level=2] [ref=e160]
+          - paragraph [ref=e161]: Sobre um projeto, uma integração ou uma possibilidade que vale explorar.
+        - link "contato@ksio.dev" [ref=e163] [cursor=pointer]:
+          - /url: mailto:contato@ksio.dev
+          - text: contato@ksio.dev
+          - img [ref=e164]
+  - contentinfo [ref=e166]:
+    - generic [ref=e167]:
+      - link "ksio.dev, início" [ref=e168] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e169]: ksio.dev
+      - paragraph [ref=e170]: Desenvolvimento e experimentação. © 2026 ksio.dev
+      - link "Voltar ao início" [ref=e171] [cursor=pointer]:
+        - /url: "#inicio"
+        - text: Voltar ao início
+        - img [ref=e172]

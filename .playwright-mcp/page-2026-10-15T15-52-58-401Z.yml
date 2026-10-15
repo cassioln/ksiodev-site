@@ -1,0 +1,1095 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Kriativos On Board — Home" [ref=e7] [cursor=pointer]:
+            - /url: https://kriativosonboard.com.br/en/
+            - img "Kriativos On Board 2026" [ref=e8]
+          - generic "Official Onboard Manual" [ref=e9]:
+            - generic [ref=e10]: Onboard Manual
+            - generic [ref=e11]: manualdebordo.kriativosonboard.com.br
+        - button "WHAT ARE YOU LOOKING FOR? — Search the site" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+          - generic [ref=e16]:
+            - generic [ref=e17]: WHAT ARE YOU LOOKING FOR?
+            - generic [ref=e18]: Search the entire site
+          - generic [ref=e19]: ⌘ K
+        - navigation "Language selector" [ref=e21]:
+          - link "PT" [ref=e22] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e23]: EN
+          - link "ES" [ref=e24] [cursor=pointer]:
+            - /url: /es/
+      - navigation "Onboard Manual navigation" [ref=e26]:
+        - link "Checklist" [ref=e27] [cursor=pointer]:
+          - /url: "#checklist"
+        - link "Schedule" [ref=e28] [cursor=pointer]:
+          - /url: "#cronograma"
+        - link "Gaming and activities" [ref=e29] [cursor=pointer]:
+          - /url: "#jogos"
+        - link "MSC Rules" [ref=e30] [cursor=pointer]:
+          - /url: "#regras-msc"
+        - link "FAQ" [ref=e31] [cursor=pointer]:
+          - /url: "#duvidas"
+        - link "Contact" [ref=e32] [cursor=pointer]:
+          - /url: "#contato"
+        - link "Official Charter" [ref=e33] [cursor=pointer]:
+          - /url: https://busao.kriativosonboard.com.br/en/
+  - dialog [ref=e34]:
+    - generic [ref=e35]:
+      - generic:
+        - img
+        - generic: Onboard Manual
+      - button [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+    - navigation [ref=e39]:
+      - link [ref=e40] [cursor=pointer]:
+        - /url: "#live"
+        - text: Boarding live recording
+      - link [ref=e41] [cursor=pointer]:
+        - /url: "#checklist"
+        - text: Checklist
+      - link [ref=e42] [cursor=pointer]:
+        - /url: "#cronograma"
+        - text: Schedule
+      - link [ref=e43] [cursor=pointer]:
+        - /url: "#jogos"
+        - text: Gaming and activities
+      - link [ref=e44] [cursor=pointer]:
+        - /url: "#regras-msc"
+        - text: MSC Rules
+      - link [ref=e45] [cursor=pointer]:
+        - /url: "#duvidas"
+        - text: FAQ
+      - link [ref=e46] [cursor=pointer]:
+        - /url: "#contato"
+        - text: Contact
+    - link [ref=e48] [cursor=pointer]:
+      - /url: https://busao.kriativosonboard.com.br/en/
+      - img [ref=e49]
+      - generic [ref=e52]: Official Charter
+  - main [ref=e53]:
+    - region "Ready to sail, Kriativo?" [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - heading "Ready to sail, Kriativo?" [level=1] [ref=e58]:
+            - text: Ready to sail,
+            - text: Kriativo?
+          - paragraph [ref=e59]: Your guide to arriving prepared and enjoying every game. Explore the recorded live by topic, pack your bags and find practical answers.
+        - generic "Boarding live recording" [ref=e60]:
+          - generic [ref=e61]:
+            - heading "Boarding live recording" [level=2] [ref=e62]
+            - paragraph [ref=e63]: Live broadcast · October 2, 2026 | Recording · 1h 20m · Portuguese audio
+          - generic [ref=e64]:
+            - button "Watch the recording" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - text: Watch the recording
+            - complementary "Topics":
+              - generic:
+                - button "Topics" [ref=e71] [cursor=pointer]:
+                  - img [ref=e72]
+                  - generic [ref=e74]: Topics
+                  - img [ref=e75]
+                - generic:
+                  - generic:
+                    - heading [level=3]: Find your topic
+                    - button:
+                      - img
+                  - generic: "Search the recording:"
+                  - generic:
+                    - searchbox
+                  - list:
+                    - listitem:
+                      - button:
+                        - generic: 00:13:53
+                        - generic: Welcome and trip overview
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:15:13
+                        - generic: Royal Trip and the fourth KOB edition
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:16:49
+                        - generic: Dates, disembarkation and return charter
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:17:16
+                        - generic: Event partners
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:20:50
+                        - generic: Documents and travel consent for minors
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:22:25
+                        - generic: Vouchers, check-in and luggage tags
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:24:13
+                        - generic: Day bag for your first day
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:25:02
+                        - generic: Port arrival and boarding queue
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:25:35
+                        - generic: Charter bus and your assigned departure
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:28:22
+                        - generic: Airports and getting to Santos
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:29:25
+                        - generic: Parking at Concais
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:30:52
+                        - generic: Cruise Card, cards and onboard spending
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:32:43
+                        - generic: Buffet and cabin availability
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:34:01
+                        - generic: Meet-up, welcome kits and program board
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:36:01
+                        - generic: White Party
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:36:30
+                        - generic: Clothes, shoes and a light jacket
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:37:56
+                        - generic: Pregnancy
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:38:59
+                        - generic: Babies on the booking
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:39:28
+                        - generic: Water, tea, coffee and the Aqua system
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:40:23
+                        - generic: Drinks packages
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:42:24
+                        - generic: Pay-as-you-go drinks and advance booking
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:44:14
+                        - generic: Internet packages and booking
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:45:15
+                        - generic: Internet per device and mobile signal in Búzios
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:48:14
+                        - generic: Restaurants and dinner sittings
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:49:56
+                        - generic: Dinner with friends in other cabins
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:51:34
+                        - generic: Dinner time and late arrival
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:52:34
+                        - generic: Minibar and charges
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:53:33
+                        - generic: 80s theme and closing celebration
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 00:58:26
+                        - generic: Specialty restaurants
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:02:46
+                        - generic: MSC for Me and onboard chat
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:03:34
+                        - generic: Guru and manual giveaway registration
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:05:42
+                        - generic: How to confirm attendance in Guru
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:06:49
+                        - generic: Game library, teachers and favorites
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:08:22
+                        - generic: Bring games and import your collection
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:11:05
+                        - generic: Travel insurance and medical expenses
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:13:09
+                        - generic: Children and the kids club
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:14:16
+                        - generic: Luggage
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:14:41
+                        - generic: Allowed and prohibited luggage items
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:15:09
+                        - generic: What your cabin provides
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:17:37
+                        - generic: Rewards for sharing games
+                        - generic:
+                          - img
+                    - listitem:
+                      - button:
+                        - generic: 01:18:32
+                        - generic: Official group and final reminders
+                        - generic:
+                          - img
+                  - paragraph: Original recording in Portuguese. Chapter titles and transcript excerpts are translated.
+          - generic [ref=e77]:
+            - paragraph [ref=e78]: Watching or choosing a topic connects you to YouTube. The service’s privacy policies apply.
+            - link "Open on YouTube" [ref=e80] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=AtIvlc62KgI
+              - text: Open on YouTube
+              - img [ref=e81]
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - term [ref=e85]: On board
+            - definition [ref=e86]: MSC Musica
+          - generic [ref=e87]:
+            - term [ref=e88]: Departure and return
+            - definition [ref=e89]: Concais · Santos
+          - generic [ref=e90]:
+            - term [ref=e91]: Route
+            - definition [ref=e92]: Santos ⇄ Búzios
+          - generic [ref=e93]:
+            - term [ref=e94]: Dates
+            - definition [ref=e95]: 20–23 Nov 2026
+        - paragraph [ref=e96]: Only 36 days until boarding day.
+        - paragraph [ref=e97]: Check your booking instructions and MSC rules before travelling.
+    - region "From preparation to disembarkation" [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]: Navigation Schedule
+          - heading "From preparation to disembarkation" [level=2] [ref=e102]
+          - paragraph [ref=e103]: Use these milestones to stay organized. Your voucher, Royal Trip updates, and MSC daily programs provide actual operational times.
+        - navigation "Schedule milestones" [ref=e104]:
+          - link "Before departure 5" [ref=e105] [cursor=pointer]:
+            - /url: "#cronograma-antes"
+            - text: Before departure
+            - generic [ref=e106]: "5"
+          - link "Boarding 5" [ref=e107] [cursor=pointer]:
+            - /url: "#cronograma-embarque"
+            - text: Boarding
+            - generic [ref=e108]: "5"
+          - link "Onboard & Parties 3" [ref=e109] [cursor=pointer]:
+            - /url: "#cronograma-bordo"
+            - text: Onboard & Parties
+            - generic [ref=e110]: "3"
+          - link "Disembarkation & Return 3" [ref=e111] [cursor=pointer]:
+            - /url: "#cronograma-desembarque"
+            - text: Disembarkation & Return
+            - generic [ref=e112]: "3"
+        - generic [ref=e113]:
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - heading "Before departure" [level=3] [ref=e118]
+              - button "Collapse section Before departure" [expanded] [ref=e119] [cursor=pointer]:
+                - img
+            - generic [ref=e120]:
+              - article [ref=e121]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]: Now
+                  - generic [ref=e124]: RECOMMENDED
+                - paragraph [ref=e125]:
+                  - strong [ref=e126]: "Join the official WhatsApp group:"
+                  - text: Get important announcements, boarding instructions and event updates. Share the link with the companions and family members sailing with you so everyone stays informed.
+                  - link "Join the official group" [ref=e127] [cursor=pointer]:
+                    - /url: https://chat.whatsapp.com/EiYEGnOpJrPGyhDzdz9888?mode=gi_t
+                  - text: .
+              - article [ref=e128]:
+                - generic [ref=e129]:
+                  - generic [ref=e130]: Now
+                  - generic [ref=e131]: REQUIRED
+                - paragraph [ref=e132]:
+                  - strong [ref=e133]: "Check your booking:"
+                  - text: Verify all passenger details in your cabin with Royal Trip. Include travel companions in official notifications and organize transportation to Santos.
+              - article [ref=e134]:
+                - generic [ref=e135]:
+                  - generic [ref=e136]: Now
+                  - generic [ref=e137]: RECOMMENDED
+                - paragraph [ref=e138]:
+                  - strong [ref=e139]: "Prepare your games:"
+                  - text: Open Kriativos On Board in the Board Game Guru app, click ‘I’m going’, favorite games you wish to play, and list titles you want to share.
+              - article [ref=e140]:
+                - generic [ref=e141]:
+                  - generic [ref=e142]: When agency announces in group
+                  - generic [ref=e143]: REQUIRED
+                - paragraph [ref=e144]:
+                  - strong [ref=e145]: "Request vouchers:"
+                  - text: The cabin lead should message Júnior / Royal Trip privately to receive boarding vouchers and luggage tags. Review details and print documents.
+              - article [ref=e146]:
+                - generic [ref=e147]:
+                  - generic [ref=e148]: Before leaving home
+                  - generic [ref=e149]: REQUIRED
+                - paragraph [ref=e150]:
+                  - strong [ref=e151]: "Final review:"
+                  - text: Check documents, luggage tags, carry-on essentials, driving route, and booking instructions. If booked on bus charter, confirm meeting time.
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - heading "Boarding" [level=3] [ref=e154]
+              - button "Collapse section Boarding" [expanded] [ref=e155] [cursor=pointer]:
+                - img
+            - generic [ref=e156]:
+              - article [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]: Friday, Nov 20 — KOB Bus Charter
+                  - generic [ref=e160]: ATTENTION
+                - paragraph [ref=e161]:
+                  - strong [ref=e162]: "São Paulo Departure (Barra Funda):"
+                  - text: "For passengers who booked the KOB bus charter. Bus 1: meeting at 06:00, departure at 06:30. Bus 2: meeting at 06:40, departure at 07:20. Location: Rua Tagipuru, near nº 552, Barra Funda, São Paulo. Use the time for the bus assigned to your booking."
+                  - link "See details and booking information." [ref=e163] [cursor=pointer]:
+                    - /url: https://busao.kriativosonboard.com.br/en/
+              - article [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]: Friday, Nov 20 — Concais Terminal
+                  - generic [ref=e167]: REQUIRED
+                - paragraph [ref=e168]:
+                  - strong [ref=e169]: "Santos Terminal Arrival:"
+                  - text: Follow the arrival window indicated on your voucher. Drop tagged luggage at designated baggage area and keep documents and essentials with you.
+              - article [ref=e170]:
+                - generic [ref=e172]: After boarding the ship
+                - paragraph [ref=e173]:
+                  - strong [ref=e174]: "Buffet & Cabins:"
+                  - text: Visit the buffet while cabins are prepared. Cabin release is estimated around 13:00/14:00; await official ship announcements.
+              - article [ref=e175]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]: Friday afternoon — KOB Welcome
+                  - generic [ref=e178]: ATTENTION
+                - paragraph [ref=e179]:
+                  - strong [ref=e180]: "Kit distribution:"
+                  - text: Welcome kit pickup estimated at 16:00/16:30 at Crystal Lounge. Confirm lounge and exact schedule in group chat. Check daily notice board.
+              - article [ref=e181]:
+                - generic [ref=e182]:
+                  - generic [ref=e183]: First evening — Safety & Dinner
+                  - generic [ref=e184]: REQUIRED
+                - paragraph [ref=e185]:
+                  - strong [ref=e186]: "Safety drill & Dining:"
+                  - text: Complete mandatory MSC safety drill. Check your dinner shift on your cruise card; speak with the maître d' if requesting to combine tables with friends.
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - heading "Onboard & Parties" [level=3] [ref=e189]
+              - button "Collapse section Onboard & Parties" [expanded] [ref=e190] [cursor=pointer]:
+                - img
+            - generic [ref=e191]:
+              - article [ref=e192]:
+                - generic [ref=e194]: During the cruise
+                - paragraph [ref=e195]:
+                  - strong [ref=e196]: "Gaming & Call:"
+                  - text: Check daily schedule board and MSC program. Enjoy gaming tables during active hours and check Búzios port timing on your booking itinerary.
+              - article [ref=e197]:
+                - generic [ref=e198]:
+                  - generic [ref=e199]: Sunday, Nov 22 — Game Inventory
+                  - generic [ref=e200]: REQUIRED
+                - paragraph [ref=e201]:
+                  - strong [ref=e202]: "Game return deadline:"
+                  - text: Return all borrowed games before the deadline posted in the official group to allow collection and final inventory before docking.
+              - article [ref=e203]:
+                - generic [ref=e205]: Sunday night — Farewell Party
+                - paragraph [ref=e206]:
+                  - strong [ref=e207]: "80s Retro Theme:"
+                  - text: 80s attire, neon, and accessories welcome. Check daily bulletin for venue confirmation and timing.
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - heading "Disembarkation & Return" [level=3] [ref=e210]
+              - button "Collapse section Disembarkation & Return" [expanded] [ref=e211] [cursor=pointer]:
+                - img
+            - generic [ref=e212]:
+              - article [ref=e213]:
+                - generic [ref=e214]:
+                  - generic [ref=e215]: Disembarkation Prep
+                  - generic [ref=e216]: ATTENTION
+                - paragraph [ref=e217]:
+                  - strong [ref=e218]: "Checked bags:"
+                  - text: Follow MSC color-coded tag instructions for luggage collection outside cabin door on the final night. Keep next morning clothes with you.
+              - article [ref=e219]:
+                - generic [ref=e220]:
+                  - generic [ref=e221]: Monday, Nov 23 — Cabin Clearance
+                  - generic [ref=e222]: ATTENTION
+                - paragraph [ref=e223]:
+                  - strong [ref=e224]: "Early checkout:"
+                  - text: Vacate cabins early according to ship instructions. The ~10:00 time is only a reference and does not override onboard announcements.
+              - article [ref=e225]:
+                - generic [ref=e226]:
+                  - generic [ref=e227]: Monday, Nov 23 — Bus Return
+                  - generic [ref=e228]: ATTENTION
+                - paragraph [ref=e229]:
+                  - strong [ref=e230]: "Return to São Paulo:"
+                  - text: Charter departure from Port of Santos estimated at 10:30. Confirm meeting location with transportation coordinators.
+    - region "Onboard gaming guide" [ref=e231]:
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - heading "Onboard gaming guide" [level=2] [ref=e234]
+          - paragraph [ref=e235]: Crystal Lounge is the planned home for KOB games. Discover table dynamics, rules instructors, giveaways, and the Board Game Guru app.
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - status [ref=e238]: 1–4 / 5
+            - button "Previous cards" [disabled] [ref=e239]:
+              - img [ref=e240]
+            - button "Next cards" [ref=e242] [cursor=pointer]:
+              - img [ref=e243]
+          - region "Onboard gaming guide" [ref=e245]:
+            - article [ref=e246]:
+              - heading "Your gaming lounge" [level=3] [ref=e247]
+              - paragraph [ref=e248]: "Crystal Lounge is the planned venue for KOB gaming sessions. The room still depends on final ship confirmation. Tables operate on an open, rotating basis: please make room for other players once your game concludes."
+              - paragraph [ref=e249]: Extensive hours are planned throughout the day and evening. There is no promise of 24h non-stop operation. Respect Sunday's inventory return cutoff time.
+            - article [ref=e250]:
+              - heading "Welcome kit & schedule" [level=3] [ref=e251]
+              - paragraph [ref=e252]: The kit includes a lanyard/badge for cabin keys, wristband, commemorative collectible coin, and a sturdy board game tote bag from Fácil Shopping. Pickup is estimated for 16:00/16:30 on day one.
+              - paragraph [ref=e253]: The entrance board in the gaming hall will display the daily timetable. Check official channels for any schedule updates.
+            - article [ref=e254]:
+              - heading "Board Game Guru App" [level=3] [ref=e255]
+              - paragraph [ref=e256]:
+                - text: Download
+                - link "Board Game Guru" [ref=e257] [cursor=pointer]:
+                  - /url: https://boardgameguru.app/
+                - text: (available on iOS and Android) and open the Kriativos On Board event page. Tap ‘I’m going’ to be eligible for raffles.
+              - paragraph [ref=e258]: If unable to use the app, contact Encounter staff to request manual registration. Use the app to browse the game catalog, filter titles, and bookmark favorites.
+            - article [ref=e259]:
+              - heading "Monitors & Finding tables" [level=3] [ref=e260]
+              - paragraph [ref=e261]: Encounter monitors will help you select games and teach rules. Solo travelers and newcomers can easily connect with friendly groups.
+              - paragraph [ref=e262]: You are welcome to bring personal board games and prototypes, within luggage limits. When taking library games outside the lounge, register your name and cabin with the monitor desk.
+            - article [ref=e263]:
+              - heading "Tournaments & Closing party" [level=3] [ref=e264]
+              - paragraph [ref=e265]: Check the daily notice board for confirmed tournaments and raffle schedules. Bring your 80s retro outfit for Sunday night's farewell celebration!
+    - region "MSC Rules on Board" [ref=e266]:
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - heading "MSC Rules on Board" [level=2] [ref=e269]
+          - paragraph [ref=e270]: A summary, by topic, of the official MSC rules that apply to our cruise.
+        - list [ref=e271]:
+          - listitem [ref=e272]:
+            - img [ref=e274]
+            - text: Allowed
+          - listitem [ref=e276]:
+            - img [ref=e278]
+            - text: Not allowed
+          - listitem [ref=e280]:
+            - img [ref=e282]
+            - text: How it works
+        - generic [ref=e283]:
+          - tablist "MSC rules topics" [ref=e284]:
+            - tab "Luggage" [selected] [ref=e285] [cursor=pointer]:
+              - img [ref=e286]
+              - generic [ref=e289]: Luggage
+            - tab "Prohibited and Allowed Items" [ref=e290] [cursor=pointer]:
+              - img [ref=e291]
+              - generic [ref=e294]: Prohibited and Allowed Items
+            - tab "Food and Drinks" [ref=e295] [cursor=pointer]:
+              - img [ref=e296]
+              - generic [ref=e299]: Food and Drinks
+            - tab "Smoking" [ref=e300] [cursor=pointer]:
+              - img [ref=e301]
+              - generic [ref=e304]: Smoking
+            - tab "Guests Under 18" [ref=e305] [cursor=pointer]:
+              - img [ref=e306]
+              - generic [ref=e310]: Guests Under 18
+            - tab "Safety and Health" [ref=e311] [cursor=pointer]:
+              - img [ref=e312]
+              - generic [ref=e316]: Safety and Health
+            - tab "Getting Along on Board" [ref=e317] [cursor=pointer]:
+              - img [ref=e318]
+              - generic [ref=e322]: Getting Along on Board
+            - tab "Ashore and Consequences" [ref=e323] [cursor=pointer]:
+              - img [ref=e324]
+              - generic [ref=e327]: Ashore and Consequences
+          - tabpanel "Luggage" [ref=e329]:
+            - heading "Luggage" [level=3] [ref=e330]
+            - list [ref=e331]:
+              - listitem [ref=e332]:
+                - img [ref=e334]
+                - paragraph [ref=e335]:
+                  - generic [ref=e336]: "How it works:"
+                  - strong [ref=e337]: 2 checked suitcases per person
+                  - generic [ref=e338]: .
+                  - generic [ref=e339]: Up to 23 kg and up to 90 × 75 × 43 cm each.
+              - listitem [ref=e340]:
+                - img [ref=e342]
+                - paragraph [ref=e343]:
+                  - generic [ref=e344]: "How it works:"
+                  - strong [ref=e345]: 2 carry-ons per person
+                  - generic [ref=e346]: .
+                  - generic [ref=e347]: Up to 10 kg and up to 56 × 45 × 25 cm each.
+              - listitem [ref=e348]:
+                - img [ref=e350]
+                - paragraph [ref=e352]:
+                  - generic [ref=e353]: "Not allowed:"
+                  - strong [ref=e354]: Going over the allowance
+                  - generic [ref=e355]: .
+                  - generic [ref=e356]: Per cabin, the limit is 100 kg and/or 8 pieces in total; excess luggage isn't accepted at check-in.
+              - listitem [ref=e357]:
+                - img [ref=e359]
+                - paragraph [ref=e360]:
+                  - generic [ref=e361]: "How it works:"
+                  - strong [ref=e362]: Bags reach your cabin in the late afternoon
+                  - generic [ref=e363]: .
+                  - generic [ref=e364]: Keep documents, medicine, valuables, electronics, diapers and an evening outfit in your carry-on.
+            - navigation "Pages of this topic" [ref=e365]:
+              - paragraph [ref=e366]: Page 1 of 2
+              - generic [ref=e367]:
+                - button "Previous rules" [disabled] [ref=e368]:
+                  - img [ref=e369]
+                - button "Next rules" [ref=e371] [cursor=pointer]:
+                  - img [ref=e372]
+        - paragraph [ref=e374]:
+          - text: Checked on
+          - time [ref=e375]: October 9, 2026
+          - text: "against the official MSC sources, in Portuguese:"
+          - link "Luggage" [ref=e376] [cursor=pointer]:
+            - /url: https://www.msccruzeiros.com.br/gerenciar-reserva/antes-de-viajar/bagagem?utm_source=kriativosonboard
+          - text: and
+          - link "Guest Code of Conduct" [ref=e377] [cursor=pointer]:
+            - /url: https://www.msccruzeiros.com.br/-/media/brazil/documentos/codigo-de-conduta-hospedes.pdf
+          - text: (updated February 27, 2026)
+          - generic [ref=e378]: (links open in a new window)
+          - text: . If anything differs, MSC's text applies.
+    - region "Questions from Confirmed Guests." [ref=e379]:
+      - generic [ref=e380]:
+        - generic [ref=e382]:
+          - paragraph [ref=e383]: Frequently Asked Questions
+          - heading "Questions from Confirmed Guests." [level=2] [ref=e384]:
+            - text: Questions from
+            - generic [ref=e385]: Confirmed Guests.
+          - paragraph [ref=e386]: Find the guidance you need to prepare for your trip and make the most of KOB. For your cabin details or an individual situation, contact Royal Trip through a private channel.
+        - generic [ref=e387]:
+          - generic [ref=e388]:
+            - generic [ref=e389]:
+              - generic [ref=e390]: What do you need to know?
+              - generic [ref=e391]:
+                - img [ref=e392]
+                - searchbox "What do you need to know?" [ref=e395]
+              - generic [ref=e396]: 42 answers organized by topic
+            - navigation "FAQ categories" [ref=e397]:
+              - generic [ref=e398]: Browse by topic
+              - link "Preparation 11" [ref=e401] [cursor=pointer]:
+                - /url: "#faq-preparacao"
+                - text: Preparation
+                - generic [ref=e402]: "11"
+              - link "Arrival 5" [ref=e403] [cursor=pointer]:
+                - /url: "#faq-chegada"
+                - text: Arrival
+                - generic [ref=e404]: "5"
+              - link "Games & Activities 8" [ref=e405] [cursor=pointer]:
+                - /url: "#faq-jogos"
+                - text: Games & Activities
+                - generic [ref=e406]: "8"
+              - link "During the Cruise 15" [ref=e407] [cursor=pointer]:
+                - /url: "#faq-vida-a-bordo"
+                - text: During the Cruise
+                - generic [ref=e408]: "15"
+              - link "Disembarkation 3" [ref=e409] [cursor=pointer]:
+                - /url: "#faq-desembarque"
+                - text: Disembarkation
+                - generic [ref=e410]: "3"
+              - generic "FAQ tools" [ref=e411]:
+                - button "Expand All" [ref=e412] [cursor=pointer]
+                - button "Collapse All" [ref=e413] [cursor=pointer]
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - generic [ref=e416]:
+                - heading "Preparation" [level=3] [ref=e417]
+                - button "Collapse Preparation section" [expanded] [ref=e418] [cursor=pointer]:
+                  - img
+              - generic [ref=e419]:
+                - group [ref=e420]:
+                  - generic "How do I check my terminal arrival window and the port-of-call day?" [ref=e421] [cursor=pointer]:
+                    - generic [ref=e422]: How do I check my terminal arrival window and the port-of-call day?
+                    - img [ref=e424]
+                - group [ref=e426]:
+                  - generic "Who requests the cabin vouchers, when and through which channel?" [ref=e427] [cursor=pointer]:
+                    - generic [ref=e428]: Who requests the cabin vouchers, when and through which channel?
+                    - img [ref=e430]
+                - group [ref=e432]:
+                  - generic "Which document should I bring? Is an old RG or a digital CNH accepted?" [ref=e433] [cursor=pointer]:
+                    - generic [ref=e434]: Which document should I bring? Is an old RG or a digital CNH accepted?
+                    - img [ref=e436]
+                - group [ref=e438]:
+                  - generic "What documents do I need for minors or foreign passengers?" [ref=e439] [cursor=pointer]:
+                    - generic [ref=e440]: What documents do I need for minors or foreign passengers?
+                    - img [ref=e442]
+                - group [ref=e444]:
+                  - 'generic "I''m pregnant: what arrangements and medical certificate should I send to the agency?" [ref=e445] [cursor=pointer]':
+                    - generic [ref=e446]: "I'm pregnant: what arrangements and medical certificate should I send to the agency?"
+                    - img [ref=e448]
+                - group [ref=e450]:
+                  - generic "How do I check that my baby is included in the cabin and request a crib?" [ref=e451] [cursor=pointer]:
+                    - generic [ref=e452]: How do I check that my baby is included in the cabin and request a crib?
+                    - img [ref=e454]
+                - group [ref=e456]:
+                  - generic "Do I need to show a Covid-19 vaccination or test?" [ref=e457] [cursor=pointer]:
+                    - generic [ref=e458]: Do I need to show a Covid-19 vaccination or test?
+                    - img [ref=e460]
+                - group [ref=e462]:
+                  - generic "What is MSC's luggage allowance?" [ref=e463] [cursor=pointer]:
+                    - generic [ref=e464]: What is MSC's luggage allowance?
+                    - img [ref=e466]
+                - group [ref=e468]:
+                  - generic "How do I check my bags and what stays with me?" [ref=e469] [cursor=pointer]:
+                    - generic [ref=e470]: How do I check my bags and what stays with me?
+                    - img [ref=e472]
+                - group [ref=e474]:
+                  - generic "What's prohibited? Can I bring a hair dryer, flat iron or drone?" [ref=e475] [cursor=pointer]:
+                    - generic [ref=e476]: What's prohibited? Can I bring a hair dryer, flat iron or drone?
+                    - img [ref=e478]
+                - group [ref=e480]:
+                  - generic "What does the cabin provide and what should I bring?" [ref=e481] [cursor=pointer]:
+                    - generic [ref=e482]: What does the cabin provide and what should I bring?
+                    - img [ref=e484]
+            - generic [ref=e486]:
+              - generic [ref=e487]:
+                - heading "Arrival" [level=3] [ref=e488]
+                - button "Collapse Arrival section" [expanded] [ref=e489] [cursor=pointer]:
+                  - img
+              - generic [ref=e490]:
+                - group [ref=e491]:
+                  - generic "How does the official KOB charter bus work?" [ref=e492] [cursor=pointer]:
+                    - generic [ref=e493]: How does the official KOB charter bus work?
+                    - img [ref=e495]
+                - group [ref=e497]:
+                  - generic "I'm flying in. Is there a KOB bus at Congonhas or Guarulhos?" [ref=e498] [cursor=pointer]:
+                    - generic [ref=e499]: I'm flying in. Is there a KOB bus at Congonhas or Guarulhos?
+                    - img [ref=e501]
+                - group [ref=e503]:
+                  - generic "I'm driving. What should I do about parking?" [ref=e504] [cursor=pointer]:
+                    - generic [ref=e505]: I'm driving. What should I do about parking?
+                    - img [ref=e507]
+                - group [ref=e509]:
+                  - generic "Can I use my cabin as soon as I board?" [ref=e510] [cursor=pointer]:
+                    - generic [ref=e511]: Can I use my cabin as soon as I board?
+                    - img [ref=e513]
+                - group [ref=e515]:
+                  - generic "Is the safety drill mandatory?" [ref=e516] [cursor=pointer]:
+                    - generic [ref=e517]: Is the safety drill mandatory?
+                    - img [ref=e519]
+            - generic [ref=e521]:
+              - generic [ref=e522]:
+                - heading "Games & Activities" [level=3] [ref=e523]
+                - button "Collapse Games & Activities section" [expanded] [ref=e524] [cursor=pointer]:
+                  - img
+              - generic [ref=e525]:
+                - group [ref=e526]:
+                  - generic "Where and when do I pick up my kit? What's in it?" [ref=e527] [cursor=pointer]:
+                    - generic [ref=e528]: Where and when do I pick up my kit? What's in it?
+                    - img [ref=e530]
+                - group [ref=e532]:
+                  - generic "Where do I find the event schedule and announcements?" [ref=e533] [cursor=pointer]:
+                    - generic [ref=e534]: Where do I find the event schedule and announcements?
+                    - img [ref=e536]
+                - group [ref=e538]:
+                  - generic "How do I confirm the room, the table hours and the Sunday return deadline?" [ref=e539] [cursor=pointer]:
+                    - generic [ref=e540]: How do I confirm the room, the table hours and the Sunday return deadline?
+                    - img [ref=e542]
+                - group [ref=e544]:
+                  - generic "How do I register my attendance on Guru and find games and game teachers?" [ref=e545] [cursor=pointer]:
+                    - generic [ref=e546]: How do I register my attendance on Guru and find games and game teachers?
+                    - img [ref=e548]
+                - group [ref=e550]:
+                  - generic "I can't use the app. Can I take part in the giveaways?" [ref=e551] [cursor=pointer]:
+                    - generic [ref=e552]: I can't use the app. Can I take part in the giveaways?
+                    - img [ref=e554]
+                - group [ref=e556]:
+                  - generic "Can I bring games and prototypes, favorite titles and share my collection?" [ref=e557] [cursor=pointer]:
+                    - generic [ref=e558]: Can I bring games and prototypes, favorite titles and share my collection?
+                    - img [ref=e560]
+                - group [ref=e562]:
+                  - generic "How do I check out games, and can I use them outside the room?" [ref=e563] [cursor=pointer]:
+                    - generic [ref=e564]: How do I check out games, and can I use them outside the room?
+                    - img [ref=e566]
+                - group [ref=e568]:
+                  - 'generic "I''ve booked and want to join a table: how do I find game teachers and activities?" [ref=e569] [cursor=pointer]':
+                    - generic [ref=e570]: "I've booked and want to join a table: how do I find game teachers and activities?"
+                    - img [ref=e572]
+            - generic [ref=e574]:
+              - generic [ref=e575]:
+                - heading "During the Cruise" [level=3] [ref=e576]
+                - button "Collapse During the Cruise section" [expanded] [ref=e577] [cursor=pointer]:
+                  - img
+              - generic [ref=e578]:
+                - group [ref=e579]:
+                  - generic "What should I wear? Do I need formal attire?" [ref=e580] [cursor=pointer]:
+                    - generic [ref=e581]: What should I wear? Do I need formal attire?
+                    - img [ref=e583]
+                - group [ref=e585]:
+                  - generic "How do I prepare for the themes and check party times and locations?" [ref=e586] [cursor=pointer]:
+                    - generic [ref=e587]: How do I prepare for the themes and check party times and locations?
+                    - img [ref=e589]
+                - group [ref=e591]:
+                  - generic "Where can I check meal times and alternatives to my dinner seating?" [ref=e592] [cursor=pointer]:
+                    - generic [ref=e593]: Where can I check meal times and alternatives to my dinner seating?
+                    - img [ref=e595]
+                - group [ref=e597]:
+                  - generic "How does my dinner seating work? What if I'm late?" [ref=e598] [cursor=pointer]:
+                    - generic [ref=e599]: How does my dinner seating work? What if I'm late?
+                    - img [ref=e601]
+                - group [ref=e603]:
+                  - generic "Can I have dinner with friends from other cabins?" [ref=e604] [cursor=pointer]:
+                    - generic [ref=e605]: Can I have dinner with friends from other cabins?
+                    - img [ref=e607]
+                - group [ref=e609]:
+                  - 'generic "I''ve already chosen a package: how do I check the cabin rules and the daily limit?" [ref=e610] [cursor=pointer]':
+                    - generic [ref=e611]: "I've already chosen a package: how do I check the cabin rules and the daily limit?"
+                    - img [ref=e613]
+                - group [ref=e615]:
+                  - generic "Is the minibar included in Premium Extra?" [ref=e616] [cursor=pointer]:
+                    - generic [ref=e617]: Is the minibar included in Premium Extra?
+                    - img [ref=e619]
+                - group [ref=e621]:
+                  - generic "How do I buy internet access? Can I transfer or share it? Will my phone work in Búzios?" [ref=e622] [cursor=pointer]:
+                    - generic [ref=e623]: How do I buy internet access? Can I transfer or share it? Will my phone work in Búzios?
+                    - img [ref=e625]
+                - group [ref=e627]:
+                  - generic "Can I use MSC for Me and the chat without an internet package?" [ref=e628] [cursor=pointer]:
+                    - generic [ref=e629]: Can I use MSC for Me and the chat without an internet package?
+                    - img [ref=e631]
+                - group [ref=e633]:
+                  - generic "How do I pay for onboard expenses? Are Wise/Nomad and installments accepted?" [ref=e634] [cursor=pointer]:
+                    - generic [ref=e635]: How do I pay for onboard expenses? Are Wise/Nomad and installments accepted?
+                    - img [ref=e637]
+                - group [ref=e639]:
+                  - generic "How do I check which specialty restaurants are operating and book them on this sailing?" [ref=e640] [cursor=pointer]:
+                    - generic [ref=e641]: How do I check which specialty restaurants are operating and book them on this sailing?
+                    - img [ref=e643]
+                - group [ref=e645]:
+                  - generic "What should I check in the insurance offer and policy?" [ref=e646] [cursor=pointer]:
+                    - generic [ref=e647]: What should I check in the insurance offer and policy?
+                    - img [ref=e649]
+                - group [ref=e651]:
+                  - generic "My medication needs refrigeration, or I need an accommodation. What should I do?" [ref=e652] [cursor=pointer]:
+                    - generic [ref=e653]: My medication needs refrigeration, or I need an accommodation. What should I do?
+                    - img [ref=e655]
+                - group [ref=e657]:
+                  - generic "How does the kids club work? Does the staff change diapers or provide meals?" [ref=e658] [cursor=pointer]:
+                    - generic [ref=e659]: How does the kids club work? Does the staff change diapers or provide meals?
+                    - img [ref=e661]
+                - group [ref=e663]:
+                  - generic "Are water, tea and coffee free? Will we have the Aqua system?" [ref=e664] [cursor=pointer]:
+                    - generic [ref=e665]: Are water, tea and coffee free? Will we have the Aqua system?
+                    - img [ref=e667]
+            - generic [ref=e669]:
+              - generic [ref=e670]:
+                - heading "Disembarkation" [level=3] [ref=e671]
+                - button "Collapse Disembarkation section" [expanded] [ref=e672] [cursor=pointer]:
+                  - img
+              - generic [ref=e673]:
+                - group [ref=e674]:
+                  - generic "How long can I stay in my cabin on Monday?" [ref=e675] [cursor=pointer]:
+                    - generic [ref=e676]: How long can I stay in my cabin on Monday?
+                    - img [ref=e678]
+                - group [ref=e680]:
+                  - generic "How do I organize my luggage for disembarkation?" [ref=e681] [cursor=pointer]:
+                    - generic [ref=e682]: How do I organize my luggage for disembarkation?
+                    - img [ref=e684]
+                - group [ref=e686]:
+                  - generic "Do all companions need to be in the group? Who should I contact?" [ref=e687] [cursor=pointer]:
+                    - generic [ref=e688]: Do all companions need to be in the group? Who should I contact?
+                    - img [ref=e690]
+    - region "Contact the team" [ref=e692]:
+      - generic [ref=e693]:
+        - generic [ref=e694]:
+          - generic [ref=e695]: Talk to our team
+          - heading "Contact the team" [level=2] [ref=e696]
+          - paragraph [ref=e697]: For games, welcome kits and activities, follow the official passenger group. For bookings, vouchers, cabin details and documentation, contact Royal Trip privately. For the charter bus, check with the transport operator.
+        - generic [ref=e698]:
+          - article [ref=e699]:
+            - heading "Official passenger group" [level=3] [ref=e700]
+            - paragraph [ref=e701]: "For travelers joining the cruise: KOB updates about activities, welcome kits, games and travel arrangements. Share the invitation with your companions."
+            - link "Join the official group" [ref=e702] [cursor=pointer]:
+              - /url: https://chat.whatsapp.com/EiYEGnOpJrPGyhDzdz9888?mode=gi_t
+          - article [ref=e703]:
+            - heading "Royal Trip (Agency)" [level=3] [ref=e704]
+            - paragraph [ref=e705]: Travel bookings, voucher issuance, passenger verification, beverage packages, travel insurance, and booking modifications.
+            - link "WhatsApp" [ref=e706] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?phone=5513981580498
+          - article [ref=e707]:
+            - heading "Bus Charter" [level=3] [ref=e708]
+            - paragraph [ref=e709]: Meeting times in Barra Funda, passenger lists, and road transportation guidelines.
+            - link "Charter bus page" [ref=e710] [cursor=pointer]:
+              - /url: https://busao.kriativosonboard.com.br/en/
+        - generic [ref=e711]:
+          - img [ref=e712]
+          - generic [ref=e717]:
+            - strong [ref=e718]: "Companions & Families:"
+            - text: Request the cabin lead or our team to add traveling companions to the official notice group so everyone stays informed.
+        - paragraph [ref=e719]:
+          - text: In WhatsApp groups, your phone number and profile may be visible to participants. Do not post documents, booking details or health information. Joining the group or contacting the team does not subscribe you to the newsletter.
+          - link "Privacy policy" [ref=e720] [cursor=pointer]:
+            - /url: https://kriativosonboard.com.br/en/politica-de-privacidade.html
+          - text: .
+        - paragraph [ref=e721]: For health or safety emergencies on board, contact reception or the MSC crew immediately.
+  - contentinfo "Guide Navigation" [ref=e722]:
+    - generic:
+      - img
+    - generic [ref=e723]:
+      - generic [ref=e724]:
+        - generic [ref=e725]:
+          - link "Kriativos On Board — Home" [ref=e726] [cursor=pointer]:
+            - /url: /en/
+            - img "Kriativos On Board" [ref=e727]
+          - paragraph [ref=e728]: Get ready to board with us
+          - generic [ref=e729]: Santos · Búzios · Nov 20–23, 2026
+        - navigation "Guide Navigation" [ref=e730]:
+          - heading "Guide Navigation" [level=3] [ref=e731]
+          - link "Back to home" [ref=e732] [cursor=pointer]:
+            - /url: /en/
+          - link "Boarding live stream" [ref=e733] [cursor=pointer]:
+            - /url: "#live"
+          - link "Preparation checklist" [ref=e734] [cursor=pointer]:
+            - /url: "#checklist"
+          - link "Trip schedule" [ref=e735] [cursor=pointer]:
+            - /url: "#cronograma"
+          - link "Board Game Library" [ref=e736] [cursor=pointer]:
+            - /url: "#jogos"
+          - link "MSC Rules" [ref=e737] [cursor=pointer]:
+            - /url: "#regras-msc"
+        - navigation "Support & Travel" [ref=e738]:
+          - heading "Support & Travel" [level=3] [ref=e739]
+          - link "Contact Royal Trip" [ref=e740] [cursor=pointer]:
+            - /url: https://api.whatsapp.com/send?phone=5513981580498
+          - link "Charter bus" [ref=e741] [cursor=pointer]:
+            - /url: https://busao.kriativosonboard.com.br/en/
+          - link "Transportation terms" [ref=e742] [cursor=pointer]:
+            - /url: /termos-de-transporte.html
+          - link "Frequently asked questions" [ref=e743] [cursor=pointer]:
+            - /url: "#duvidas"
+      - navigation "Nerd Kriativa social media" [ref=e744]:
+        - link "Instagram @kriativosonboard" [ref=e745] [cursor=pointer]:
+          - /url: https://www.instagram.com/kriativosonboard/
+          - img [ref=e749]
+          - generic [ref=e750]:
+            - strong [ref=e751]: Instagram
+            - generic [ref=e752]: "@kriativosonboard"
+          - img [ref=e753]
+        - link "Facebook @nerdkriativa" [ref=e755] [cursor=pointer]:
+          - /url: https://www.facebook.com/nerdkriativa
+          - img [ref=e759]
+          - generic [ref=e760]:
+            - strong [ref=e761]: Facebook
+            - generic [ref=e762]: "@nerdkriativa"
+          - img [ref=e763]
+        - link "YouTube @NerdKriativa" [ref=e765] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/NerdKriativa
+          - img [ref=e769]
+          - generic [ref=e770]:
+            - strong [ref=e771]: YouTube
+            - generic [ref=e772]: "@NerdKriativa"
+          - img [ref=e773]
+      - region "Who makes Kriativos On Board happen" [ref=e775]:
+        - generic [ref=e776]:
+          - heading "Who makes Kriativos On Board happen" [level=2] [ref=e777]
+          - button "Pause sponsor animation" [ref=e778] [cursor=pointer]:
+            - img [ref=e779]
+        - generic [ref=e782]:
+          - list [ref=e783]:
+            - listitem [ref=e784]:
+              - link "Jogue & Vista — Sponsor" [ref=e785] [cursor=pointer]:
+                - /url: https://www.jogueevista.com.br/
+                - img "Jogue & Vista" [ref=e786]
+            - listitem [ref=e787]:
+              - link "Royal Trip — Sponsor" [ref=e788] [cursor=pointer]:
+                - /url: https://royaltrip.com.br/
+                - img "Royal Trip" [ref=e789]
+            - listitem [ref=e790]:
+              - link "Never Land — Sponsor" [ref=e791] [cursor=pointer]:
+                - /url: https://www.instagram.com/neverlandtable/
+                - img "Never Land" [ref=e792]
+            - listitem [ref=e793]:
+              - link "Across The Board — Sponsor" [ref=e794] [cursor=pointer]:
+                - /url: https://www.acrosstheboard.com.br/
+                - img "Across The Board" [ref=e795]
+            - listitem [ref=e796]:
+              - link "Fácil Shopping — Sponsor" [ref=e797] [cursor=pointer]:
+                - /url: https://facilshopping.com.br/
+                - img "Fácil Shopping" [ref=e798]
+            - listitem [ref=e799]:
+              - link "Moedas & Co. — Sponsor" [ref=e800] [cursor=pointer]:
+                - /url: https://www.moedaseco.com.br
+                - img "Moedas & Co." [ref=e801]
+            - listitem [ref=e802]:
+              - link "Diversão Offline — Sponsor" [ref=e803] [cursor=pointer]:
+                - /url: https://diversaooffline.com.br/
+                - img "Diversão Offline" [ref=e804]
+            - listitem [ref=e805]:
+              - link "Mosaico Jogos — Sponsor" [ref=e806] [cursor=pointer]:
+                - /url: https://www.mosaicoloja.com.br/
+                - img "Mosaico Jogos" [ref=e807]
+          - list [ref=e808]:
+            - listitem [ref=e809]:
+              - link [ref=e810] [cursor=pointer]:
+                - /url: https://www.jogueevista.com.br/
+                - img [ref=e811]
+            - listitem [ref=e812]:
+              - link [ref=e813] [cursor=pointer]:
+                - /url: https://royaltrip.com.br/
+                - img [ref=e814]
+            - listitem [ref=e815]:
+              - link [ref=e816] [cursor=pointer]:
+                - /url: https://www.instagram.com/neverlandtable/
+                - img [ref=e817]
+            - listitem [ref=e818]:
+              - link [ref=e819] [cursor=pointer]:
+                - /url: https://www.acrosstheboard.com.br/
+                - img [ref=e820]
+            - listitem [ref=e821]:
+              - link [ref=e822] [cursor=pointer]:
+                - /url: https://facilshopping.com.br/
+                - img [ref=e823]
+            - listitem [ref=e824]:
+              - link [ref=e825] [cursor=pointer]:
+                - /url: https://www.moedaseco.com.br
+                - img [ref=e826]
+            - listitem [ref=e827]:
+              - link [ref=e828] [cursor=pointer]:
+                - /url: https://diversaooffline.com.br/
+                - img [ref=e829]
+            - listitem [ref=e830]:
+              - link [ref=e831] [cursor=pointer]:
+                - /url: https://www.mosaicoloja.com.br/
+                - img [ref=e832]
+      - generic [ref=e833]:
+        - generic [ref=e834]:
+          - generic [ref=e835]:
+            - link "Privacy policy" [ref=e836] [cursor=pointer]:
+              - /url: https://kriativosonboard.com.br/en/politica-de-privacidade.html
+            - link "Cookie policy" [ref=e837] [cursor=pointer]:
+              - /url: /politica-de-cookies.html
+            - link "Transportation terms" [ref=e838] [cursor=pointer]:
+              - /url: /termos-de-transporte.html
+            - button "Review cookie preferences" [ref=e839] [cursor=pointer]
+          - navigation "Select language" [ref=e841]:
+            - link "PT" [ref=e842] [cursor=pointer]:
+              - /url: /
+            - generic [ref=e843]: EN
+            - link "ES" [ref=e844] [cursor=pointer]:
+              - /url: /es/
+        - generic [ref=e845]:
+          - generic [ref=e846]:
+            - generic [ref=e847]: © 2026 Kriativos On Board. All rights reserved. · MSC Musica November 20–23, 2026.
+            - generic [ref=e848]: ·
+            - generic [ref=e849]: "Partner agency: Royal Trip · CNPJ 16.957.402/0001-19"
+          - generic [ref=e850]:
+            - text: Powered by
+            - link "ksio.dev" [ref=e851] [cursor=pointer]:
+              - /url: https://ksio.dev
+  - dialog "We use cookies":
+    - generic [ref=e853]:
+      - generic [ref=e854]:
+        - heading "We use cookies" [level=2] [ref=e855]
+        - paragraph [ref=e856]: We only use necessary cookies by default. You choose whether to permit navigation analytics.
+        - link "Read cookie policy" [ref=e857] [cursor=pointer]:
+          - /url: /politica-de-cookies.html
+      - generic "Cookie choices" [ref=e858]:
+        - button "Decline" [ref=e859] [cursor=pointer]
+        - button "Accept" [ref=e860] [cursor=pointer]

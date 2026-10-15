@@ -1,0 +1,171 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "ksio.dev, início" [ref=e5] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e6]: ksio.dev
+      - navigation "Navegação principal" [ref=e7]:
+        - link "Projetos" [ref=e8] [cursor=pointer]:
+          - /url: "#projetos"
+        - link "Vamos conversar" [ref=e9] [cursor=pointer]:
+          - /url: "#contato"
+          - text: Vamos conversar ↗
+  - main [ref=e10]:
+    - region "Tecnologia que faz o trabalho andar." [ref=e11]:
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: Tecnologia para negócios locais
+        - heading "Tecnologia que faz o trabalho andar." [level=1] [ref=e15]
+        - paragraph [ref=e16]: Sites, sistemas e automações feitos para resolver problemas reais — e deixar o dia a dia da sua empresa mais leve.
+        - generic [ref=e17]:
+          - link "Conte o que você precisa" [ref=e18] [cursor=pointer]:
+            - /url: mailto:contato@ksio.dev?subject=Vamos%20conversar%20sobre%20meu%20neg%C3%B3cio
+            - text: Conte o que você precisa
+            - img [ref=e19]
+          - link "Veja projetos realizados" [ref=e21] [cursor=pointer]:
+            - /url: "#projetos"
+      - generic [ref=e23]: Feito para negócios em movimento
+    - generic "O que fazemos" [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Estratégia digital
+        - generic [ref=e27]: Automação de processos
+    - region "O próximo passo começa pelo que está travando." [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: Soluções sob medida
+            - heading "O próximo passo começa pelo que está travando." [level=2] [ref=e33]
+          - paragraph [ref=e34]: Cada negócio tem um ritmo e um desafio próprio. A gente entende o cenário, encontra o caminho mais simples e constrói junto com você.
+        - generic [ref=e35]:
+          - article [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: 01 / PRESENÇA
+              - generic [ref=e39]: ↗
+            - heading "Um site que trabalha pelo seu negócio" [level=3] [ref=e40]
+            - paragraph [ref=e41]: Apresente seus serviços com clareza, passe confiança e transforme visitas em conversas com clientes.
+          - article [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]: 02 / OPERAÇÃO
+              - generic [ref=e45]: ↗
+            - heading "Menos tarefa repetida. Mais tempo." [level=3] [ref=e46]
+            - paragraph [ref=e47]: Automatize etapas manuais e conecte ferramentas para a rotina fluir com menos retrabalho.
+          - article [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: 03 / PRODUTO
+              - generic [ref=e51]: ↗
+            - heading "Uma ferramenta feita para o seu processo" [level=3] [ref=e52]
+            - paragraph [ref=e53]: Desenhe e construa sistemas, portais e experiências digitais que encaixam na necessidade real da equipe.
+    - region "Projetos que resolvem de ponta a ponta." [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "Projetos que resolvem de ponta a ponta." [level=2] [ref=e58]
+          - paragraph [ref=e59]: Do primeiro contato à operação diária, cada projeto combina as peças necessárias para o negócio funcionar melhor.
+        - article "Do produto técnico ao pedido de orçamento." [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: Uônix
+            - paragraph [ref=e63]:
+              - text: Site institucional B2B
+              - text: Soluções de ancoragem e segurança
+            - link "Visitar Uônix" [ref=e64] [cursor=pointer]:
+              - /url: https://uonix.com.br/
+              - text: Visitar Uônix
+              - img [ref=e65]
+          - generic [ref=e67]:
+            - heading "Do produto técnico ao pedido de orçamento." [level=3] [ref=e68]
+            - paragraph [ref=e69]: Uma presença digital para apresentar soluções de ancoragem, organizar informação técnica e ajudar o cliente a encontrar o que precisa para o seu projeto.
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - term [ref=e72]: Catálogo de soluções
+                - definition [ref=e73]: Produtos, aplicações e serviços organizados.
+              - generic [ref=e74]:
+                - term [ref=e75]: Informação técnica
+                - definition [ref=e76]: Conteúdo para apoiar a especificação.
+              - generic [ref=e77]:
+                - term [ref=e78]: Contato comercial
+                - definition [ref=e79]: Um caminho direto para solicitar orçamento.
+        - article "Quatro frentes digitais. Uma jornada conectada." [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]: KOB
+            - paragraph [ref=e83]:
+              - text: Kriativos Onboard
+              - text: Plataforma digital para uma jornada de viagem
+            - link "Conhecer Kriativos Onboard" [ref=e84] [cursor=pointer]:
+              - /url: https://kriativosonboard.com.br/
+              - text: Conhecer Kriativos Onboard
+              - img [ref=e85]
+          - generic [ref=e87]:
+            - heading "Quatro frentes digitais. Uma jornada conectada." [level=3] [ref=e88]
+            - paragraph [ref=e89]: Da descoberta do evento à organização da operação, um ecossistema com ferramentas para passageiros e equipe. Explore cada parte do projeto.
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - link "Site do evento Apresentação da experiência e informações para reservar." [ref=e92] [cursor=pointer]:
+                  - /url: https://kriativosonboard.com.br/
+                  - strong [ref=e93]: Site do evento
+                  - img [ref=e94]
+                  - generic [ref=e96]: Apresentação da experiência e informações para reservar.
+              - listitem [ref=e97]:
+                - link "Manual de bordo Orientações e informações para os passageiros." [ref=e98] [cursor=pointer]:
+                  - /url: https://manualdebordo.kriativosonboard.com.br/
+                  - strong [ref=e99]: Manual de bordo
+                  - img [ref=e100]
+                  - generic [ref=e102]: Orientações e informações para os passageiros.
+              - listitem [ref=e103]:
+                - link "Transporte Fluxo de reserva de traslado e pagamento via Pix." [ref=e104] [cursor=pointer]:
+                  - /url: https://busao.kriativosonboard.com.br/
+                  - strong [ref=e105]: Transporte
+                  - img [ref=e106]
+                  - generic [ref=e108]: Fluxo de reserva de traslado e pagamento via Pix.
+              - listitem [ref=e109]:
+                - link "Painel operacional Gestão de reservas e passageiros com acesso restrito." [ref=e110] [cursor=pointer]:
+                  - /url: https://painel.kriativosonboard.com.br/
+                  - strong [ref=e111]: Painel operacional
+                  - img [ref=e112]
+                  - generic [ref=e114]: Gestão de reservas e passageiros com acesso restrito.
+    - region "Clareza em cada etapa." [ref=e115]:
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - paragraph [ref=e118]: Um processo próximo
+          - heading "Clareza em cada etapa." [level=2] [ref=e119]
+          - paragraph [ref=e120]: Sem pacote fechado que não cabe no seu contexto. O trabalho se adapta ao desafio e às pessoas que vão usar a solução.
+        - generic [ref=e121]:
+          - article [ref=e122]:
+            - generic [ref=e123]: "01"
+            - generic [ref=e124]:
+              - heading "Entender" [level=3] [ref=e125]
+              - paragraph [ref=e126]: Conversamos sobre a rotina, os objetivos e o que está dando trabalho. Primeiro vem o problema, depois a tecnologia.
+          - article [ref=e127]:
+            - generic [ref=e128]: "02"
+            - generic [ref=e129]:
+              - heading "Desenhar o caminho" [level=3] [ref=e130]
+              - paragraph [ref=e131]: Definimos o que faz sentido construir agora, como medir se está funcionando e quais são os próximos passos.
+          - article [ref=e132]:
+            - generic [ref=e133]: "03"
+            - generic [ref=e134]:
+              - heading "Construir junto" [level=3] [ref=e135]
+              - paragraph [ref=e136]: Desenvolvemos, compartilhamos o progresso e ajustamos com quem conhece o negócio por dentro.
+          - article [ref=e137]:
+            - generic [ref=e138]: "04"
+            - generic [ref=e139]:
+              - heading "Colocar em movimento" [level=3] [ref=e140]
+              - paragraph [ref=e141]: Publicamos a solução, orientamos a equipe e seguimos disponíveis para a próxima melhoria.
+    - region "Vamos encontrar um jeito melhor." [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: Seu negócio tem um desafio?
+          - heading "Vamos encontrar um jeito melhor." [level=2] [ref=e146]
+          - paragraph [ref=e147]: Mande uma mensagem contando o que você precisa. A primeira conversa é para entender, sem compromisso.
+        - generic [ref=e148]:
+          - link "Escreva para a ksio.dev" [ref=e149] [cursor=pointer]:
+            - /url: mailto:contato@ksio.dev?subject=Vamos%20conversar%20sobre%20meu%20neg%C3%B3cio
+            - text: Escreva para a ksio.dev
+            - img [ref=e150]
+          - link "contato@ksio.dev" [ref=e152] [cursor=pointer]:
+            - /url: mailto:contato@ksio.dev
+  - contentinfo [ref=e153]:
+    - generic [ref=e154]:
+      - link "ksio.dev" [ref=e155] [cursor=pointer]:
+        - /url: "#inicio"
+      - paragraph [ref=e156]: Tecnologia sob medida para negócios reais. © 2026 ksio.dev
+      - link "Voltar ao topo ↑" [ref=e157] [cursor=pointer]:
+        - /url: "#inicio"

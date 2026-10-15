@@ -1,0 +1,919 @@
+- generic [active] [ref=e1]:
+  - status [ref=e2]
+  - link "Pular para o conteúdo" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Pesquise em todo site — Buscar no site" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - generic [ref=e11]: Pesquise em todo site
+      - group "Idioma / Language" [ref=e12]:
+        - link "PT":
+          - /url: /
+        - link "EN" [ref=e13] [cursor=pointer]:
+          - /url: /en/
+        - link "ES" [ref=e14] [cursor=pointer]:
+          - /url: /es/
+      - button "Abrir menu" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+  - generic [ref=e18]:
+    - generic [ref=e19]:
+      - generic:
+        - img
+        - generic: Kriativos On Board
+      - button [ref=e20] [cursor=pointer]:
+        - img [ref=e21]
+    - navigation [ref=e23]:
+      - link [ref=e24] [cursor=pointer]:
+        - /url: "#evento"
+        - text: O evento
+      - link [ref=e25] [cursor=pointer]:
+        - /url: "#navio"
+        - text: O navio
+      - link [ref=e26] [cursor=pointer]:
+        - /url: "#incluso"
+        - text: O que inclui
+      - link [ref=e27] [cursor=pointer]:
+        - /url: "#itinerario"
+        - text: Itinerário
+      - link [ref=e28] [cursor=pointer]:
+        - /url: "#valores"
+        - text: Valores
+      - link [ref=e29] [cursor=pointer]:
+        - /url: "#depoimentos"
+        - text: Depoimentos
+      - link [ref=e30] [cursor=pointer]:
+        - /url: "#hospedagem"
+        - text: Transporte e Hospedagem
+      - link [ref=e31] [cursor=pointer]:
+        - /url: "#faq"
+        - text: Dúvidas
+    - generic [ref=e32]:
+      - link [ref=e33] [cursor=pointer]:
+        - /url: https://manualdebordo.kriativosonboard.com.br/
+        - img [ref=e34]
+        - generic [ref=e36]:
+          - generic [ref=e37]: Já garantiu sua cabine?
+          - generic [ref=e38]:
+            - text: Confira o
+            - strong [ref=e39]: Manual de Bordo
+      - link [ref=e40] [cursor=pointer]:
+        - /url: /whatsapp.html?cta=drawer_reserve
+        - text: Garantir minha vaga
+  - main [ref=e41]:
+    - region "O maior cruzeiro de jogos de tabuleiro da América Latina" [ref=e42]:
+      - generic [ref=e47]:
+        - img "KOB 2026 — Kriativos On Board 4ª edição" [ref=e48]
+        - generic [ref=e49]:
+          - heading "O maior cruzeiro de jogos de tabuleiro da América Latina" [level=1] [ref=e50]
+          - paragraph [ref=e51]: Embarque no KOB 2026 para uma experiência completa de diversão em alto-mar a bordo do MSC Musica. Sorteios, torneios de board games, mesas de RPG, festas temáticas e a maior comunidade de jogadores reunida.
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - img [ref=e54]
+              - text: 20 a 23 de novembro de 2026
+            - generic [ref=e57]:
+              - img [ref=e58]
+              - text: MSC Musica
+            - generic [ref=e61]:
+              - img [ref=e62]
+              - text: Santos → Búzios
+          - generic [ref=e65]:
+            - link "Conhecer o navio" [ref=e66] [cursor=pointer]:
+              - /url: "#navio"
+            - link "Garantir minha vaga" [ref=e67] [cursor=pointer]:
+              - /url: /whatsapp.html?cta=hero_reserve
+      - generic [ref=e68]: EMBARQUE
+    - region "Venha Pelo HOBBY" [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e73]: Não deixe sua jogada para depois!
+        - generic [ref=e74]:
+          - heading "Venha Pelo HOBBY" [level=2] [ref=e75]:
+            - text: Venha Pelo
+            - generic [ref=e76]: HOBBY
+          - heading "Fique pelas AMIZADES" [level=2] [ref=e77]:
+            - text: Fique pelas
+            - generic [ref=e78]: AMIZADES
+          - paragraph [ref=e79]: O Kriativos On Board é o primeiro cruzeiro e o maior evento de board games em alto-mar da América Latina. Criado pela Nerd Kriativa, une a comunidade de jogos de tabuleiro modernos, RPG de mesa, criadores de conteúdo e editoras em uma viagem inesquecível de pura diversão, amizade e jogatina ao longo do evento a bordo do MSC Musica.
+          - timer "Faltam 35 dias, 19 horas e 58 minutos para o embarque. 90% do caminho percorrido." [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Contagem Regressiva
+              - generic [ref=e83]: Embarque · 20 nov 2026
+            - generic [ref=e84]:
+              - group "Tempo restante" [ref=e85]:
+                - generic [ref=e86]:
+                  - generic [ref=e87]: "35"
+                  - generic [ref=e88]: Dias
+                - generic [ref=e89]:
+                  - generic [ref=e90]: "19"
+                  - generic [ref=e91]: Horas
+                - generic [ref=e92]:
+                  - generic [ref=e93]: "58"
+                  - generic [ref=e94]: Min
+              - img [ref=e96]
+        - figure "Anfitriã do Kriativos On Board convidando a comunidade para embarcar." [ref=e106]:
+          - img "Anfitriã do Kriativos On Board com chapéu de capitã fazendo sinal de positivo" [ref=e107]
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+          - generic [ref=e108]: Anfitriã do Kriativos On Board convidando a comunidade para embarcar.
+      - list "Linha do tempo do Kriativos On Board" [ref=e110]:
+        - listitem [ref=e111]:
+          - text: "2023"
+          - generic [ref=e112]:
+            - strong [ref=e113]: Costa Firenze
+            - generic [ref=e114]: A primeira aventura, com centenas de jogadores e a presença do designer internacional Vital Lacerda.
+        - listitem [ref=e115]:
+          - text: "2024"
+          - generic [ref=e116]:
+            - strong [ref=e117]: Costa Favolosa
+            - generic [ref=e118]: Cresceu com RPG, pintura de miniaturas, festas temáticas e os designers David Turczi e Fel Barros.
+        - listitem [ref=e119]:
+          - text: "2025"
+          - generic [ref=e120]:
+            - strong [ref=e121]: Costa Diadema
+            - generic [ref=e122]: "Cinco dias de imersão total: mais atividades, mais integração, experiências ainda mais marcantes."
+        - listitem [ref=e123]:
+          - text: "2026"
+          - generic [ref=e124]:
+            - strong [ref=e125]: MSC Musica
+            - generic [ref=e126]: Agora, mais um capítulo dessa história. Seja Kriativo. Embarque nessa aventura.
+          - generic [ref=e127]: Próxima parada
+    - region "Embarque, Jogue e Conecte-se" [ref=e128]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - heading "Embarque, Jogue e Conecte-se" [level=2] [ref=e131]
+          - generic [ref=e132]: Sorteios, torneios de board games, ludoteca com mais de 350 títulos e monitores de regras!
+        - list "Cartas de experiência do Kriativos On Board" [ref=e135]:
+          - listitem [ref=e136]:
+            - img "Carta Comunidade - Encontro nacional de jogadores de board games e RPG" [ref=e137]
+          - listitem [ref=e138]:
+            - img "Carta Sorteio - Sorteios exclusivos de jogos de tabuleiro" [ref=e139]
+          - listitem [ref=e140]:
+            - img "Carta Diversão Garantida - Jogatina de board games em alto-mar com sala exclusiva 24h" [ref=e141]
+          - listitem [ref=e142]:
+            - img "Carta Jogos - Acervo com mais de 350 títulos de board games modernos" [ref=e143]
+          - listitem [ref=e144]:
+            - img "Carta Monitoria - Monitores para ensinar as regras dos board games" [ref=e145]
+        - 'group "Carta bônus: conheça também a estrutura do navio" [ref=e146]':
+          - generic [ref=e147]:
+            - link "Confira a estrutura do MSC Musica na próxima seção" [ref=e148] [cursor=pointer]:
+              - /url: "#navio"
+              - img "Carta bônus Super Trunfo MSC Cruzeiros com piscinas, shows, festas e alta gastronomia" [ref=e149]
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - generic [ref=e152]: ✦ Carta bônus · MSC Musica
+                - heading "Além da jogatina, uma viagem de férias completa em alto-mar." [level=3] [ref=e153]:
+                  - text: Além da jogatina,
+                  - generic [ref=e154]: uma viagem de férias completa em alto-mar.
+                - paragraph [ref=e155]: "A união perfeita entre um cruzeiro de luxo e o maior evento de board games em alto-mar da América Latina: piscinas, alta gastronomia, teatro e jogatina 24h."
+              - list "Experiências inclusas no MSC Musica" [ref=e156]:
+                - listitem [ref=e157]: ◆ Pensão completa
+                - listitem [ref=e158]: ◆ Piscinas e áreas de lazer
+                - listitem [ref=e159]: ◆ Espetáculos, teatro e festas
+                - listitem [ref=e160]: ◆ Recreação para toda a família
+                - listitem [ref=e161]: ◆ Academia e bem-estar
+              - paragraph [ref=e162]: E muito mais a bordo.
+            - generic [ref=e163]:
+              - paragraph [ref=e164]:
+                - generic [ref=e165]: Próxima parada
+                - strong [ref=e166]: MSC Musica
+              - link "Conheça a estrutura do MSC Musica na próxima seção" [ref=e167] [cursor=pointer]:
+                - /url: "#navio"
+                - generic [ref=e168]: Conheça o navio
+                - img [ref=e169]
+      - img
+    - region "Um navio de 16 andares para viver dias inesquecíveis" [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - paragraph [ref=e174]:
+            - generic [ref=e175]: MSC Musica
+            - generic [ref=e176]: •o mundo a bordo de um navio
+          - heading "Um navio de 16 andares para viver dias inesquecíveis" [level=2] [ref=e177]
+          - paragraph [ref=e178]: Durante o dia e a noite, o MSC Musica tem música ao vivo, espetáculos, bares e lounges, cassino, spa e uma área inteira dedicada às crianças. E, no meio de tudo isso, uma sala de jogos exclusiva para os Kriativos.
+        - region "Fotos do MSC Musica" [ref=e180]:
+          - generic [ref=e181]:
+            - tabpanel "Mostrar Piscina La Spiaggia, foto 1 de 5":
+              - img "Piscina La Spiaggia do MSC Musica"
+              - generic:
+                - generic: Piscina La Spiaggia
+                - generic: Sol e mergulho entre uma partida e outra
+          - generic:
+            - generic: MSC Musica
+            - generic:
+              - generic: "01"
+              - generic: /
+              - generic: "05"
+          - button "Foto anterior" [ref=e182] [cursor=pointer]:
+            - img [ref=e183]
+          - button "Próxima foto" [ref=e185] [cursor=pointer]:
+            - img [ref=e186]
+          - tablist "Selecionar foto" [ref=e188]:
+            - tab "Mostrar Piscina La Spiaggia, foto 1 de 5" [selected] [ref=e189] [cursor=pointer]:
+              - generic [ref=e190]: "01"
+            - tab "Mostrar Cassino Sanremo, foto 2 de 5" [ref=e191] [cursor=pointer]:
+              - generic [ref=e192]: "02"
+            - tab "Mostrar Espaço kids, foto 3 de 5" [ref=e193] [cursor=pointer]:
+              - generic [ref=e194]: "03"
+            - tab "Mostrar Teatro La Scala, foto 4 de 5" [ref=e195] [cursor=pointer]:
+              - generic [ref=e196]: "04"
+            - tab "Mostrar Piscina Copacabana, foto 5 de 5" [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]: "05"
+    - region "Tour em vídeo pelo MSC Musica" [ref=e199]:
+      - button "Assistir ao vídeo do tour a bordo" [ref=e201] [cursor=pointer]:
+        - img [ref=e203]
+      - button "Faça um tour virtual 360°" [ref=e204] [cursor=pointer]:
+        - img [ref=e205]
+        - generic [ref=e209]: Faça um tour virtual 360°
+      - generic [ref=e210]:
+        - generic [ref=e211]: Tour a bordo
+        - paragraph [ref=e212]: Conheça o MSC Musica por dentro
+    - region "Experiência completa" [ref=e213]:
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - heading "Experiência completa" [level=2] [ref=e216]
+          - paragraph [ref=e217]: Cabine, refeições e estrutura completa do MSC Musica já estão resolvidas. No KOB, você ainda conta com uma sala de jogos exclusiva para o grupo.
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - paragraph [ref=e221]: O que está incluído
+              - heading "Tudo isso embarca com você" [level=3] [ref=e222]
+              - list "Tudo isso embarca com você" [ref=e223]:
+                - listitem [ref=e224]:
+                  - generic [ref=e225]: "01"
+                  - generic [ref=e226]:
+                    - strong [ref=e227]: Sua cabine
+                    - generic [ref=e228]: na categoria escolhida
+                - listitem [ref=e229]:
+                  - generic [ref=e230]: "02"
+                  - generic [ref=e231]:
+                    - strong [ref=e232]: Pensão completa
+                    - generic [ref=e233]: café, almoço e jantar diários
+                - listitem [ref=e234]:
+                  - generic [ref=e235]: "03"
+                  - generic [ref=e236]:
+                    - strong [ref=e237]: Sala de jogos exclusiva
+                    - generic [ref=e238]: Espaço reservado aos Kriativos
+                - listitem [ref=e239]:
+                  - generic [ref=e240]: "04"
+                  - generic [ref=e241]:
+                    - strong [ref=e242]: Programação KOB
+                    - generic [ref=e243]: torneios, sorteios, RPG e festas
+                - listitem [ref=e244]:
+                  - generic [ref=e245]: "05"
+                  - generic [ref=e246]:
+                    - strong [ref=e247]: Estrutura do MSC Musica
+                    - generic [ref=e248]: shows, piscinas e academia
+                - listitem [ref=e249]:
+                  - generic [ref=e250]: "06"
+                  - generic [ref=e251]:
+                    - strong [ref=e252]: Recreação
+                    - generic [ref=e253]: para crianças e adolescentes
+            - complementary "Sala exclusiva" [ref=e254]:
+              - generic [ref=e255]:
+                - heading "Sala exclusiva" [level=3] [ref=e256]
+                - paragraph [ref=e257]: Kriativos a bordo
+              - paragraph [ref=e258]:
+                - strong [ref=e259]: O ponto de encontro dos Kriativos.
+                - generic [ref=e260]: Jogos, amizades e diversão a bordo.
+          - complementary "Planeje à parte" [ref=e261]:
+            - generic [ref=e262]:
+              - heading "Planeje à parte" [level=3] [ref=e263]
+              - paragraph [ref=e264]: Três pontos para organizar antes de embarcar.
+            - list [ref=e265]:
+              - listitem [ref=e266]:
+                - text: —
+                - generic [ref=e267]:
+                  - strong [ref=e268]: Chegada ao porto
+                  - generic [ref=e269]: passagens aéreas e traslados
+              - listitem [ref=e270]:
+                - text: —
+                - generic [ref=e271]:
+                  - strong [ref=e272]: Extras de viagem
+                  - generic [ref=e273]: bebidas, excursões e despesas de bordo
+              - listitem [ref=e274]:
+                - text: —
+                - generic [ref=e275]:
+                  - strong [ref=e276]: Proteção e serviços
+                  - generic [ref=e277]: seguro-viagem e serviços pessoais
+    - region "A rota está definida, uma experiência inesquecível" [ref=e278]:
+      - generic [ref=e279]:
+        - generic [ref=e280]:
+          - text: Santos → Búzios → Santos
+          - heading "A rota está definida, uma experiência inesquecível" [level=2] [ref=e281]
+        - generic [ref=e282]:
+          - 'figure "Mapa da rota do MSC Musica: Santos, alto-mar e Búzios" [ref=e283]':
+            - 'img "Mapa da rota do cruzeiro: saída de Santos-SP, navegação em alto-mar, parada em Búzios-RJ e retorno a Santos" [ref=e284]':
+              - generic [ref=e286]: SÃO PAULO
+              - generic [ref=e287]: RIO DE JANEIRO
+              - generic [ref=e290]:
+                - generic [ref=e294]: SANTOS · SP
+                - generic [ref=e295]: embarque & retorno
+              - generic [ref=e296]:
+                - generic [ref=e300]: BÚZIOS · RJ
+                - generic [ref=e301]: destino
+              - generic [ref=e302]: ALTO-MAR
+          - list [ref=e303]:
+            - listitem [ref=e304]:
+              - img [ref=e306]
+              - generic [ref=e308]:
+                - generic [ref=e309]: Sex · 20 nov
+                - heading "Embarque em Santos" [level=3] [ref=e310]
+                - paragraph [ref=e311]: Check-in liberado das 9h às 15h no Porto de Santos. Largue as malas, encontre a tribo e abra o primeiro deck em alto-mar.
+            - listitem [ref=e312]:
+              - img [ref=e314]
+              - generic [ref=e316]:
+                - generic [ref=e317]: Sáb · 21 nov
+                - heading "Dia inteiro de navegação" [level=3] [ref=e318]
+                - paragraph [ref=e319]: Mar aberto, sala exclusiva para os Kriativos, torneios, RPG e festas temáticas. Um dia inteiro para viver a programação e aproveitar o navio.
+            - listitem [ref=e320]:
+              - img [ref=e322]
+              - generic [ref=e325]:
+                - generic [ref=e326]: Dom · 22 nov
+                - heading "Búzios · RJ" [level=3] [ref=e327]
+                - paragraph [ref=e328]: "Chegada à península mais charmosa do litoral fluminense: praias, ruas de pedra e sol antes de voltar às mesas."
+            - listitem [ref=e329]:
+              - img [ref=e331]
+              - generic [ref=e333]:
+                - generic [ref=e334]: Seg · 23 nov
+                - heading "Retorno a Santos" [level=3] [ref=e335]
+                - paragraph [ref=e336]: Desembarque a partir das 7h. Última jogatina na mala de mão e a certeza de já querer embarcar de novo no ano seguinte.
+        - paragraph [ref=e337]:
+          - text: Rota do MSC Musica · 20 a 23 de novembro de 2026.
+          - text: "*Itinerário sujeito a alterações conforme a operação da MSC."
+    - region "Escolha sua cabine e embarque" [ref=e338]:
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - text: 2º lote · valores por pessoa
+          - heading "Escolha sua cabine e embarque" [level=2] [ref=e341]
+          - paragraph [ref=e342]: Entrada de R$ 200,00 + 12x no cartão ou boleto, sem juros.
+        - tablist "Tipos de valores" [ref=e343]:
+          - tab "Cabines" [selected] [ref=e344] [cursor=pointer]
+          - tab "Pacotes de bebidas" [ref=e345] [cursor=pointer]
+        - tabpanel "Cabines" [ref=e346]:
+          - generic [ref=e347]:
+            - generic [ref=e348]:
+              - article [ref=e349]:
+                - generic [ref=e350]:
+                  - generic [ref=e351]: Cabine interna
+                  - generic [ref=e352]: A opção mais econômica
+                - generic [ref=e353]:
+                  - generic [ref=e354]: a partir de
+                  - generic [ref=e355]:
+                    - generic [ref=e356]: 12x R$
+                    - generic [ref=e357]: 229,00
+                    - generic [ref=e358]: /pessoa
+                  - generic [ref=e359]: Entrada de R$ 200,00
+                  - list [ref=e361]:
+                    - listitem [ref=e362]:
+                      - generic [ref=e363]: Cabine dupla
+                      - generic [ref=e364]: Esgotado
+                    - listitem [ref=e365]:
+                      - generic [ref=e366]: Cabine tripla
+                      - generic [ref=e367]: Esgotado
+                    - listitem [ref=e368]:
+                      - generic [ref=e369]: Cabine quádrupla
+                      - generic [ref=e370]: Esgotado
+                  - button "Ver detalhes" [ref=e371] [cursor=pointer]
+                  - link "Reservar agora" [disabled]:
+                    - /url: /whatsapp.html?cta=cabin_internal_reserve&item=cabin_internal
+              - article [ref=e372]:
+                - generic [ref=e373]:
+                  - generic [ref=e374]: Cabine janela
+                  - generic [ref=e375]: Luz natural a bordo
+                - generic [ref=e376]:
+                  - generic [ref=e377]: a partir de
+                  - generic [ref=e378]:
+                    - generic [ref=e379]: 12x R$
+                    - generic [ref=e380]: 242,00
+                    - generic [ref=e381]: /pessoa
+                  - generic [ref=e382]: Entrada de R$ 200,00
+                  - list [ref=e384]:
+                    - listitem [ref=e385]:
+                      - generic [ref=e386]: Cabine dupla
+                      - generic [ref=e387]: Esgotado
+                    - listitem [ref=e388]:
+                      - generic [ref=e389]: Cabine tripla
+                      - generic [ref=e390]: Esgotado
+                    - listitem [ref=e391]:
+                      - generic [ref=e392]: Cabine quádrupla
+                      - generic [ref=e393]: Esgotado
+                  - button "Ver detalhes" [ref=e394] [cursor=pointer]
+                  - link "Reservar agora" [disabled]:
+                    - /url: /whatsapp.html?cta=cabin_ocean_view_reserve&item=cabin_ocean_view
+              - article [ref=e395]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Cabine varanda
+                  - generic [ref=e398]: Sua sacada para o mar
+                - generic [ref=e399]:
+                  - generic [ref=e400]: a partir de
+                  - generic [ref=e401]:
+                    - generic [ref=e402]: 12x R$
+                    - generic [ref=e403]: 297,00
+                    - generic [ref=e404]: /pessoa
+                  - generic [ref=e405]: Entrada de R$ 200,00
+                  - list [ref=e407]:
+                    - listitem [ref=e408]:
+                      - generic [ref=e409]: Cabine dupla
+                      - generic [ref=e410]: Esgotado
+                    - listitem [ref=e411]:
+                      - generic [ref=e412]: Cabine tripla
+                      - generic [ref=e413]: Esgotado
+                    - listitem [ref=e414]:
+                      - generic [ref=e415]: Cabine quádrupla
+                      - generic [ref=e416]: Esgotado
+                  - button "Ver detalhes" [ref=e417] [cursor=pointer]
+                  - link "Reservar agora" [disabled]:
+                    - /url: /whatsapp.html?cta=cabin_balcony_reserve&item=cabin_balcony
+            - generic:
+              - generic:
+                - generic: ESGOTADO
+          - status [ref=e418]:
+            - generic [ref=e419]:
+              - img [ref=e421]
+              - paragraph [ref=e423]:
+                - text: Disponibilidade de vagas e valores a consultar diretamente com a agência parceira
+                - link "Royal Trip" [ref=e424] [cursor=pointer]:
+                  - /url: https://api.whatsapp.com/send?phone=5513981580498&text=Ol%C3%A1%2C%20Royal%20Trip%21%20Gostaria%20de%20consultar%20a%20disponibilidade%20de%20vagas%20e%20valores%20para%20as%20cabines%20do%20Kriativos%20On%20Board%202026.
+                - text: .
+            - link "Consultar no WhatsApp" [ref=e425] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?phone=5513981580498&text=Ol%C3%A1%2C%20Royal%20Trip%21%20Gostaria%20de%20consultar%20a%20disponibilidade%20de%20vagas%20e%20valores%20para%20as%20cabines%20do%20Kriativos%20On%20Board%202026.
+              - img [ref=e426]
+              - generic [ref=e427]: Consultar no WhatsApp
+          - paragraph [ref=e428]: "*Valores por pessoa, sujeitos a alteração sem aviso prévio. Para crianças, consulte a organização."
+          - generic [ref=e429]:
+            - generic [ref=e430]: Seguro viagem
+            - generic [ref=e431]:
+              - text: 12x de
+              - strong [ref=e432]: R$ 9,33
+              - text: por pessoa.
+            - button "Ver cobertura" [ref=e433] [cursor=pointer]
+    - region "Melhores momentos do KOB 2025" [ref=e434]:
+      - generic [ref=e435]:
+        - generic [ref=e436]:
+          - paragraph [ref=e437]:
+            - generic [ref=e438]: Edição 2025
+            - generic [ref=e439]: ·Costa Diadema
+          - heading "Melhores momentos do KOB 2025" [level=2] [ref=e440]:
+            - text: Melhores momentos do
+            - generic [ref=e441]: KOB 2025
+          - paragraph [ref=e442]: Encontros, mesas e histórias que transformaram cinco dias a bordo em memórias para o ano inteiro.
+        - button "Assistir aos primeiros 4 minutos e 1 segundo do filme do KOB 2025" [ref=e443] [cursor=pointer]:
+          - generic [ref=e444]:
+            - img [ref=e446]
+            - generic [ref=e448]:
+              - generic [ref=e449]: 00:00
+              - generic [ref=e450]: 04:01
+          - generic [ref=e451]:
+            - generic [ref=e452]: Registros inesquecíveis
+            - strong [ref=e453]: A edição que virou filme
+            - generic [ref=e454]: Jogos, emoção e um pedido que marcou a viagem.
+            - generic [ref=e455]:
+              - text: Assista o vídeo
+              - img [ref=e456]
+        - region "Galeria da edição 2025" [ref=e458]:
+          - link "Abrir foto 15 de 51 da edição 2025" [ref=e459]:
+            - /url: assets/images/gallery/2025/kob-2025-0352.webp
+            - img "Registro 15 da edição 2025 do Kriativos On Board" [ref=e460]
+          - link "Abrir foto 19 de 51 da edição 2025" [ref=e461]:
+            - /url: assets/images/gallery/2025/kob-2025-0376.webp
+            - img "Registro 19 da edição 2025 do Kriativos On Board" [ref=e462]
+          - link "Abrir foto 20 de 51 da edição 2025" [ref=e463]:
+            - /url: assets/images/gallery/2025/kob-2025-0330.webp
+            - img "Registro 20 da edição 2025 do Kriativos On Board" [ref=e464]
+          - link "Abrir foto 24 de 51 da edição 2025" [ref=e465]:
+            - /url: assets/images/gallery/2025/kob-2025-0283.webp
+            - img "Registro 24 da edição 2025 do Kriativos On Board" [ref=e466]
+          - link "Abrir foto 26 de 51 da edição 2025" [ref=e467]:
+            - /url: assets/images/gallery/2025/kob-2025-0288.webp
+            - img "Registro 26 da edição 2025 do Kriativos On Board" [ref=e468]
+          - link "Abrir foto 27 de 51 da edição 2025" [ref=e469]:
+            - /url: assets/images/gallery/2025/kob-2025-0256.webp
+            - img "Registro 27 da edição 2025 do Kriativos On Board" [ref=e470]
+          - link "Abrir foto 28 de 51 da edição 2025" [ref=e471]:
+            - /url: assets/images/gallery/2025/kob-2025-0753.webp
+            - img "Registro 28 da edição 2025 do Kriativos On Board" [ref=e472]
+          - link "Abrir foto 47 de 51 da edição 2025" [ref=e473]:
+            - /url: assets/images/gallery/2025/kob-2025-0292.webp
+            - img "Registro 47 da edição 2025 do Kriativos On Board" [ref=e474]
+        - button "Ver Mais" [ref=e475] [cursor=pointer]:
+          - generic [ref=e476]: +
+          - generic [ref=e477]: Ver Mais
+        - paragraph [ref=e478]
+    - region "Quem embarca uma vez, volta no ano seguinte" [ref=e479]:
+      - text: “
+      - img
+      - generic [ref=e480]:
+        - generic [ref=e481]:
+          - heading "Quem embarca uma vez, volta no ano seguinte" [level=2] [ref=e482]
+          - paragraph [ref=e484]: Designers internacionais, criadores de conteúdo e jogadores contam por que o Kriativos On Board permanece muito depois do desembarque.
+        - region "Depoimentos de participantes do Kriativos On Board" [ref=e485]:
+          - blockquote [ref=e486]:
+            - text: “
+            - generic [ref=e487]: ★ Designer internacional
+            - paragraph [ref=e488]: “Foi uma experiência única. O calor dos Kriativos on Board, os amigos que fiz, a alegria de fazer um cruzeiro onde podemos jogar, conviver e conhecer muita gente boa é inesquecível, e sem dúvida a não perder.”
+            - generic [ref=e489]:
+              - text: Vital Lacerda
+              - generic [ref=e490]: "@vitallacerda"
+          - blockquote [ref=e491]:
+            - text: “
+            - generic [ref=e492]: ★ Designer internacional
+            - paragraph [ref=e493]: “Epitome of friendliness and fun, wrapped in an awesome boat! 🙂 Game on!!!”
+            - button "Traduzir depoimento para português" [ref=e494] [cursor=pointer]:
+              - img [ref=e495]
+              - generic [ref=e499]: Traduzir
+            - generic [ref=e500]:
+              - text: David Turczi
+              - generic [ref=e501]: "@david_turczi"
+          - blockquote [ref=e502]:
+            - text: “
+            - paragraph [ref=e503]: “Nós adoramos o evento! O Kriativos On Board chegou de forma inovadora e kriativa! É muito legal você estar em um cruzeiro, com tudo o que ele oferece e ainda poder ter a opção com diversos jogos de tabuleiro à disposição! Inclusive com lançamentos! E o melhor, com uma monitoria especializada! Tudo estava super bem organizado, com diversos sorteios e gente bacana! Vale muito a pena conhecer e ter essa experiência incrível!”
+            - generic [ref=e504]:
+              - text: Eric e Isa
+              - generic [ref=e505]: "@turnobgames"
+          - blockquote [ref=e506]:
+            - text: “
+            - paragraph [ref=e507]: “É muito bom estar em um lugar onde todos são do hobby. Conhecemos pessoas, jogamos, comemos bem e tudo isso viajando para um lugar maravilhoso! Percebemos o carinho de todos que realizaram o Kriativos on Board 2023 e já estamos com as malas prontas para o próximo!”
+            - generic [ref=e508]:
+              - text: Thais e Luis
+              - generic [ref=e509]: "@viajanerd_"
+          - blockquote [ref=e510]:
+            - text: “
+            - paragraph [ref=e511]: “Estar nesse evento foi um sonho, estar em uma viagem incrível, com ótima comida à vontade, shows, piscina e muito mais, com pessoas que compartilham o mesmo hobby que você, e poder jogar vários tipos de jogos diferentes 24 horas por dia, foi mágico, surreal de bom! Foram dias incríveis onde fiz muitos amigos novos.”
+            - generic [ref=e512]:
+              - text: Day e Fran
+              - generic [ref=e513]: "@qeojogo"
+          - text: “ “ “
+        - button "Ver mais" [ref=e514] [cursor=pointer]:
+          - generic [ref=e515]: +
+          - generic [ref=e516]: Ver mais
+        - paragraph [ref=e517]
+    - region "Evite imprevistos no dia do embarque" [ref=e518]:
+      - img:
+        - generic:
+          - generic: "31"
+          - generic: "19"
+          - generic: "15"
+          - generic: "24"
+      - generic:
+        - img:
+          - generic: "N"
+      - generic:
+        - generic: 23°58′S
+        - generic: 46°18′W
+      - generic [ref=e519]:
+        - generic [ref=e520]:
+          - paragraph [ref=e521]: Já garantiu sua cabine?
+          - heading "Evite imprevistos no dia do embarque" [level=2] [ref=e522]:
+            - text: Evite imprevistos
+            - generic [ref=e523]: no dia do embarque
+          - paragraph [ref=e524]: Planeje onde ficar, como chegar e embarque sem preocupações.
+        - group "Opções para chegar ao Porto de Santos" [ref=e525]:
+          - article "Busão Kriativo" [ref=e526]:
+            - figure [ref=e527]:
+              - img "Ônibus oficial dos Kriativos On Board com passageiros a caminho do Porto de Santos" [ref=e528]
+            - generic [ref=e529]:
+              - heading "Busão Kriativo" [level=3] [ref=e530]
+              - paragraph [ref=e531]: Fretado oficial dos Kriativos!
+              - paragraph [ref=e532]: Saia de São Paulo com a turma e chegue ao Porto de Santos sem preocupação.
+              - generic [ref=e533]:
+                - generic [ref=e534]:
+                  - generic [ref=e536]: "1º Ônibus:"
+                  - generic [ref=e537]:
+                    - text: saída às
+                    - strong [ref=e538]: 06h30
+                  - generic [ref=e539]: (Lotado)
+                - generic [ref=e540]:
+                  - generic [ref=e542]: "2º Ônibus:"
+                  - generic [ref=e543]:
+                    - text: saída às
+                    - strong [ref=e544]: 07h20
+                  - generic [ref=e545]: (Vagas abertas!)
+            - 'generic "Rota de ida e volta do ônibus fretado: São Paulo e Porto de Santos" [ref=e546]':
+              - generic [ref=e547]:
+                - img [ref=e548]
+                - text: Ida e volta
+              - generic [ref=e550]:
+                - generic [ref=e551]: Embarque
+                - text: São Paulo
+              - generic [ref=e552]:
+                - generic:
+                  - img
+              - generic [ref=e554]:
+                - generic [ref=e555]: Destino
+                - text: Porto de Santos
+            - link "Veja os detalhes e reserve!" [ref=e556] [cursor=pointer]:
+              - /url: https://busao.kriativosonboard.com.br/
+              - generic [ref=e557]: Veja os detalhes e reserve!
+              - img [ref=e558]
+          - article [ref=e560]:
+            - generic [ref=e561]:
+              - paragraph [ref=e562]: Cerca de 15 min do porto
+              - heading "ibis Santos Gonzaga" [level=3] [ref=e563]
+              - paragraph [ref=e564]: Uma chegada tranquila, de frente para o mar, para começar a manhã já perto do embarque.
+              - link "Ver hospedagem" [ref=e565] [cursor=pointer]:
+                - /url: https://all.accor.com/booking/pt-br/accor/hotel/5530?destination=santos-state-of-sao-paulo-brazil&compositions=1&dateIn=2026-11-19&dateOut=2026-11-20&nights=1&hideWDR=false&accessibleRoom=false
+                - text: Ver hospedagem
+                - generic [ref=e566]: ↗
+          - article [ref=e567]:
+            - generic [ref=e568]:
+              - paragraph [ref=e569]: Cerca de 17 min do porto
+              - heading "Novotel Santos" [level=3] [ref=e570]
+              - paragraph [ref=e571]: Ao lado do Shopping Pátio Iporanga, na Av. Dona Ana Costa, com acesso rápido ao terminal.
+              - link "Ver hospedagem" [ref=e572] [cursor=pointer]:
+                - /url: https://all.accor.com/booking/pt-br/novotel/hotel/8649?destination=santos-state-of-sao-paulo-brazil&compositions=1&dateIn=2026-11-19&dateOut=2026-11-20&nights=1&hideWDR=false&accessibleRoom=false
+                - text: Ver hospedagem
+                - generic [ref=e573]: ↗
+          - article [ref=e574]:
+            - generic [ref=e575]:
+              - paragraph [ref=e576]: Reserve com antecedência
+              - heading "Estacionamento Concais" [level=3] [ref=e577]
+              - paragraph [ref=e578]: Deixe o carro no terminal e siga direto para o despacho das malas, sem improviso no cais.
+              - link "Ver estacionamento" [ref=e579] [cursor=pointer]:
+                - /url: https://www.concais.com.br/
+                - text: Ver estacionamento
+                - generic [ref=e580]: ↗
+          - 'group "Destino: Terminal de Passageiros do Porto de Santos" [ref=e581]':
+            - img [ref=e583]
+            - generic [ref=e587]:
+              - generic [ref=e588]: "Próxima parada: MSC Musica"
+              - generic [ref=e589]: Porto de Santos
+              - generic [ref=e590]: Av. Conselheiro Rodrigues Alves, s/n
+              - button "Ver mapa" [ref=e591] [cursor=pointer]:
+                - text: Ver mapa
+                - img [ref=e592]
+    - region "Seu manual de bordo." [ref=e595]:
+      - generic [ref=e596]:
+        - generic [ref=e598]:
+          - paragraph [ref=e599]: Dúvidas Frequentes
+          - heading "Seu manual de bordo." [level=2] [ref=e600]:
+            - text: Seu manual
+            - generic [ref=e601]: de bordo.
+          - paragraph [ref=e602]: Encontre respostas sobre documentos, jogos, refeições e regras. Depois, siga para a próxima jogada.
+        - generic [ref=e603]:
+          - generic [ref=e604]:
+            - generic [ref=e605]:
+              - generic [ref=e606]: O que você precisa saber?
+              - generic [ref=e607]:
+                - img [ref=e608]
+                - searchbox "O que você precisa saber?" [ref=e611]
+              - generic [ref=e612]: 34 respostas organizadas por tema
+            - navigation "Categorias do FAQ" [ref=e613]:
+              - generic [ref=e614]: Roteiro de consulta
+              - link "Embarque & documentos 10" [ref=e617] [cursor=pointer]:
+                - /url: "#faq-embarque"
+                - text: Embarque & documentos
+                - generic [ref=e618]: "10"
+              - link "A bordo & os jogos 9" [ref=e619] [cursor=pointer]:
+                - /url: "#faq-bordo"
+                - text: A bordo & os jogos
+                - generic [ref=e620]: "9"
+              - link "Comida, bebida & cabine 10" [ref=e621] [cursor=pointer]:
+                - /url: "#faq-comida"
+                - text: Comida, bebida & cabine
+                - generic [ref=e622]: "10"
+              - link "Seguro, saúde & regras 5" [ref=e623] [cursor=pointer]:
+                - /url: "#faq-regras"
+                - text: Seguro, saúde & regras
+                - generic [ref=e624]: "5"
+          - generic [ref=e625]:
+            - generic [ref=e626]:
+              - heading "Embarque, check-in e documentos" [level=3] [ref=e628]
+              - generic [ref=e629]:
+                - group [ref=e630]:
+                  - generic "Qual dia e horário do embarque?" [ref=e631] [cursor=pointer]
+                - group [ref=e632]:
+                  - generic "O que preciso ter no momento do embarque?" [ref=e633] [cursor=pointer]
+                - group [ref=e634]:
+                  - generic "Quando posso realizar o check-in?" [ref=e635] [cursor=pointer]
+                - group [ref=e636]:
+                  - generic "Preciso estar vacinado para embarcar?" [ref=e637] [cursor=pointer]
+                - group [ref=e638]:
+                  - generic "Como embarcar as malas e em que horário?" [ref=e639] [cursor=pointer]
+                - group [ref=e640]:
+                  - generic "Existe traslado até o porto?" [ref=e641] [cursor=pointer]
+                - group [ref=e642]:
+                  - generic "Como faço com o estacionamento?" [ref=e643] [cursor=pointer]
+                - group [ref=e644]:
+                  - generic "Quem é a agência Royal Trip?" [ref=e645] [cursor=pointer]
+                - group [ref=e646]:
+                  - generic "Qual será a rota do MSC Musica?" [ref=e647] [cursor=pointer]
+                - group [ref=e648]:
+                  - generic "Grávidas ou bebês podem embarcar no cruzeiro?" [ref=e649] [cursor=pointer]
+            - generic [ref=e650]:
+              - heading "A bordo e os jogos" [level=3] [ref=e652]
+              - generic [ref=e653]:
+                - group [ref=e654]:
+                  - generic "Teremos sala para jogar?" [ref=e655] [cursor=pointer]
+                - group [ref=e656]:
+                  - generic "Quais jogos estarão disponíveis?" [ref=e657] [cursor=pointer]
+                - group [ref=e658]:
+                  - generic "Como funciona o aplicativo dos jogos e como participar dos sorteios?" [ref=e659] [cursor=pointer]
+                - group [ref=e660]:
+                  - generic "Posso levar meus jogos e protótipos?" [ref=e661] [cursor=pointer]
+                - group [ref=e662]:
+                  - generic "Posso levar jogos para outras áreas do navio?" [ref=e663] [cursor=pointer]
+                - group [ref=e664]:
+                  - generic "Até que horas a sala de jogos fica disponível?" [ref=e665] [cursor=pointer]
+                - group [ref=e666]:
+                  - generic "Como funciona o Wi-Fi e como nos comunicamos a bordo?" [ref=e667] [cursor=pointer]
+                - group [ref=e668]:
+                  - generic "O treinamento de segurança é obrigatório?" [ref=e669] [cursor=pointer]
+                - group [ref=e670]:
+                  - generic "Qual a diferença do cruzeiro de board games para outros eventos?" [ref=e671] [cursor=pointer]
+            - generic [ref=e672]:
+              - heading "Comida, bebida e cabine" [level=3] [ref=e674]
+              - generic [ref=e675]:
+                - group [ref=e676]:
+                  - generic "O que está incluso na minha reserva?" [ref=e677] [cursor=pointer]
+                - group [ref=e678]:
+                  - generic "Tenho comida à vontade no navio?" [ref=e679] [cursor=pointer]
+                - group [ref=e680]:
+                  - generic "Como funciona o jantar no navio?" [ref=e681] [cursor=pointer]
+                - group [ref=e682]:
+                  - generic "Posso sentar na mesma mesa de jantar com amigos de outras cabines?" [ref=e683] [cursor=pointer]
+                - group [ref=e684]:
+                  - generic "Sou obrigado a comprar pacote de bebidas?" [ref=e685] [cursor=pointer]
+                - group [ref=e686]:
+                  - generic "Quais são os tipos de pacote de bebidas para adultos?" [ref=e687] [cursor=pointer]
+                - group [ref=e688]:
+                  - generic "Tenho frigobar na cabine com o pacote Premium?" [ref=e689] [cursor=pointer]
+                - group [ref=e690]:
+                  - generic "O que a cabine oferece e o que preciso levar na mala?" [ref=e691] [cursor=pointer]
+                - group [ref=e692]:
+                  - generic "Preciso ir de roupa de gala para o jantar?" [ref=e693] [cursor=pointer]
+                - group [ref=e694]:
+                  - generic "Como pago os gastos a bordo? Posso usar dólar?" [ref=e695] [cursor=pointer]
+            - generic [ref=e696]:
+              - heading "Seguro, saúde e regras" [level=3] [ref=e698]
+              - generic [ref=e699]:
+                - group [ref=e700]:
+                  - generic "É obrigatório fechar seguro viagem?" [ref=e701] [cursor=pointer]
+                - group [ref=e702]:
+                  - generic "Existe recreação infantil ou clubinho para crianças no navio?" [ref=e703] [cursor=pointer]
+                - group [ref=e704]:
+                  - generic "Uso remédio que precisa de refrigeração, como faço?" [ref=e705] [cursor=pointer]
+                - group [ref=e706]:
+                  - generic "O que não posso embarcar?" [ref=e707] [cursor=pointer]
+                - group [ref=e708]:
+                  - generic "Qual festa teremos no navio?" [ref=e709] [cursor=pointer]
+        - paragraph [ref=e710]:
+          - text: Continua com dúvidas?
+          - link "Fale com um agente da Royal Trip no WhatsApp." [ref=e711] [cursor=pointer]:
+            - /url: /whatsapp.html?cta=faq_support
+    - region "Quem faz o Kriativos On Board acontecer" [ref=e712]:
+      - generic [ref=e713]:
+        - heading "Quem faz o Kriativos On Board acontecer" [level=2] [ref=e715]
+        - generic [ref=e716]:
+          - generic [ref=e717]:
+            - generic [ref=e719]: Patrocinadores
+            - generic [ref=e720]:
+              - link "Diversão Offline - Patrocinador" [ref=e721] [cursor=pointer]:
+                - /url: https://diversaooffline.com.br/
+                - img "Diversão Offline"
+              - link "Jogue & Vista - Patrocinador" [ref=e722] [cursor=pointer]:
+                - /url: https://www.jogueevista.com.br/
+                - img "Jogue & Vista"
+              - link "Mosaico Jogos - Patrocinador" [ref=e723] [cursor=pointer]:
+                - /url: https://www.mosaicoloja.com.br/
+                - img "Mosaico Jogos"
+              - link "Royal Trip - Patrocinador" [ref=e724] [cursor=pointer]:
+                - /url: https://royaltrip.com.br/
+                - img "Royal Trip"
+              - link "Moedas & Co. - Patrocinador" [ref=e725] [cursor=pointer]:
+                - /url: https://www.moedaseco.com.br
+                - img "Moedas & Co."
+              - link "Never Land - Patrocinador" [ref=e726] [cursor=pointer]:
+                - /url: https://www.instagram.com/neverlandtable/
+                - img "Never Land"
+              - link "Across The Board - Patrocinador" [ref=e727] [cursor=pointer]:
+                - /url: https://www.acrosstheboard.com.br/
+                - img "Across The Board"
+          - generic [ref=e728]:
+            - generic [ref=e730]: Loja Oficial
+            - link "Fácil Shopping - Loja Oficial" [ref=e732] [cursor=pointer]:
+              - /url: https://facilshopping.com.br/
+              - img "Fácil Shopping"
+          - generic [ref=e733]:
+            - generic [ref=e735]: Parceiros
+            - generic [ref=e736]:
+              - link "Encounter - Parceiro" [ref=e737] [cursor=pointer]:
+                - /url: https://encounter.com.br/
+                - img "Encounter"
+              - link "Board Game Guru - Parceiro" [ref=e738] [cursor=pointer]:
+                - /url: https://boardgameguru.app/
+                - img "Board Game Guru"
+          - generic [ref=e739]:
+            - generic [ref=e741]: Apoio
+            - generic [ref=e742]:
+              - link "Ludopedia - Apoio" [ref=e743] [cursor=pointer]:
+                - /url: https://ludopedia.com.br/
+                - img "Ludopedia"
+              - link "Board Game Barueri - Apoio" [ref=e744] [cursor=pointer]:
+                - /url: https://www.instagram.com/bgbarueri/
+                - img "Board Game Barueri"
+              - link "Board Games Zona Oeste - Apoio" [ref=e745] [cursor=pointer]:
+                - /url: https://www.instagram.com/bgzosp/
+                - img "Board Games Zona Oeste"
+              - link "Board Games São Paulo - Apoio" [ref=e746] [cursor=pointer]:
+                - /url: https://boardgamessp.com.br/
+                - img "Board Games São Paulo"
+              - link "Acessórios BG - Apoio" [ref=e747] [cursor=pointer]:
+                - /url: https://www.acessoriosbg.com.br/
+                - img "Acessórios BG"
+    - region "Sua próxima jogada começa aqui" [ref=e748]:
+      - generic [ref=e749]: Sua vez
+      - generic [ref=e750]:
+        - generic [ref=e751]:
+          - text: 2º lote · vagas limitadas
+          - heading "Sua próxima jogada começa aqui" [level=2] [ref=e752]
+          - paragraph [ref=e753]: Escolha sua cabine antes do 2º lote fechar. A Royal Trip cuida dos detalhes para você viver o Kriativos On Board 2026.
+        - generic [ref=e754]:
+          - list "Como reservar" [ref=e755]:
+            - listitem [ref=e756]: Cabine
+            - listitem [ref=e757]: Royal Trip
+            - listitem [ref=e758]: Embarque
+          - link "Falar no WhatsApp" [ref=e759] [cursor=pointer]:
+            - /url: /whatsapp.html?cta=final_reserve
+            - img [ref=e760]
+            - generic [ref=e761]: Falar no WhatsApp
+            - generic [ref=e762]: →
+          - paragraph [ref=e763]: Atendimento da agência parceira Royal Trip
+  - contentinfo "Primeiro cruzeiro de board games do Brasil" [ref=e764]:
+    - generic:
+      - img
+    - generic [ref=e765]:
+      - region "Primeiro cruzeiro de board games do Brasil" [ref=e766]:
+        - generic [ref=e767]:
+          - heading "Primeiro cruzeiro de board games do Brasil" [level=2] [ref=e768]:
+            - text: Primeiro cruzeiro de
+            - generic [ref=e769]: board games
+            - text: do Brasil
+          - paragraph [ref=e770]: Fique por dentro das novidades, anúncios e surpresas. Siga nossas redes sociais.
+        - navigation "Redes sociais da Nerd Kriativa" [ref=e771]:
+          - link "Instagram @kriativosonboard" [ref=e772] [cursor=pointer]:
+            - /url: https://www.instagram.com/kriativosonboard/
+            - img [ref=e776]
+            - generic [ref=e777]:
+              - strong [ref=e778]: Instagram
+              - generic [ref=e779]: "@kriativosonboard"
+            - img [ref=e780]
+          - link "Facebook @nerdkriativa" [ref=e782] [cursor=pointer]:
+            - /url: https://www.facebook.com/nerdkriativa
+            - img [ref=e786]
+            - generic [ref=e787]:
+              - strong [ref=e788]: Facebook
+              - generic [ref=e789]: "@nerdkriativa"
+            - img [ref=e790]
+          - link "YouTube @NerdKriativa" [ref=e792] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/NerdKriativa
+            - img [ref=e796]
+            - generic [ref=e797]:
+              - strong [ref=e798]: YouTube
+              - generic [ref=e799]: "@NerdKriativa"
+            - img [ref=e800]
+      - generic [ref=e802]:
+        - generic [ref=e803]:
+          - link "Voltar ao início" [ref=e804] [cursor=pointer]:
+            - /url: "#top"
+            - img "Kriativos On Board" [ref=e805]
+          - paragraph [ref=e806]: Sua próxima grande jogada começa aqui
+          - generic [ref=e807]: Santos · Búzios · 20–23 nov 2026
+        - navigation "Planeje sua viagem" [ref=e808]:
+          - heading "Planeje sua viagem" [level=3] [ref=e809]
+          - link "Manual de Bordo" [ref=e810] [cursor=pointer]:
+            - /url: https://manualdebordo.kriativosonboard.com.br/
+          - link "WhatsApp Royal Trip" [ref=e811] [cursor=pointer]:
+            - /url: /whatsapp.html?cta=footer_support
+          - link "Ônibus fretado" [ref=e812] [cursor=pointer]:
+            - /url: https://busao.kriativosonboard.com.br/
+          - link "Ver valores" [ref=e813] [cursor=pointer]:
+            - /url: "#valores"
+          - link "Itinerário" [ref=e814] [cursor=pointer]:
+            - /url: "#itinerario"
+        - navigation "Explore o KOB" [ref=e815]:
+          - heading "Explore o KOB" [level=3] [ref=e816]
+          - link "MSC Musica" [ref=e817] [cursor=pointer]:
+            - /url: "#navio"
+          - link "Dúvidas frequentes" [ref=e818] [cursor=pointer]:
+            - /url: "#faq"
+          - link "Histórias de quem já foi" [ref=e819] [cursor=pointer]:
+            - /url: "#depoimentos"
+      - generic [ref=e820]:
+        - generic [ref=e821]:
+          - generic [ref=e822]:
+            - link "Política de privacidade" [ref=e823] [cursor=pointer]:
+              - /url: /politica-de-privacidade.html
+            - link "Política de cookies" [ref=e824] [cursor=pointer]:
+              - /url: /politica-de-cookies.html
+            - button "Revisar preferências de cookies" [ref=e825] [cursor=pointer]
+          - generic [ref=e826]:
+            - text: Powered by
+            - link "ksio.dev" [ref=e827] [cursor=pointer]:
+              - /url: https://ksio.dev
+        - generic [ref=e828]:
+          - generic [ref=e829]: © 2026 Kriativos On Board. Todos os direitos reservados.
+          - generic [ref=e830]: ·
+          - generic [ref=e831]: "Agência parceira: Royal Trip · CNPJ 16.957.402/0001-19"

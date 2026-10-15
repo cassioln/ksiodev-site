@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - banner "Developer Profession L1 evidence" [ref=e2]:
+    - generic:
+      - navigation "Skip to main content":
+        - link "Skip to main content" [ref=e3] [cursor=pointer]:
+          - /url: "#main-content"
+          - generic [ref=e4]: Skip to main content
+      - 'link "IBM Cassio Lima: Developer Profession L1 evidence" [ref=e6] [cursor=pointer]':
+        - /url: "#"
+        - generic [ref=e7]: IBM
+        - generic [ref=e8]:
+          - generic: "Cassio Lima: Developer Profession L1 evidence"
+      - navigation "Sections":
+        - list [ref=e10]:
+          - generic:
+            - 'listitem "Project 1: S4F Modernization" [ref=e11]':
+              - 'button "Project 1: S4F Modernization" [expanded] [ref=e12] [cursor=pointer]':
+                - generic [ref=e13]: "Project 1: S4F Modernization"
+                - img [ref=e15]
+              - list [ref=e17]:
+                - generic:
+                  - button "Agile & Design Thinking Practices" [ref=e18]:
+                    - link "Agile & Design Thinking Practices" [ref=e19] [cursor=pointer]:
+                      - /url: "#p1-agile"
+                      - generic [ref=e20]:
+                        - generic: Agile & Design Thinking Practices
+                  - button "Communication" [ref=e21]:
+                    - link "Communication" [ref=e22] [cursor=pointer]:
+                      - /url: "#p1-communication"
+                      - generic [ref=e23]:
+                        - generic: Communication
+                  - button "Intellectual Capital/Innovation" [ref=e24]:
+                    - link "Intellectual Capital/Innovation" [ref=e25] [cursor=pointer]:
+                      - /url: "#p1-innovation"
+                      - generic [ref=e26]:
+                        - generic: Intellectual Capital/Innovation
+                  - button "Technical Leadership" [ref=e27]:
+                    - link "Technical Leadership" [ref=e28] [cursor=pointer]:
+                      - /url: "#p1-technical-leadership"
+                      - generic [ref=e29]:
+                        - generic: Technical Leadership
+                  - button "Abstractions, Data Structures & Algorithms" [ref=e30]:
+                    - link "Abstractions, Data Structures & Algorithms" [ref=e31] [cursor=pointer]:
+                      - /url: "#p1-abstractions"
+                      - generic [ref=e32]:
+                        - generic: Abstractions, Data Structures & Algorithms
+            - listitem "Common sections" [ref=e33]:
+              - button "Common sections" [expanded] [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: Common sections
+                - img [ref=e37]
+              - list [ref=e39]:
+                - generic:
+                  - button "Responsibility to Others" [ref=e40]:
+                    - link "Responsibility to Others" [ref=e41] [cursor=pointer]:
+                      - /url: "#responsibility-to-others"
+                      - generic [ref=e42]:
+                        - generic: Responsibility to Others
+                  - button "Innovation" [ref=e43]:
+                    - link "Innovation" [ref=e44] [cursor=pointer]:
+                      - /url: "#innovation"
+                      - generic [ref=e45]:
+                        - generic: Innovation
+                  - button "Eminence & Engagement" [ref=e46]:
+                    - link "Eminence & Engagement" [ref=e47] [cursor=pointer]:
+                      - /url: "#eminence"
+                      - generic [ref=e48]:
+                        - generic: Eminence & Engagement
+                  - button "Awards, Recognition and Honours" [ref=e49]:
+                    - link "Awards, Recognition and Honours" [ref=e50] [cursor=pointer]:
+                      - /url: "#awards"
+                      - generic [ref=e51]:
+                        - generic: Awards, Recognition and Honours
+  - main [ref=e52]:
+    - 'heading "Cassio Lima: Developer Profession L1 evidence" [level=1] [ref=e53]'
+    - paragraph [ref=e54]: Screenshots referenced in my IBM Developer Profession Level 1 application, grouped by skill. The code repositories are private, so these images show what the links point to. Names of other people, photos and client data are blurred.
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - 'heading "Project 1: S4F Modernization" [level=2] [ref=e57]'
+        - region "Agile & Design Thinking Practices" [ref=e58]:
+          - heading "Agile & Design Thinking Practices" [level=3] [ref=e59]
+          - paragraph [ref=e60]: Planning on the CIO Proxxi Plan roadmap, and features that came from talking with users.
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - generic:
+                - 'button "Enlarge: CIO Proxxi Plan roadmap in Jira" [ref=e63]':
+                  - img "Jira roadmap of the CIO Proxxi Plan, filtered to my S4F front-end items, with target dates and status" [ref=e64]
+                - heading "CIO Proxxi Plan roadmap in Jira" [level=4] [ref=e65]
+                - paragraph [ref=e66]: My S4F front-end items on the program roadmap, with target dates and status, from April to June 2025.
+                - list [ref=e67]:
+                  - listitem [ref=e68]:
+                    - link "Migration plan summary (Box)" [ref=e69] [cursor=pointer]:
+                      - /url: https://ibm.box.com/s/0pejh76uadcau0bzyfv61by8rql0y737
+                      - generic: Migration plan summary (Box)
+            - generic [ref=e70]:
+              - generic:
+                - 'button "Enlarge: User feedback on Quick Access" [ref=e71]':
+                  - img "Slack message from an S4F user about the Quick Access menu, with two screenshots of the new home page and side menu" [ref=e72]
+                - heading "User feedback on Quick Access" [level=4] [ref=e73]
+                - paragraph [ref=e74]: A user wrote that Quick Access "greatly helped with agility in using S4F" (translated from Portuguese). The name and photo are blurred.
+                - list [ref=e75]:
+                  - listitem [ref=e76]:
+                    - link "Quick Access pull request" [ref=e77] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/353
+                      - generic: Quick Access pull request
+        - region "Communication" [ref=e78]:
+          - heading "Communication" [level=3] [ref=e79]
+          - paragraph [ref=e80]: I asked users to try new screens and came back with fixes.
+          - generic [ref=e82]:
+            - generic:
+              - 'button "Enlarge: User feedback on editing tickets" [ref=e83]':
+                - img "Slack message in the S4F test channel from a user about how fast it became to change a ticket" [ref=e84]
+              - heading "User feedback on editing tickets" [level=4] [ref=e85]
+              - paragraph [ref=e86]: Three days after release, a user wrote about a "significant improvement in the simple action of editing a ticket" (translated from Portuguese). The name and photo are blurred.
+        - region "Intellectual Capital/Innovation" [ref=e87]:
+          - heading "Intellectual Capital/Innovation" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Quick Access puts the pages each user opens most on the home page.
+          - generic [ref=e91]:
+            - generic:
+              - 'button "Enlarge: User feedback on Quick Access" [ref=e92]':
+                - img "Slack message from an S4F user about the Quick Access menu, with two screenshots of the new home page and side menu" [ref=e93]
+              - heading "User feedback on Quick Access" [level=4] [ref=e94]
+              - paragraph [ref=e95]: A user wrote that Quick Access "greatly helped with agility in using S4F" (translated from Portuguese). The name and photo are blurred.
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "Quick Access pull request" [ref=e98] [cursor=pointer]:
+                    - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/353
+                    - generic: Quick Access pull request
+        - region "Technical Leadership" [ref=e99]:
+          - heading "Technical Leadership" [level=3] [ref=e100]
+          - paragraph [ref=e101]: The API refactor was my own decision, and I proposed ActionsTable as the team standard.
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic:
+                - 'button "Enlarge: API layer before and after (1 of 2)" [ref=e104]':
+                  - img "Side-by-side code. Left, the old api.js repeats a catch and a status check in every function. Right, the new api.js uses one axios interceptor that builds an errorPayload" [ref=e105]
+                - heading "API layer before and after (1 of 2)" [level=4] [ref=e106]
+                - paragraph [ref=e107]: "Left: every API function had its own catch and status check. Right: one interceptor handles cancelled requests and redirects, and builds one errorPayload with the page, the request and the response."
+                - list [ref=e108]:
+                  - listitem [ref=e109]:
+                    - link "Interceptor commit" [ref=e110] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/commit/020a7bcef112273c26a9e89269306f5cecbc7b4d
+                      - generic: Interceptor commit
+                  - listitem [ref=e111]:
+                    - 'link "Pull request #338" [ref=e112] [cursor=pointer]':
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/338
+                      - generic: "Pull request #338"
+            - generic [ref=e113]:
+              - generic:
+                - 'button "Enlarge: ActionsTable proposal to the team" [ref=e114]':
+                  - img "Team channel post where I show ActionsTable with custom action buttons and suggest using it instead of DefaultTable" [ref=e115]
+                - heading "ActionsTable proposal to the team" [level=4] [ref=e116]
+                - paragraph [ref=e117]: I showed how to pass custom buttons to ActionsTable and suggested we use it instead of the older DefaultTable, migrating screens as we touch them. Other names, photos and table data are blurred.
+                - list [ref=e118]:
+                  - listitem [ref=e119]:
+                    - link "ActionsTable code" [ref=e120] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/blob/05071e935a4ed95ba8b5771be0126076db5daaba/src/components/Table/ActionsTable.jsx#L73-L101
+                      - generic: ActionsTable code
+            - generic [ref=e121]:
+              - generic:
+                - 'button "Enlarge: Reusable label printing modal" [ref=e122]':
+                  - img "Team channel post announcing a label printing modal for boxes and serials, with a usage example and replies from teammates" [ref=e123]
+                - heading "Reusable label printing modal" [level=4] [ref=e124]
+                - paragraph [ref=e125]: I shared the component with a usage example so other pages could reuse it. A teammate replied "Cassio é o orgulho desse time" ("Cassio is the pride of this team"), and the squad leader added "muito bom, Cássio!" ("very good, Cássio!"). Other names, photos and box data are blurred.
+        - region "Abstractions, Data Structures & Algorithms" [ref=e126]:
+          - heading "Abstractions, Data Structures & Algorithms" [level=3] [ref=e127]
+          - paragraph [ref=e128]: One interceptor in place of the error handling that every API function repeated.
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - generic:
+                - 'button "Enlarge: API layer before and after (1 of 2)" [ref=e131]':
+                  - img "Side-by-side code. Left, the old api.js repeats a catch and a status check in every function. Right, the new api.js uses one axios interceptor that builds an errorPayload" [ref=e132]
+                - heading "API layer before and after (1 of 2)" [level=4] [ref=e133]
+                - paragraph [ref=e134]: "Left: every API function had its own catch and status check. Right: one interceptor handles cancelled requests and redirects, and builds one errorPayload with the page, the request and the response."
+                - list [ref=e135]:
+                  - listitem [ref=e136]:
+                    - link "Interceptor commit" [ref=e137] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/commit/020a7bcef112273c26a9e89269306f5cecbc7b4d
+                      - generic: Interceptor commit
+                  - listitem [ref=e138]:
+                    - 'link "Pull request #338" [ref=e139] [cursor=pointer]':
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/338
+                      - generic: "Pull request #338"
+            - generic [ref=e140]:
+              - generic:
+                - 'button "Enlarge: API layer before and after (2 of 2)" [ref=e141]':
+                  - img "Side-by-side code. Right, the interceptor logs the errorPayload and can report it to IBM Instana, and each request function is a single call" [ref=e142]
+                - heading "API layer before and after (2 of 2)" [level=4] [ref=e143]
+                - paragraph [ref=e144]: The interceptor logs the errorPayload and is ready to report it to IBM Instana. Each request function is now a single call.
+                - list [ref=e145]:
+                  - listitem [ref=e146]:
+                    - link "api.js today" [ref=e147] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/blob/05071e935a4ed95ba8b5771be0126076db5daaba/src/services/api.js#L25-L77
+                      - generic: api.js today
+      - generic [ref=e148]:
+        - heading "Common sections" [level=2] [ref=e149]
+        - region "Responsibility to Others" [ref=e150]:
+          - heading "Responsibility to Others" [level=3] [ref=e151]
+          - paragraph [ref=e152]: Guidance to a teammate and reusable pieces I shared in the team channel.
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic:
+                - 'button "Enlarge: Carbon color palette tip" [ref=e155]':
+                  - img "Direct message where I ask a teammate to note in his document that his status colors follow the Carbon color palette" [ref=e156]
+                - heading "Carbon color palette tip" [level=4] [ref=e157]
+                - paragraph [ref=e158]: I pointed Thiago Peixoto to the Carbon status palette for the status colors in his work. Photos are blurred.
+                - list [ref=e159]:
+                  - listitem [ref=e160]:
+                    - link "An issue we worked on together" [ref=e161] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Core/issues/1851
+                      - generic: An issue we worked on together
+            - generic [ref=e162]:
+              - generic:
+                - 'button "Enlarge: Reusable label printing modal" [ref=e163]':
+                  - img "Team channel post announcing a label printing modal for boxes and serials, with a usage example and replies from teammates" [ref=e164]
+                - heading "Reusable label printing modal" [level=4] [ref=e165]
+                - paragraph [ref=e166]: I shared the component with a usage example so other pages could reuse it. A teammate replied "Cassio é o orgulho desse time" ("Cassio is the pride of this team"), and the squad leader added "muito bom, Cássio!" ("very good, Cássio!"). Other names, photos and box data are blurred.
+            - generic [ref=e167]:
+              - generic:
+                - 'button "Enlarge: Carbon Grid spacing tip" [ref=e168]':
+                  - img "Team channel post showing a form before and after adding a row gap to a Carbon Grid" [ref=e169]
+                - heading "Carbon Grid spacing tip" [level=4] [ref=e170]
+                - paragraph [ref=e171]: I shared a fix for fields that sat too close together inside Carbon grids, with the form before and after. Other names and photos are blurred.
+            - generic [ref=e172]:
+              - generic:
+                - 'button "Enlarge: Multi-branch selector component" [ref=e173]':
+                  - img "Team channel post announcing a component to select many branches at once, shown on the batch orders page" [ref=e174]
+                - heading "Multi-branch selector component" [level=4] [ref=e175]
+                - paragraph [ref=e176]: I announced a reusable component to select many branches at once, first used on the batch orders page.
+                - list [ref=e177]:
+                  - listitem [ref=e178]:
+                    - link "Batch orders pull request" [ref=e179] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/317
+                      - generic: Batch orders pull request
+            - generic [ref=e180]:
+              - generic:
+                - 'button "Enlarge: ActionsTable proposal to the team" [ref=e181]':
+                  - img "Team channel post where I show ActionsTable with custom action buttons and suggest using it instead of DefaultTable" [ref=e182]
+                - heading "ActionsTable proposal to the team" [level=4] [ref=e183]
+                - paragraph [ref=e184]: I showed how to pass custom buttons to ActionsTable and suggested we use it instead of the older DefaultTable, migrating screens as we touch them. Other names, photos and table data are blurred.
+                - list [ref=e185]:
+                  - listitem [ref=e186]:
+                    - link "ActionsTable code" [ref=e187] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/blob/05071e935a4ed95ba8b5771be0126076db5daaba/src/components/Table/ActionsTable.jsx#L73-L101
+                      - generic: ActionsTable code
+        - region "Innovation" [ref=e188]:
+          - heading "Innovation" [level=3] [ref=e189]
+          - paragraph [ref=e190]: The same ticket in the legacy S4F and in the new one, and what a user said about Quick Access.
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - generic:
+                - 'button "Enlarge: Ticket screen in the legacy S4F" [ref=e193]':
+                  - img "Legacy Classic ASP ticket screen with dense tables. All data is blurred" [ref=e194]
+                - heading "Ticket screen in the legacy S4F" [level=4] [ref=e195]
+                - paragraph [ref=e196]: The legacy Classic ASP page. Client data is blurred, so only the layout shows.
+            - generic [ref=e197]:
+              - generic:
+                - 'button "Enlarge: Ticket screen in the new S4F" [ref=e198]':
+                  - img "New React and Carbon ticket screen with a status timeline and grouped cards. All data is blurred" [ref=e199]
+                - heading "Ticket screen in the new S4F" [level=4] [ref=e200]
+                - paragraph [ref=e201]: The same ticket in the new React and Carbon front-end, where I worked on the ticket detail page. Client data is blurred, so only the layout shows.
+                - list [ref=e202]:
+                  - listitem [ref=e203]:
+                    - 'link "Ticket page request fix (pull request #338)" [ref=e204] [cursor=pointer]':
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/338
+                      - generic: "Ticket page request fix (pull request #338)"
+            - generic [ref=e205]:
+              - generic:
+                - 'button "Enlarge: User feedback on Quick Access" [ref=e206]':
+                  - img "Slack message from an S4F user about the Quick Access menu, with two screenshots of the new home page and side menu" [ref=e207]
+                - heading "User feedback on Quick Access" [level=4] [ref=e208]
+                - paragraph [ref=e209]: A user wrote that Quick Access "greatly helped with agility in using S4F" (translated from Portuguese). The name and photo are blurred.
+                - list [ref=e210]:
+                  - listitem [ref=e211]:
+                    - link "Quick Access pull request" [ref=e212] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/353
+                      - generic: Quick Access pull request
+        - region "Eminence & Engagement" [ref=e213]:
+          - heading "Eminence & Engagement" [level=3] [ref=e214]
+          - paragraph [ref=e215]: Feedback from S4F users in the channels where I followed up on new screens.
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - generic:
+                - 'button "Enlarge: User feedback on editing tickets" [ref=e218]':
+                  - img "Slack message in the S4F test channel from a user about how fast it became to change a ticket" [ref=e219]
+                - heading "User feedback on editing tickets" [level=4] [ref=e220]
+                - paragraph [ref=e221]: Three days after release, a user wrote about a "significant improvement in the simple action of editing a ticket" (translated from Portuguese). The name and photo are blurred.
+            - generic [ref=e222]:
+              - generic:
+                - 'button "Enlarge: User feedback on Quick Access" [ref=e223]':
+                  - img "Slack message from an S4F user about the Quick Access menu, with two screenshots of the new home page and side menu" [ref=e224]
+                - heading "User feedback on Quick Access" [level=4] [ref=e225]
+                - paragraph [ref=e226]: A user wrote that Quick Access "greatly helped with agility in using S4F" (translated from Portuguese). The name and photo are blurred.
+                - list [ref=e227]:
+                  - listitem [ref=e228]:
+                    - link "Quick Access pull request" [ref=e229] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Frontend/pull/353
+                      - generic: Quick Access pull request
+        - region "Awards, Recognition and Honours" [ref=e230]:
+          - heading "Awards, Recognition and Honours" [level=3] [ref=e231]
+          - paragraph [ref=e232]: A peer nomination and a reply from the team channel.
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - generic:
+                - 'button "Enlarge: IBM Means Service Award nomination (2025)" [ref=e235]':
+                  - img "IBM Means Service Award nomination page with the nominee, the nominator and the nomination text" [ref=e236]
+                - heading "IBM Means Service Award nomination (2025)" [level=4] [ref=e237]
+                - paragraph [ref=e238]: Wellington Silva nominated me in IBM's peer recognition program. It was a nomination, not an award. Emails, employee IDs and photos are blurred.
+                - list [ref=e239]:
+                  - listitem [ref=e240]:
+                    - link "KM simulator issue we built together" [ref=e241] [cursor=pointer]:
+                      - /url: https://github.ibm.com/S4F/S4F-Core/issues/1378
+                      - generic: KM simulator issue we built together
+            - generic [ref=e242]:
+              - generic:
+                - 'button "Enlarge: Reusable label printing modal" [ref=e243]':
+                  - img "Team channel post announcing a label printing modal for boxes and serials, with a usage example and replies from teammates" [ref=e244]
+                - heading "Reusable label printing modal" [level=4] [ref=e245]
+                - paragraph [ref=e246]: I shared the component with a usage example so other pages could reuse it. A teammate replied "Cassio é o orgulho desse time" ("Cassio is the pride of this team"), and the squad leader added "muito bom, Cássio!" ("very good, Cássio!"). Other names, photos and box data are blurred.
+  - generic "Enlarged evidence" [ref=e247]:
+    - dialog "Enlarged evidence" [ref=e248]:
+      - generic:
+        - generic "Close" [ref=e251]:
+          - generic [ref=e253]:
+            - button "Close" [ref=e254] [cursor=pointer]:
+              - img [ref=e255]
+            - generic:
+              - tooltip
+        - generic [ref=e257]:
+          - generic:
+            - paragraph

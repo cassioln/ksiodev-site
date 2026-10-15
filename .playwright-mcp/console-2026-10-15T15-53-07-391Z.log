@@ -1,0 +1,2 @@
+[    1246ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://painel.kriativosonboard.com.br/:0
+[    1952ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://painel.kriativosonboard.com.br/assets/images/brand/favicon.png:0

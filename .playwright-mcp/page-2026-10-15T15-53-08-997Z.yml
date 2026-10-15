@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Kriativos On Board" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - img "Kriativos On Board" [ref=e4]
+    - generic [ref=e5]:
+      - heading "Painel de gestão · Reservas" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Transporte fretado · Kriativos On Board 2026
+    - button "Sair" [ref=e9] [cursor=pointer]
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - heading "Acesso Restrito" [level=2] [ref=e13]
+      - paragraph [ref=e14]: Insira a chave de acesso para visualizar o painel de reservas.
+      - generic [ref=e15]:
+        - generic [ref=e16]: Chave de acesso
+        - textbox "Chave de acesso" [ref=e17]
+      - button "Entrar no painel" [ref=e18] [cursor=pointer]
+  - contentinfo [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Kriativos On Board" [ref=e22] [cursor=pointer]:
+          - /url: index.html
+          - img "Kriativos On Board" [ref=e23]
+        - paragraph [ref=e24]: Prepare-se para embarcar com a gente.
+      - navigation "Links rápidos" [ref=e25]:
+        - link "Página do Ônibus" [ref=e26] [cursor=pointer]:
+          - /url: https://busao.kriativosonboard.com.br/
+        - link "Termos do Transporte" [ref=e27] [cursor=pointer]:
+          - /url: termos-de-transporte.html
+        - link "Política de Privacidade" [ref=e28] [cursor=pointer]:
+          - /url: politica-de-privacidade.html
+    - generic [ref=e29]:
+      - text: Powered by
+      - link "ksio.dev" [ref=e30] [cursor=pointer]:
+        - /url: https://ksio.dev

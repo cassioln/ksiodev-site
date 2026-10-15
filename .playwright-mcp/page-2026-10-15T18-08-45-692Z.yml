@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "ksio.dev, início" [ref=e5] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e6]: ksio.dev
+      - navigation "Navegação principal" [ref=e7]:
+        - link "Soluções" [ref=e8] [cursor=pointer]:
+          - /url: "#solucoes"
+        - link "Contato" [ref=e9] [cursor=pointer]:
+          - /url: "#contato"
+  - main [ref=e10]:
+    - region "Desenvolvimento. Integração. Experimentação." [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - heading "Desenvolvimento. Integração. Experimentação." [level=1] [ref=e15]:
+              - generic [ref=e16]: Desenvolvimento.
+              - generic [ref=e17]: Integração.
+              - generic [ref=e18]: Experimentação.
+            - paragraph [ref=e19]: Desenvolvo software para resolver problemas reais. Crio sites e aplicações, automatizo tarefas e conecto ferramentas conforme a necessidade de cada negócio.
+            - generic [ref=e20]:
+              - link "Explorar soluções" [ref=e21] [cursor=pointer]:
+                - /url: "#solucoes"
+                - text: Explorar soluções
+                - img [ref=e22]
+              - link "Falar sobre um projeto" [ref=e24] [cursor=pointer]:
+                - /url: mailto:contato@ksio.dev
+          - generic "Conexões entre as áreas de desenvolvimento" [ref=e25]:
+            - img [ref=e26]:
+              - generic [ref=e28]: ideia
+              - generic [ref=e35]: web
+              - generic [ref=e36]: fluxo
+              - generic [ref=e37]: API
+            - group "Explorar áreas de desenvolvimento" [ref=e38]:
+              - button "Aplicações web" [pressed] [ref=e39] [cursor=pointer]
+              - button "Automação" [ref=e40] [cursor=pointer]
+              - button "Integração" [ref=e41] [cursor=pointer]
+            - paragraph [ref=e42]:
+              - strong [ref=e43]: Sites e ferramentas para o dia a dia.
+              - generic [ref=e44]: Soluções digitais desenhadas para a rotina de cada negócio.
+        - paragraph [ref=e46]: Tecnologia aplicada a problemas reais.
+    - region "O que desenvolvo." [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "O que desenvolvo." [level=2] [ref=e50]
+          - paragraph [ref=e51]: Cada projeto começa com uma conversa sobre o problema e sobre quem vai usar a solução. Depois, defino o que precisa ser feito e como integrar as ferramentas que já fazem parte da rotina.
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - heading "Aplicações web" [level=3] [ref=e54]:
+              - img [ref=e55]
+              - generic [ref=e58]: Aplicações web
+            - generic [ref=e59]:
+              - paragraph [ref=e60]: Desenvolvo sites, portais e sistemas para tarefas específicas. Pode ser um catálogo, um manual digital, uma reserva ou um painel de gestão. A interface acompanha a rotina de quem usa.
+              - generic [ref=e61]: Catálogos · Manuais digitais · Painéis de gestão
+          - listitem [ref=e62]:
+            - heading "Automação e integração" [level=3] [ref=e63]:
+              - img [ref=e64]
+              - generic [ref=e69]: Automação e integração
+            - generic [ref=e70]:
+              - paragraph [ref=e71]: Integro ferramentas que hoje funcionam separadas. Cadastro, reserva e pagamento podem seguir pelo mesmo fluxo, com menos etapas manuais.
+              - generic [ref=e72]: APIs · Pix · Fluxos de atendimento
+          - listitem [ref=e73]:
+            - heading "IA aplicada e protótipos" [level=3] [ref=e74]:
+              - img [ref=e75]
+              - generic [ref=e78]: IA aplicada e protótipos
+            - generic [ref=e79]:
+              - paragraph [ref=e80]: Faço protótipos e integrações para testar uma ideia de IA em uma tarefa real. O primeiro passo é entender se ela resolve um problema do negócio.
+              - generic [ref=e81]: Protótipos · Integrações com IA
+    - region "Da ideia à implementação." [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - heading "Da ideia à implementação." [level=2] [ref=e85]
+          - paragraph [ref=e86]: Antes de escolher a tecnologia, converso com você para entender a rotina, o problema e quem vai usar a solução.
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - generic [ref=e89]: "01"
+            - generic [ref=e90]:
+              - heading "Contexto" [level=3] [ref=e91]
+              - paragraph [ref=e92]: Entender o problema, as pessoas que vão usar a solução e os sistemas que já fazem parte da rotina.
+          - listitem [ref=e93]:
+            - generic [ref=e94]: "02"
+            - generic [ref=e95]:
+              - heading "Arquitetura" [level=3] [ref=e96]
+              - paragraph [ref=e97]: Com o contexto entendido, desenho os fluxos e combino com você o escopo e a base técnica.
+          - listitem [ref=e98]:
+            - generic [ref=e99]: "03"
+            - generic [ref=e100]:
+              - heading "Desenvolvimento" [level=3] [ref=e101]
+              - paragraph [ref=e102]: Você acompanha o desenvolvimento e pode trazer ajustes enquanto construo a solução.
+          - listitem [ref=e103]:
+            - generic [ref=e104]: "04"
+            - generic [ref=e105]:
+              - heading "Evolução" [level=3] [ref=e106]
+              - paragraph [ref=e107]: Acompanho a entrada em uso, ajudo quem vai operar e identifico o que pode melhorar numa próxima versão.
+    - region "Tem algo para desenvolver?" [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - heading "Tem algo para desenvolver?" [level=2] [ref=e111]
+          - paragraph [ref=e112]: Se tem uma ideia ou uma tarefa que poderia ser mais simples, escreva para mim.
+        - link "contato@ksio.dev" [ref=e114] [cursor=pointer]:
+          - /url: mailto:contato@ksio.dev
+          - text: contato@ksio.dev
+          - img [ref=e115]
+  - contentinfo [ref=e117]:
+    - generic [ref=e118]:
+      - link "ksio.dev, início" [ref=e119] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=e120]: ksio.dev
+      - paragraph [ref=e121]: Software para problemas do dia a dia. © 2026 ksio.dev
+      - link "Voltar ao início" [ref=e122] [cursor=pointer]:
+        - /url: "#inicio"
+        - text: Voltar ao início
+        - img [ref=e123]

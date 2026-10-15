@@ -1,0 +1,389 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Kriativos On Board — Main event page" [ref=e7] [cursor=pointer]:
+          - /url: https://kriativosonboard.com.br/en/
+          - img "Kriativos On Board" [ref=e8]
+        - generic "Busão dos Kriativos — KOB 2026" [ref=e9]:
+          - generic [ref=e10]: Busão dos Kriativos
+          - generic [ref=e11]: busao.kriativosonboard.com.br
+      - button "WHAT ARE YOU LOOKING FOR? — Search the site" [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: WHAT ARE YOU LOOKING FOR?
+          - generic [ref=e18]: Search the entire site
+        - generic [ref=e19]: ⌘ K
+      - navigation "Language / Idioma" [ref=e21]:
+        - link "PT" [ref=e22] [cursor=pointer]:
+          - /url: https://busao.kriativosonboard.com.br/
+        - generic [ref=e23]: EN
+        - link "ES" [ref=e24] [cursor=pointer]:
+          - /url: https://busao.kriativosonboard.com.br/es/
+  - main [ref=e25]:
+    - region "Exclusive Shuttle for Kriativos OnBoard 2026" [ref=e26]:
+      - generic [ref=e27]:
+        - paragraph [ref=e28]:
+          - img [ref=e29]
+          - generic [ref=e31]: Last spots available
+        - generic [ref=e32]:
+          - generic [ref=e35]: OFFICIAL EVENT TRANSPORT
+          - heading "Exclusive Shuttle for Kriativos OnBoard 2026" [level=1] [ref=e36]
+          - paragraph [ref=e37]: "Travel round-trip with the group: depart from Barra Funda, arrive at Santos Harbor and return with us after the cruise."
+          - generic "Transport fare" [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: Official Fare · Round Trip
+              - generic [ref=e41]:
+                - strong [ref=e42]: R$ 120,00
+                - generic [ref=e43]: / paying passenger
+              - generic [ref=e44]:
+                - generic [ref=e45]: Brazilian Reais (BRL)
+                - text: ·
+                - generic [ref=e46]:
+                  - text: 1 USD ≈
+                  - strong [ref=e47]: R$ 5,04
+                  - text: · 1 EUR ≈
+                  - strong [ref=e48]: R$ 5,66
+            - generic [ref=e49]:
+              - paragraph [ref=e50]: Lap infants up to 5 years travel free.
+              - paragraph [ref=e51]:
+                - img [ref=e52]
+                - text: Bus 1 confirmed · Bus 2 subject to minimum passengers
+        - generic [ref=e55]:
+          - img "Official illustration of the Kriativos On Board shuttle bus traveling to Santos Harbor" [ref=e57]
+          - 'generic "Charter bus round-trip route: São Paulo and Santos Harbor" [ref=e58]':
+            - generic [ref=e59]:
+              - img [ref=e60]
+              - text: Round trip
+            - generic [ref=e62]:
+              - generic [ref=e63]: Boarding
+              - text: São Paulo
+            - generic [ref=e64]:
+              - generic:
+                - img
+            - generic [ref=e66]:
+              - generic [ref=e67]: Destination
+              - text: Santos Harbor
+    - region "Your steps to reservation." [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: How to book
+          - heading "Your steps to reservation." [level=2] [ref=e72]
+          - paragraph [ref=e73]: Enter the primary contact, register who will board, and generate the Pix payment. Confirmation arrives automatically once payment is verified.
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - img [ref=e77]
+            - strong [ref=e81]: Contact
+            - paragraph [ref=e82]: Enter the person responsible for the booking and payment.
+          - listitem [ref=e83]:
+            - img [ref=e85]
+            - strong [ref=e87]: Passengers
+            - paragraph [ref=e88]: Choose solo travel or add the people boarding with you.
+          - listitem [ref=e89]:
+            - img [ref=e91]
+            - strong [ref=e94]: Review & Pix
+            - paragraph [ref=e95]: Check the total, generate the Pix code and await automatic confirmation.
+    - region "Who is responsible for the booking?" [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - paragraph [ref=e99]: Step 1 of 3 · Contact
+          - heading "Who is responsible for the booking?" [level=2] [ref=e100]
+          - paragraph [ref=e101]: Enter the details of the person managing the reservation and payment. Must be 18 or older.
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - navigation "Registration progress" [ref=e104]:
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - generic [ref=e110]: "1"
+                  - generic [ref=e111]: Contact
+                - listitem [ref=e112]:
+                  - generic [ref=e114]: "2"
+                  - generic [ref=e115]: Passengers
+                - listitem [ref=e116]:
+                  - generic [ref=e118]: "3"
+                  - generic [ref=e119]: Review
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - group "01 Primary contact" [ref=e122]:
+                  - generic [ref=e123]:
+                    - generic [ref=e124]: "01"
+                    - text: Primary contact
+                  - paragraph [ref=e125]:
+                    - text: This person will be the group’s main contact with organizers and responsible for payment.
+                    - strong [ref=e126]: Must be 18 years of age or older.
+                  - generic [ref=e127]:
+                    - generic [ref=e128]:
+                      - generic [ref=e129]: Full name (primary contact) *
+                      - textbox "Full name (primary contact)" [ref=e130]
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: CPF / ID *
+                      - textbox "Primary contact CPF / ID" [ref=e133]:
+                        - /placeholder: 000.000.000-00
+                    - generic [ref=e134]:
+                      - generic [ref=e135]: Date of birth *
+                      - textbox "Primary contact date of birth" [ref=e136]:
+                        - /placeholder: DD/MM/YYYY
+                    - generic [ref=e137]:
+                      - generic [ref=e138]: WhatsApp *
+                      - textbox "WhatsApp" [ref=e139]:
+                        - /placeholder: (11) 90000-0000
+                    - generic [ref=e140]:
+                      - generic [ref=e141]: E-mail *
+                      - textbox "E-mail" [ref=e142]
+                - 'button "Continue: Group and passengers" [ref=e144] [cursor=pointer]':
+                  - text: "Continue: Group and passengers"
+                  - generic [ref=e145]: →
+              - status [ref=e146]
+          - complementary "Reservation summary" [ref=e147]:
+            - heading "Official shuttle · round trip" [level=2] [ref=e149]
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - term [ref=e152]: Route
+                - definition [ref=e153]: Barra Funda ↔ Santos Harbor
+              - generic [ref=e154]:
+                - term [ref=e155]: Passengers
+                - definition [ref=e156]: 1 passenger
+              - generic [ref=e157]:
+                - term [ref=e158]: Paying
+                - definition [ref=e159]: 1 passenger
+            - generic [ref=e160]:
+              - generic [ref=e161]: Pix Total
+              - strong [ref=e162]: R$ 120,00
+            - generic [ref=e163]:
+              - generic [ref=e164]: BRL
+              - text: ·
+              - generic [ref=e165]:
+                - text: 1 USD ≈
+                - strong [ref=e166]: R$ 5,04
+                - text: · 1 EUR ≈
+                - strong [ref=e167]: R$ 5,66
+            - paragraph [ref=e168]:
+              - generic [ref=e169]: "!"
+              - text: Bus 1 is confirmed. Bus 2 and any additional vehicles require a minimum number of passengers. If it is not reached, the organizers will issue a full refund.
+    - region "Before paying, understand the booking terms." [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - heading "Before paying, understand the booking terms." [level=2] [ref=e173]
+          - paragraph [ref=e174]: Bus 1 is confirmed. Bus 2 and any additional vehicles require a minimum number of passengers. If it is not reached, the organizers will issue a full refund.
+        - generic [ref=e175]:
+          - article [ref=e176]:
+            - img [ref=e178]
+            - generic [ref=e181]:
+              - heading "Fleet status & minimum quorum" [level=3] [ref=e182]
+              - list [ref=e183]:
+                - listitem [ref=e184]:
+                  - generic [ref=e186]:
+                    - strong [ref=e187]: "Bus 1:"
+                    - text: Target reached and
+                    - strong [ref=e188]: 100% confirmed
+                    - text: .
+                - listitem [ref=e189]:
+                  - generic [ref=e191]:
+                    - strong [ref=e192]: "Bus 2:"
+                    - text: Over 50% of available seats already filled.
+              - paragraph [ref=e193]:
+                - text: If the minimum threshold for Bus 2 is not met,
+                - strong [ref=e194]: 100% of the amount paid via Pix will be fully refunded
+                - text: by the organization.
+          - article [ref=e195]:
+            - img [ref=e197]
+            - generic [ref=e201]:
+              - heading "Cancellation & seat transfer" [level=3] [ref=e202]
+              - list [ref=e203]:
+                - listitem [ref=e204]:
+                  - generic [ref=e206]:
+                    - strong [ref=e207]: "Full refund:"
+                    - text: within
+                    - strong [ref=e208]: 7 days
+                    - text: of Pix payment (CDC).
+                - listitem [ref=e209]:
+                  - generic [ref=e211]:
+                    - strong [ref=e212]: "Free transfer:"
+                    - text: reassign your seat to a friend up to
+                    - strong [ref=e213]: 5 days before
+                    - text: the trip.
+          - article [ref=e214]:
+            - img [ref=e216]
+            - generic [ref=e218]:
+              - heading "Complete round-trip shuttle" [level=3] [ref=e219]
+              - paragraph [ref=e220]:
+                - text: Round-trip transportation between Barra Funda and Santos Harbor is
+                - strong [ref=e221]: R$ 120,00
+                - text: "(luggage included). Meeting point:"
+                - strong [ref=e222]: Rua Tagipuru, 552
+                - text: .
+              - list [ref=e223]:
+                - listitem [ref=e224]:
+                  - generic [ref=e226]:
+                    - strong [ref=e227]: "Bus 1:"
+                    - text: Meet at 06:00 AM · Departure
+                    - strong [ref=e228]: 06:30 AM
+                    - emphasis [ref=e229]: (Sold Out)
+                - listitem [ref=e230]:
+                  - generic [ref=e232]:
+                    - strong [ref=e233]: "Bus 2:"
+                    - text: Meet at 06:40 AM · Departure
+                    - strong [ref=e234]: 07:20 AM
+                    - emphasis [ref=e235]: (Seats Available!)
+                - listitem [ref=e236]:
+                  - generic [ref=e238]:
+                    - strong [ref=e239]: "Return on Monday:"
+                    - text: Departure at
+                    - strong [ref=e240]: 10:30 AM
+                    - text: from Santos Harbor.
+  - contentinfo "Official Shuttle" [ref=e241]:
+    - generic:
+      - img
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - link "Main Kriativos On Board event page" [ref=e245] [cursor=pointer]:
+            - /url: https://kriativosonboard.com.br/en/
+            - img "Kriativos On Board" [ref=e246]
+          - paragraph [ref=e247]: Get ready to board with us
+          - generic [ref=e248]: Barra Funda ⇄ Santos Port · Nov 20 & 23, 2026
+        - navigation "Official Shuttle" [ref=e249]:
+          - heading "Official Shuttle" [level=3] [ref=e250]
+          - link "Meeting point & schedule" [ref=e251] [cursor=pointer]:
+            - /url: "#embarque"
+          - link "Passenger registration" [ref=e252] [cursor=pointer]:
+            - /url: "#passageiros"
+          - link "Transport terms" [ref=e253] [cursor=pointer]:
+            - /url: /termos-de-transporte.html
+          - link "Royal Trip WhatsApp" [ref=e254] [cursor=pointer]:
+            - /url: https://api.whatsapp.com/send?phone=5513981580498&text=Hello%2C%20Royal%20Trip%21%20I%20have%20questions%20about%20the%20KOB%202026%20bus.
+        - navigation "Kriativos On Board" [ref=e255]:
+          - heading "Kriativos On Board" [level=3] [ref=e256]
+          - link "Official KOB website" [ref=e257] [cursor=pointer]:
+            - /url: https://kriativosonboard.com.br/en/
+          - link "Onboard Manual" [ref=e258] [cursor=pointer]:
+            - /url: https://manualdebordo.kriativosonboard.com.br/en/
+          - link "MSC Musica" [ref=e259] [cursor=pointer]:
+            - /url: https://kriativosonboard.com.br/en/#navio
+          - link "Cruise FAQ" [ref=e260] [cursor=pointer]:
+            - /url: https://kriativosonboard.com.br/en/#faq
+      - navigation "Nerd Kriativa social media" [ref=e261]:
+        - link "Instagram @kriativosonboard" [ref=e262] [cursor=pointer]:
+          - /url: https://www.instagram.com/kriativosonboard/
+          - img [ref=e266]
+          - generic [ref=e267]:
+            - strong [ref=e268]: Instagram
+            - generic [ref=e269]: "@kriativosonboard"
+          - img [ref=e270]
+        - link "Facebook @nerdkriativa" [ref=e272] [cursor=pointer]:
+          - /url: https://www.facebook.com/nerdkriativa
+          - img [ref=e276]
+          - generic [ref=e277]:
+            - strong [ref=e278]: Facebook
+            - generic [ref=e279]: "@nerdkriativa"
+          - img [ref=e280]
+        - link "YouTube @NerdKriativa" [ref=e282] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/NerdKriativa
+          - img [ref=e286]
+          - generic [ref=e287]:
+            - strong [ref=e288]: YouTube
+            - generic [ref=e289]: "@NerdKriativa"
+          - img [ref=e290]
+      - region "Who makes Kriativos On Board happen" [ref=e292]:
+        - generic [ref=e293]:
+          - heading "Who makes Kriativos On Board happen" [level=2] [ref=e294]
+          - button "Pause sponsor animation" [ref=e295] [cursor=pointer]:
+            - img [ref=e296]
+        - generic [ref=e299]:
+          - list [ref=e300]:
+            - listitem [ref=e301]:
+              - link "Never Land — Sponsor" [ref=e302] [cursor=pointer]:
+                - /url: https://www.instagram.com/neverlandtable/
+                - img "Never Land" [ref=e303]
+            - listitem [ref=e304]:
+              - link "Jogue & Vista — Sponsor" [ref=e305] [cursor=pointer]:
+                - /url: https://www.jogueevista.com.br/
+                - img "Jogue & Vista" [ref=e306]
+            - listitem [ref=e307]:
+              - link "Diversão Offline — Sponsor" [ref=e308] [cursor=pointer]:
+                - /url: https://diversaooffline.com.br/
+                - img "Diversão Offline" [ref=e309]
+            - listitem [ref=e310]:
+              - link "Royal Trip — Sponsor" [ref=e311] [cursor=pointer]:
+                - /url: https://royaltrip.com.br/
+                - img "Royal Trip" [ref=e312]
+            - listitem [ref=e313]:
+              - link "Across The Board — Sponsor" [ref=e314] [cursor=pointer]:
+                - /url: https://www.acrosstheboard.com.br/
+                - img "Across The Board" [ref=e315]
+            - listitem [ref=e316]:
+              - link "Moedas & Co. — Sponsor" [ref=e317] [cursor=pointer]:
+                - /url: https://www.moedaseco.com.br
+                - img "Moedas & Co." [ref=e318]
+            - listitem [ref=e319]:
+              - link "Mosaico Jogos — Sponsor" [ref=e320] [cursor=pointer]:
+                - /url: https://www.mosaicoloja.com.br/
+                - img "Mosaico Jogos" [ref=e321]
+            - listitem [ref=e322]:
+              - link "Fácil Shopping — Sponsor" [ref=e323] [cursor=pointer]:
+                - /url: https://facilshopping.com.br/
+                - img "Fácil Shopping" [ref=e324]
+          - list [ref=e325]:
+            - listitem [ref=e326]:
+              - link [ref=e327] [cursor=pointer]:
+                - /url: https://www.instagram.com/neverlandtable/
+                - img [ref=e328]
+            - listitem [ref=e329]:
+              - link [ref=e330] [cursor=pointer]:
+                - /url: https://www.jogueevista.com.br/
+                - img [ref=e331]
+            - listitem [ref=e332]:
+              - link [ref=e333] [cursor=pointer]:
+                - /url: https://diversaooffline.com.br/
+                - img [ref=e334]
+            - listitem [ref=e335]:
+              - link [ref=e336] [cursor=pointer]:
+                - /url: https://royaltrip.com.br/
+                - img [ref=e337]
+            - listitem [ref=e338]:
+              - link [ref=e339] [cursor=pointer]:
+                - /url: https://www.acrosstheboard.com.br/
+                - img [ref=e340]
+            - listitem [ref=e341]:
+              - link [ref=e342] [cursor=pointer]:
+                - /url: https://www.moedaseco.com.br
+                - img [ref=e343]
+            - listitem [ref=e344]:
+              - link [ref=e345] [cursor=pointer]:
+                - /url: https://www.mosaicoloja.com.br/
+                - img [ref=e346]
+            - listitem [ref=e347]:
+              - link [ref=e348] [cursor=pointer]:
+                - /url: https://facilshopping.com.br/
+                - img [ref=e349]
+      - generic [ref=e350]:
+        - generic "Quick links" [ref=e352]:
+          - link "Cookie policy" [ref=e353] [cursor=pointer]:
+            - /url: /politica-de-cookies.html
+          - link "Transport terms" [ref=e354] [cursor=pointer]:
+            - /url: /termos-de-transporte.html
+          - link "Privacy policy" [ref=e355] [cursor=pointer]:
+            - /url: https://kriativosonboard.com.br/en/politica-de-privacidade.html
+          - button "Review cookie preferences" [ref=e356] [cursor=pointer]
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - generic [ref=e359]: © 2026 Kriativos On Board. All rights reserved.
+            - generic [ref=e360]: ·
+            - generic [ref=e361]: "Partner agency: Royal Trip · CNPJ 16.957.402/0001-19"
+          - generic [ref=e362]:
+            - text: Powered by
+            - link "ksio.dev" [ref=e363] [cursor=pointer]:
+              - /url: https://ksio.dev
+  - status [ref=e364]
+  - dialog "We use cookies":
+    - generic [ref=e366]:
+      - generic [ref=e367]:
+        - heading "We use cookies" [level=2] [ref=e368]
+        - paragraph [ref=e369]: We only use necessary cookies by default. You choose whether to allow analytics.
+        - link "Read cookie policy" [ref=e370] [cursor=pointer]:
+          - /url: /politica-de-cookies.html
+      - generic "Cookie choices" [ref=e371]:
+        - button "Decline" [ref=e372] [cursor=pointer]
+        - button "Accept" [ref=e373] [cursor=pointer]
